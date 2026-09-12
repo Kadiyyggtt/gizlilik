@@ -1,0 +1,56 @@
+[
+  {
+    "slug": "namazvakti",
+    "klasor": "NamazVakti",
+    "ad": "Namaz Vakti",
+    "emoji": "🕌",
+    "cumle": "Açtığın anda vakti gösterir. Reklam yok, internet yok, iz yok.",
+    "renk": "#0E1428",
+    "vurgu": "#E0B871"
+  },
+  {
+    "slug": "santiyesefi",
+    "klasor": "SantiyeSefi",
+    "ad": "Şantiye Şefi",
+    "emoji": "🚜",
+    "cumle": "Kepçeyi sürmek değil — kullanmak.",
+    "renk": "#2A6B8F",
+    "vurgu": "#F5B60D"
+  },
+  {
+    "slug": "cumlekur",
+    "klasor": "CumleKur",
+    "ad": "CümleKur",
+    "emoji": "📚",
+    "cumle": "Türkçe düşünüp İngilizce kurmayı öğretir. Abonelik yok.",
+    "renk": "#5B3E99",
+    "vurgu": "#5B3E99"
+  },
+  {
+    "slug": "pastelpals",
+    "klasor": "PastelPals",
+    "ad": "PastelPals",
+    "emoji": "🎀",
+    "cumle": "Türkiye'nin kendi giydirme oyunu. Bir kez al, hepsi senin.",
+    "renk": "#8A4A66",
+    "vurgu": "#C25A82"
+  },
+  {
+    "slug": "fama",
+    "klasor": "FAMA",
+    "ad": "FAMA",
+    "emoji": "🎤",
+    "cumle": "Şöhret bir sonuç değil, bir dizi seçim.",
+    "renk": "#4A3F1E",
+    "vurgu": "#B8860B"
+  },
+  {
+    "slug": "blokoblast",
+    "klasor": "BlokoBlast",
+    "ad": "BlokoBlast",
+    "emoji": "🧩",
+    "cumle": "Reklamsız block puzzle. Adil torba, gerçek güçler.",
+    "renk": "#8A5A00",
+    "vurgu": "#C77F00"
+  }
+]
