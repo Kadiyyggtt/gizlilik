@@ -1,3 +1,9 @@
+<!-- YAYIN ADRESİ — mağaza formuna bu yazılacak.
+     Türkçe:   https://kadiyyggtt.github.io/gizlilik/uygulamalar/cumlekur/tr.html
+     English:  https://kadiyyggtt.github.io/gizlilik/uygulamalar/cumlekur/en.html
+     Bu dosya aslı; site ~/Desktop/gizlilik deposundan yayımlanıyor.
+     Burada değiştirdikten sonra: bash ~/Desktop/gizlilik/yenile.sh -->
+
 # CümleKur — Privacy Policy
 
 **Last updated:** 12 September 2026

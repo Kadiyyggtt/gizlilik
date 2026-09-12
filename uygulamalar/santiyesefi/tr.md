@@ -1,3 +1,9 @@
+<!-- YAYIN ADRESİ — mağaza formuna bu yazılacak.
+     Türkçe:   https://kadiyyggtt.github.io/gizlilik/uygulamalar/santiyesefi/tr.html
+     English:  https://kadiyyggtt.github.io/gizlilik/uygulamalar/santiyesefi/en.html
+     Bu dosya aslı; site ~/Desktop/gizlilik deposundan yayımlanıyor.
+     Burada değiştirdikten sonra: bash ~/Desktop/gizlilik/yenile.sh -->
+
 # Şantiye Şefi — Gizlilik Politikası
 
 **Son güncelleme:** 11 Eylül 2026
