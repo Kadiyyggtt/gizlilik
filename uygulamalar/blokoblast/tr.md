@@ -1,0 +1,73 @@
+# Bloko Blast — Gizlilik Politikası
+
+**Son güncelleme:** 12 Eylül 2026
+
+Bloko Blast bir bulmaca oyunudur. Bu metin, oyunun hangi bilgilere
+dokunduğunu ve dokunmadığını açıkça anlatır.
+
+**Kısa cevap: hiçbir bilgi toplanmıyor.** Hesap yok, reklam yok,
+internet gerekmiyor, tek bir izin bile istenmiyor. Oyun tamamen
+cihazında çalışıyor.
+
+---
+
+## Toplamadığımız şeyler
+
+Oyun şunları **istemiyor ve toplamıyor:**
+
+- Ad, e-posta, telefon numarası, doğum tarihi
+- Konum
+- Rehber, takvim, fotoğraf, dosya
+- Kamera ve mikrofon
+- **Reklam kimliği** — oyunda reklam yoktur
+- Kullanım istatistiği, çökme raporu, analiz aracı
+
+Oyun hiçbir izin istemiyor. Hesap sistemi **yoktur.**
+
+---
+
+## İnternet
+
+**Oyun internetsiz çalışır.** Hiçbir sunucuya bağlanmaz, hiçbir istek
+göndermez. Uçak modunda da tamamen oynanır.
+
+---
+
+## Cihazında saklananlar
+
+Yalnız **kendi cihazında** şunlar tutuluyor:
+
+- En yüksek skorun, seviyen ve günlük serin
+- Açtığın temalar ve ayarların (ses, titreşim, dil)
+
+Bu bilgiler cihazdan çıkmaz. Oyunu silersen hepsi silinir.
+
+---
+
+## Reklam, satın alma ve ölçüm
+
+Oyunda **reklam yok, uygulama içi satın alma yok, ölçüm/analiz aracı
+yok.** İlk sürüm bilerek böyle çıkıyor.
+
+İleride bunlardan biri eklenirse bu politika **önceden** güncellenir ve
+değişiklik oyun içinde bildirilir. Bugün itibarıyla hiçbiri yoktur.
+
+---
+
+## Çocuklar
+
+Bloko Blast çocuklara yönelik bir uygulama olarak sunulmamaktadır.
+Yine de oyunda reklam, satın alma ve veri toplama olmadığı için bu
+açıdan bir risk taşımaz.
+
+---
+
+## Haklarını kullanmak
+
+Tuttuğumuz hiçbir kişisel verin olmadığı için silinecek, düzeltilecek ya
+da dışa aktarılacak bir kaydın da yok. Cihazındaki oyun ilerlemesini,
+oyunu silerek tamamen kaldırabilirsin.
+
+## İletişim
+
+Soruların için: **yyggttkadir@gmail.com**
