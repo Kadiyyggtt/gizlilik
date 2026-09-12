@@ -1,3 +1,9 @@
+<!-- YAYIN ADRESİ — mağaza formuna bu yazılacak.
+     Türkçe:   https://kadiyyggtt.github.io/gizlilik/uygulamalar/fama/tr.html
+     English:  https://kadiyyggtt.github.io/gizlilik/uygulamalar/fama/en.html
+     Bu dosya aslı; site ~/Desktop/gizlilik deposundan yayımlanıyor.
+     Burada değiştirdikten sonra: bash ~/Desktop/gizlilik/yenile.sh -->
+
 # FAMA — Gizlilik Politikası
 
 **Son güncelleme:** 12 Eylül 2026

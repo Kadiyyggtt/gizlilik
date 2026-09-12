@@ -1,3 +1,9 @@
+<!-- YAYIN ADRESİ — mağaza formuna bu yazılacak.
+     Türkçe:   https://kadiyyggtt.github.io/gizlilik/uygulamalar/pastelpals/tr.html
+     English:  https://kadiyyggtt.github.io/gizlilik/uygulamalar/pastelpals/en.html
+     Bu dosya aslı; site ~/Desktop/gizlilik deposundan yayımlanıyor.
+     Burada değiştirdikten sonra: bash ~/Desktop/gizlilik/yenile.sh -->
+
 # PastelPals — Gizlilik Politikası
 
 **Son güncelleme:** 9 Eylül 2026
