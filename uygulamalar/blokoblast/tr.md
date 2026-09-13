@@ -12,7 +12,7 @@ Bloko Blast bir bulmaca oyunudur. Bu metin, oyunun hangi bilgilere
 dokunduğunu ve dokunmadığını açıkça anlatır.
 
 **Kısa cevap: hiçbir bilgi toplanmıyor.** Hesap yok, reklam yok,
-internet gerekmiyor, tek bir izin bile istenmiyor. Oyun tamamen
+internet gerekmiyor, sana sorulan hiçbir izin yok. Oyun tamamen
 cihazında çalışıyor.
 
 ---
@@ -28,7 +28,21 @@ Oyun şunları **istemiyor ve toplamıyor:**
 - **Reklam kimliği** — oyunda reklam yoktur
 - Kullanım istatistiği, çökme raporu, analiz aracı
 
-Oyun hiçbir izin istemiyor. Hesap sistemi **yoktur.**
+## İzinler
+
+**Sana sorulan hiçbir izin yok.** Konum, kamera, mikrofon, kişiler,
+fotoğraf ve depolama izinlerinin hiçbiri istenmiyor.
+
+Mağaza sayfasında üç teknik izin görünüyor. Bunlar Android'in kurulumda
+kendiliğinden verdiği, onay kutusu çıkarmayan izinlerdir:
+
+| İzin | Neden |
+|---|---|
+| Titreşim | Parça yerleşince ve satır patlayınca kısa titreşim — Ayarlar'dan kapatılabilir |
+| Ses ayarları | Oyun seslerinin telefonun kendi müziğini kesmemesi için |
+| İnternet | Uygulama çatısı ekliyor. **Oyun hiçbir sunucuya bağlanmıyor** — uçak modunda da eksiksiz çalışır |
+
+Hesap sistemi **yoktur.**
 
 ---
 

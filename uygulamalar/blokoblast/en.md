@@ -12,7 +12,7 @@ Bloko Blast is a puzzle game. This document states plainly what the game
 touches and what it does not.
 
 **Short answer: no information is collected.** There is no account, no
-advertising, no internet requirement and not a single permission
+advertising, no internet requirement and no permission you are asked for
 request. The game runs entirely on your device.
 
 ---
@@ -28,7 +28,21 @@ The game does not request or collect:
 - **Advertising identifier** — the game contains no ads
 - Usage analytics or crash reporting
 
-The game requests no permissions. There is **no account system.**
+## Permissions
+
+**You are never asked for a permission.** Location, camera, microphone,
+contacts, photos and storage are all never requested.
+
+Three technical permissions appear on the store page. These are granted
+automatically by Android at install time and never show a prompt:
+
+| Permission | Why |
+|---|---|
+| Vibration | A short buzz when a piece lands and a line clears — can be turned off in Settings |
+| Audio settings | So game sounds do not interrupt your own music |
+| Internet | Added by the app framework. **The game connects to no server** — it works fully in airplane mode |
+
+There is **no account system.**
 
 ---
 

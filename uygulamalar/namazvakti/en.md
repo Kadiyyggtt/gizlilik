@@ -96,6 +96,8 @@ notifications, you can turn them off in your phone settings.
 | Internet | Only while listening to a surah recitation |
 | Notifications | Prayer time reminders |
 | Background audio | So recitation continues when the screen is off |
+| Motion sensor | So the qibla compass can show which way the phone faces |
+| Vibration | A short tap response — can be turned off in Settings |
 
 The app does **not** request **microphone**, **camera**, **contacts**,
 **photos** or **storage** permissions.

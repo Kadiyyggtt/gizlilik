@@ -96,6 +96,8 @@ ayarlarından kapatabilirsiniz.
 | İnternet | Yalnızca sure tilaveti dinlerken |
 | Bildirim | Namaz vakti hatırlatmaları |
 | Arka planda ses | Ekran kapalıyken tilavetin devam etmesi |
+| Hareket sensörü | Kıble pusulasının telefonun baktığı yönü göstermesi |
+| Titreşim | Düğmelere dokununca kısa titreşim — Ayarlar'dan kapatılabilir |
 
 Uygulama **mikrofon**, **kamera**, **kişiler**, **fotoğraflar** veya
 **depolama** izni istemez.
