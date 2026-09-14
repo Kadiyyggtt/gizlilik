@@ -38,6 +38,25 @@ shared; both sit **behind a parental gate** and are explained below.
 
 The app requests no permission in order to run.
 
+## The technical log that stays on your device
+
+If PastelPals closes unexpectedly, a short technical log of what happened is kept
+**on your phone only**. It is never sent anywhere and never reaches any
+server.
+
+- You can read it yourself under **Parents → Technical log**.
+  (The parents screen is behind an adult check.)
+- You can delete it there with a single tap.
+- E-mail addresses, the user name inside file paths and long digit
+  sequences are stripped out as it is written.
+- At most 10 entries are kept; the oldest is dropped when a new one arrives.
+
+There is no automatic way to send it to us. If you want to, you can copy
+the text and send it yourself — the choice is entirely yours.
+
+This is why the "we never collect" list above stays accurate: the log is
+**not collected**, it simply sits on your device.
+
 ## What stays on the device
 
 Game progress is stored **only on the child's own device**:

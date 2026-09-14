@@ -80,8 +80,27 @@ notifications, you can turn them off in your phone settings.
 - Name, email address, phone number
 - Account or sign-in information
 - Contacts, photos, files
-- Usage statistics, analytics or crash reports
+- Usage statistics, analytics, or crash reports **sent to us**
+  (the technical log described below never leaves your device)
 - Advertising identifier
+
+## The technical log that stays on your device
+
+If Namaz Vakti closes unexpectedly, a short technical log of what happened is kept
+**on your phone only**. It is never sent anywhere and never reaches any
+server.
+
+- You can read it yourself under **Settings → Technical Log**.
+- You can delete it there with a single tap.
+- E-mail addresses, the user name inside file paths and long digit
+  sequences are stripped out as it is written.
+- At most 10 entries are kept; the oldest is dropped when a new one arrives.
+
+There is no automatic way to send it to us. If you want to, you can copy
+the text and send it yourself — the choice is entirely yours.
+
+This is why the "we never collect" list above stays accurate: the log is
+**not collected**, it simply sits on your device.
 
 ## Advertising and purchases
 
@@ -104,7 +123,7 @@ The app does **not** request **microphone**, **camera**, **contacts**,
 
 ## Third party services
 
-The app contains no analytics, advertising, crash reporting or social media
+The app contains no analytics, advertising, remote crash reporting or social media
 SDK. The only external connection is to the `mp3quran.net` servers from which
 recitation audio is fetched.
 

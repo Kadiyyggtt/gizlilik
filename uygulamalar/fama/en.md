@@ -26,11 +26,30 @@ The game does not request, collect or transmit:
 - Contacts, calendar, photos or files
 - Camera or microphone
 - **Advertising identifier** — the game contains no ads
-- Usage analytics or crash reporting
+- Usage analytics, or crash reports **sent to us**
+  (the technical log described below never leaves your device)
 
 The game requests no permissions. There is **no account system.**
 
 ---
+
+## The technical log that stays on your device
+
+If FAMA closes unexpectedly, a short technical log of what happened is kept
+**on your phone only**. It is never sent anywhere and never reaches any
+server.
+
+- You can read it yourself under **Settings → Technical log**.
+- You can delete it there with a single tap.
+- E-mail addresses, the user name inside file paths and long digit
+  sequences are stripped out as it is written.
+- At most 10 entries are kept; the oldest is dropped when a new one arrives.
+
+There is no automatic way to send it to us. If you want to, you can copy
+the text and send it yourself — the choice is entirely yours.
+
+This is why the "we never collect" list above stays accurate: the log is
+**not collected**, it simply sits on your device.
 
 ## Internet
 

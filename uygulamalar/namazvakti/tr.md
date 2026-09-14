@@ -80,8 +80,27 @@ ayarlarından kapatabilirsiniz.
 - Ad, e-posta, telefon numarası
 - Hesap veya giriş bilgisi
 - Kişi listesi, fotoğraflar, dosyalar
-- Kullanım istatistiği, analitik veya çökme kaydı
+- Kullanım istatistiği, analitik veya **bize gönderilen** çökme kaydı
+  (aşağıdaki teknik kayıt cihazından hiç çıkmıyor)
 - Reklam kimliği
+
+## Cihazında kalan teknik kayıt
+
+Namaz Vakti beklenmedik şekilde kapanırsa, ne olduğuna dair kısa bir teknik kayıt
+**yalnızca telefonunda** tutulur. Bu kayıt hiçbir yere gönderilmez ve
+hiçbir sunucuya ulaşmaz.
+
+- **Ayarlar → Teknik Kayıt** bölümünden kendin okuyabilirsin.
+- Aynı yerden tek dokunuşla silebilirsin.
+- Yazılırken e-posta adresi, dosya yolundaki kullanıcı adı ve uzun sayı
+  dizileri temizlenir.
+- En fazla 10 kayıt tutulur; yenisi geldiğinde en eski düşer.
+
+Bunu bize göndermenin otomatik bir yolu yoktur. İstersen metni
+kopyalayıp kendin gönderebilirsin — karar tamamen senindir.
+
+Yukarıdaki "toplanmıyor" listesi bu yüzden doğru kalıyor: kayıt
+**toplanmıyor**, yalnızca senin cihazında duruyor.
 
 ## Reklam ve satın alma
 
@@ -104,7 +123,7 @@ Uygulama **mikrofon**, **kamera**, **kişiler**, **fotoğraflar** veya
 
 ## Üçüncü taraf hizmetler
 
-Uygulama; analitik, reklam, çökme raporlama veya sosyal medya SDK'sı
+Uygulama; analitik, reklam, uzaktan çökme raporlama veya sosyal medya SDK'sı
 içermez. Tek dış bağlantı, tilavet ses dosyalarının alındığı `mp3quran.net`
 sunucularıdır.
 
