@@ -34,9 +34,28 @@ This app does not collect, store or share any of the following:
 - Photos, camera or microphone recordings
 - Contacts, calendar or other files on the device
 - Advertising identifiers or any other tracking identifiers
-- Usage statistics, crash reports or analytics data
+- Usage statistics, analytics data, or crash reports **sent to us**
+  (the technical log described below never leaves your device)
 
 ---
+
+## The technical log that stays on your device
+
+If Şantiye Şefi closes unexpectedly, a short technical log of what happened is kept
+**on your phone only**. It is never sent anywhere and never reaches any
+server.
+
+- You can read it yourself under **Settings → Technical Log**.
+- You can delete it there with a single tap.
+- E-mail addresses, the user name inside file paths and long digit
+  sequences are stripped out as it is written.
+- At most 10 entries are kept; the oldest is dropped when a new one arrives.
+
+There is no automatic way to send it to us. If you want to, you can copy
+the text and send it yourself — the choice is entirely yours.
+
+This is why the "we never collect" list above stays accurate: the log is
+**not collected**, it simply sits on your device.
 
 ## Sharing
 

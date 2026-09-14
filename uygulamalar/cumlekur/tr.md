@@ -27,12 +27,31 @@ Uygulama şunları **istemiyor, toplamıyor ve hiçbir yere göndermiyor:**
 - Rehber, takvim, fotoğraf, dosya
 - Kamera ve mikrofon (izin bile istenmiyor)
 - Reklam kimliği (uygulamada reklam yoktur)
-- Kullanım istatistiği, çökme raporu, analiz aracı
+- Kullanım istatistiği, **bize gönderilen** çökme raporu, analiz aracı
+  (aşağıdaki teknik kayıt cihazından hiç çıkmıyor)
 
 Hesap sistemi **yoktur.** Giriş yapmıyorsun, çünkü giriş yapılacak bir
 yer yok.
 
 ---
+
+## Cihazında kalan teknik kayıt
+
+CümleKur beklenmedik şekilde kapanırsa, ne olduğuna dair kısa bir teknik kayıt
+**yalnızca telefonunda** tutulur. Bu kayıt hiçbir yere gönderilmez ve
+hiçbir sunucuya ulaşmaz.
+
+- **Ayarlar → Teknik Kayıt** bölümünden kendin okuyabilirsin.
+- Aynı yerden tek dokunuşla silebilirsin.
+- Yazılırken e-posta adresi, dosya yolundaki kullanıcı adı ve uzun sayı
+  dizileri temizlenir.
+- En fazla 10 kayıt tutulur; yenisi geldiğinde en eski düşer.
+
+Bunu bize göndermenin otomatik bir yolu yoktur. İstersen metni
+kopyalayıp kendin gönderebilirsin — karar tamamen senindir.
+
+Yukarıdaki "toplanmıyor" listesi bu yüzden doğru kalıyor: kayıt
+**toplanmıyor**, yalnızca senin cihazında duruyor.
 
 ## Cihazında saklanan bilgiler
 
