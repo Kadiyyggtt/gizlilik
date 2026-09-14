@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="tr"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Akademik Bulucu — Gizlilik Politikası</title>
+<style>
+:root{--zemin:#FAF9FC;--kart:#FFFFFF;--yazi:#22202A;--soluk:#5E5A6B;
+       --cizgi:#E6E2ED;--vurgu:#2F4C86}
+@media(prefers-color-scheme:dark){:root:not([data-tema="acik"]){
+  --zemin:#131218;--kart:#1C1B23;--yazi:#F0EEF5;--soluk:#A39FB0;--cizgi:#2C2A35}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--zemin);color:var(--yazi);line-height:1.65;
+     font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+     font-size:17px}
+.sar{max-width:760px;margin:0 auto;padding:0 20px 80px}
+header{padding:36px 0 8px}
+.geri{display:inline-block;color:var(--soluk);text-decoration:none;font-size:15px;margin-bottom:22px}
+.geri:hover{color:var(--vurgu)}
+.rozet{display:inline-flex;align-items:center;gap:10px;background:var(--kart);
+       border:1px solid var(--cizgi);border-radius:999px;padding:7px 16px;font-size:14px;
+       color:var(--soluk);margin-bottom:18px}
+h1{font-size:32px;line-height:1.2;margin:.2em 0 .5em;letter-spacing:-.5px}
+h2{font-size:22px;margin:2.1em 0 .5em;padding-top:.4em;border-top:1px solid var(--cizgi)}
+h2:first-of-type{border-top:0}
+h3{font-size:18px;margin:1.6em 0 .4em}
+p{margin:.85em 0}
+ul,ol{margin:.85em 0;padding-left:24px}
+li{margin:.3em 0}
+hr{border:0;border-top:1px solid var(--cizgi);margin:2em 0}
+strong{font-weight:650}
+code{background:var(--kart);border:1px solid var(--cizgi);border-radius:5px;
+     padding:1px 6px;font-size:.88em}
+blockquote{margin:1.2em 0;padding:14px 18px;background:var(--kart);
+           border-left:3px solid var(--vurgu);border-radius:0 10px 10px 0;color:var(--soluk)}
+table{width:100%;border-collapse:collapse;margin:1.2em 0;font-size:15.5px;display:block;overflow-x:auto}
+th,td{text-align:left;padding:10px 12px;border-bottom:1px solid var(--cizgi)}
+th{color:var(--soluk);font-weight:600;font-size:13.5px;letter-spacing:.4px;text-transform:uppercase}
+a{color:var(--vurgu)}
+.diller{display:flex;gap:8px;margin:0 0 26px}
+.diller a{display:inline-block;padding:7px 15px;border-radius:9px;font-size:14.5px;
+          text-decoration:none;border:1px solid var(--cizgi);color:var(--soluk);background:var(--kart)}
+.diller a.etkin{background:var(--vurgu);color:#fff;border-color:var(--vurgu)}
+footer{margin-top:56px;padding-top:20px;border-top:1px solid var(--cizgi);
+       color:var(--soluk);font-size:14px}
+.liste{display:grid;gap:12px;margin-top:28px}
+.uyg{display:block;background:var(--kart);border:1px solid var(--cizgi);border-radius:14px;
+     padding:18px 20px;text-decoration:none;color:inherit}
+.uyg:hover{border-color:var(--vurgu)}
+.uyg .ust{display:flex;align-items:center;gap:12px}
+.uyg .ad{font-size:19px;font-weight:650}
+.uyg .em{font-size:26px;line-height:1}
+.uyg .cm{color:var(--soluk);font-size:15px;margin-top:7px}
+.uyg .bg{margin-top:12px;font-size:14px;color:var(--vurgu)}
+</style>
+</head><body><div class="sar">
+<header>
+  <a class="geri" href="../../index.html">← Tüm uygulamalar</a>
+  <div class="rozet">🔎 Akademik Bulucu</div>
+  <div class="diller">
+    <a class="etkin" href="tr.html">Türkçe</a>
+    <a href="en.html">English</a>
+  </div>
+</header>
+<h1>AkademikBulucu — Gizlilik Politikası</h1>
+<p><strong>Son güncelleme:</strong> 14 Eylül 2026</p>
+<p>Bu politika <strong>AkademikBulucu</strong> uygulaması için geçerlidir.</p>
+<hr>
+<h2>Kısaca</h2>
+<p><strong>Hesap açmanız gerekmez. Kimliğinizle ilgili hiçbir bilgi istenmez.</strong></p>
+<p>Uygulama akademik makale arar; bu yüzden yazdığınız <strong>arama kelimeleri internete gider</strong> — aksi hâlde arama yapılamaz. Bu sorgular kaydedilmez, kimliğinizle ilişkilendirilmez ve reklam için kullanılmaz.</p>
+<p>Kaydettiğiniz makaleler, klasörleriniz ve notlarınız <strong>yalnızca telefonunuzda</strong> durur.</p>
+<hr>
+<h2>Ne gönderiliyor</h2>
+<p>Arama yaptığınızda <strong>yalnızca yazdığınız arama kelimesi</strong> gönderilir.</p>
+<p>Yol şöyledir:</p>
+<p>``<code> Telefonunuz → AkademikBulucu sunucusu → akademik veritabanları </code>``</p>
+<p><strong>AkademikBulucu sunucusu</strong> (Cloudflare Workers üzerinde çalışır) sorgunuzu alır ve şu herkese açık akademik kaynaklara iletir:</p>
+<ul><li><strong>Crossref</strong> — yayıncıların ortak makale kaydı</li><li><strong>arXiv</strong> — açık erişim ön baskı arşivi</li><li><strong>Semantic Scholar</strong> — akademik arama servisi</li></ul>
+<p>Sonuçlar birleştirilip size döner.</p>
+<p><strong>Bu istekte gönderilmeyenler:</strong> adınız, e-postanız, telefon numaranız, cihaz kimliğiniz, konumunuz, reklam kimliğiniz. Böyle bir bilgi uygulamada zaten hiç istenmez.</p>
+<h2>Ne kaydedilmiyor</h2>
+<p>Sunucumuz arama sorgularınızı <strong>saklamaz.</strong> Sorgu işlenir, sonuç döner ve kayıt tutulmaz. Kullanıcı hesabı, kullanıcı kimliği veya oturum takibi yoktur; bir aramayı belirli bir kişiyle ilişkilendirmemiz teknik olarak mümkün değildir.</p>
+<p>Sunucuda saklanan tek şey <strong>günlük akademi haber bülteni</strong>dir: herkese aynı şekilde gösterilen, kullanıcıya özel olmayan bir içerik. Üç gün sonra kendiliğinden silinir.</p>
+<h2>Yapay zekâ özetleri</h2>
+<p>Bir makalenin özetini sadeleştirmek istediğinizde, o makalenin <strong>başlığı ve özeti</strong> Google Gemini&#x27;ye gönderilir.</p>
+<ul><li>Gönderilen metin, akademik veritabanlarından gelen <strong>herkese açık</strong> makale bilgisidir; size ait bir metin değildir.</li><li>Kişisel bilginiz bu isteğe eklenmez.</li><li>Bu özellik yalnızca siz istediğinizde çalışır.</li></ul>
+<h2>Telefonunuzda kalanlar</h2>
+<p>Aşağıdakiler <strong>yalnızca cihazınızda</strong> saklanır, hiçbir yere gönderilmez:</p>
+<ul><li>Kaydettiğiniz makaleler ve klasörleriniz</li><li>Makalelere aldığınız notlar</li><li>Arama geçmişiniz</li><li>Tema tercihi (açık/koyu)</li></ul>
+<p>Uygulamayı sildiğinizde bunlar da silinir.</p>
+<h2>Toplamadığımız veriler</h2>
+<ul><li>Ad, e-posta, telefon numarası</li><li>Hesap veya giriş bilgisi</li><li>Konum</li><li>Kişi listesi, fotoğraflar</li><li>Kullanım istatistiği, analitik veya <strong>bize gönderilen</strong> çökme kaydı (aşağıdaki teknik kayıt cihazından hiç çıkmıyor)</li><li>Reklam kimliği</li></ul>
+<h2>Cihazınızda kalan teknik kayıt</h2>
+<p>AkademikBulucu beklenmedik şekilde kapanırsa, ne olduğuna dair kısa bir teknik kayıt <strong>yalnızca telefonunuzda</strong> tutulur. Bu kayıt hiçbir yere gönderilmez ve hiçbir sunucuya ulaşmaz.</p>
+<ul><li><strong>Ayarlar → Teknik Kayıt</strong> bölümünden kendiniz okuyabilirsiniz.</li><li>Aynı yerden tek dokunuşla silebilirsiniz.</li><li>Yazılırken e-posta adresi, dosya yolundaki kullanıcı adı ve uzun sayı dizileri temizlenir.</li><li>En fazla 10 kayıt tutulur; yenisi geldiğinde en eski düşer.</li></ul>
+<p>Bunu bize göndermenin otomatik bir yolu yoktur. İsterseniz metni kopyalayıp kendiniz gönderebilirsiniz — karar tamamen sizindir.</p>
+<p>Yukarıdaki &quot;toplamıyoruz&quot; listesi bu yüzden doğru kalıyor: kayıt <strong>toplanmıyor</strong>, yalnızca sizin cihazınızda duruyor.</p>
+<h2>Reklam ve satın alma</h2>
+<ul><li><strong>Reklam yoktur.</strong> Hiçbir reklam ağı veya izleme aracı kullanılmaz.</li><li><strong>Uygulama içi satın alma yoktur.</strong></li></ul>
+<h2>Dış bağlantılar</h2>
+<p>Bir makaleyi okumak için dokunduğunuzda, yayıncının sitesi ya da PDF bağlantısı telefonunuzun tarayıcısında açılır. <strong>Açılan bu siteler bize ait değildir</strong> ve kendi gizlilik politikaları geçerlidir.</p>
+<h2>İzinler</h2>
+<p>Uygulama yalnızca <strong>internet</strong> erişimi kullanır. Konum, mikrofon, kamera, kişiler, fotoğraf ve depolama izni <strong>istemez.</strong></p>
+<p>Kaynakça dosyalarını dışa aktarırken telefonun kendi paylaşım penceresi açılır; dosya sizin seçtiğiniz yere gider, bize gönderilmez.</p>
+<h2>Çocukların gizliliği</h2>
+<p>Uygulama akademik araştırma içindir ve çocuklara yönelik değildir. Hiçbir kullanıcıdan kişisel veri toplanmadığı için çocuklardan da toplanmaz.</p>
+<h2>Üçüncü taraf hizmetler</h2>
+<table><thead><tr><th>Hizmet</th><th>Ne için</th><th>Ne gönderiliyor</th></tr></thead><tbody><tr><td>Cloudflare Workers</td><td>Uygulamanın kendi sunucusu</td><td>Arama kelimesi</td></tr><tr><td>Crossref</td><td>Makale arama</td><td>Arama kelimesi</td></tr><tr><td>arXiv</td><td>Açık erişim arama</td><td>Arama kelimesi</td></tr><tr><td>Semantic Scholar</td><td>Makale arama</td><td>Arama kelimesi</td></tr><tr><td>Google Gemini</td><td>İsteğe bağlı özet</td><td>Makalenin başlığı ve özeti</td></tr></tbody></table>
+<p>Hiçbirine kişisel bilginiz gönderilmez.</p>
+<h2>Değişiklikler</h2>
+<p>Bu politika güncellenirse üstteki tarih değişir. Veri işleme davranışı değişirse uygulama güncellemesinin açıklamasında ayrıca belirtilir.</p>
+<h2>İletişim</h2>
+<p>Sorularınız için: <strong>yyggttkadir@gmail.com</strong></p>
+<footer>Kadir Yiğit · yyggttkadir@gmail.com · 14.09.2026</footer></div></body></html>
