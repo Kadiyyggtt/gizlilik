@@ -38,9 +38,29 @@ Uygulama iki şeyi telefonunuzun kendi deposunda tutar:
 |---|---|
 | Yer imine eklediğiniz terimler | Yıldızladığınız kelimeleri tekrar bulabilmeniz için |
 | Okundu işaretlediğiniz rehberler | Nerede kaldığınızı görebilmeniz için |
+| Titreşim tercihiniz | Ayarı her açılışta yeniden seçmeniz gerekmesin diye |
 
-Bu iki bilgi **telefonunuzdan hiçbir zaman çıkmaz.** Bize, Google'a ya da
+Bu bilgiler **telefonunuzdan hiçbir zaman çıkmaz.** Bize, Google'a ya da
 başka birine gönderilmez. Uygulamayı sildiğinizde bunlar da silinir.
+
+---
+
+## Cihazınızda kalan teknik kayıt
+
+Uygulama beklenmedik şekilde kapanırsa, ne olduğuna dair kısa bir teknik
+kayıt **yalnızca telefonunuzda** tutulur. Bu kayıt hiçbir yere gönderilmez
+ve hiçbir sunucuya ulaşmaz.
+
+- **Ayarlar → Teknik kayıt** bölümünden kendiniz okuyabilirsiniz.
+- Aynı yerden tek dokunuşla silebilirsiniz.
+- Yazılırken e-posta adresi, dosya yolundaki kullanıcı adı ve uzun sayı
+  dizileri temizlenir.
+- En fazla 10 kayıt tutulur; yenisi geldiğinde en eski düşer.
+
+Bunu bize göndermenin otomatik bir yolu yoktur. İsterseniz metni kopyalayıp
+kendiniz gönderebilirsiniz — karar tamamen sizindir.
+
+Kayıt **toplanmıyor**; yalnızca sizin cihazınızda duruyor.
 
 ---
 
