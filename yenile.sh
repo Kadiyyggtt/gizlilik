@@ -8,7 +8,8 @@
 set -eu
 cd "$(dirname "$0")"
 for p in "namazvakti NamazVakti" "santiyesefi SantiyeSefi" "cumlekur CumleKur" \
-         "pastelpals PastelPals" "fama FAMA" "blokoblast BlokoBlast"; do
+         "pastelpals PastelPals" "fama FAMA" "blokoblast BlokoBlast" \
+         "siberciningunlugu SibercininGunlugu"; do
   set -- $p
   cp "../$2/GIZLILIK-POLITIKASI.md" "uygulamalar/$1/tr.md"
   cp "../$2/PRIVACY-POLICY.md"      "uygulamalar/$1/en.md"
