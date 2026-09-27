@@ -70,5 +70,23 @@
     "cumle": "Üç veri tabanında tek arama. Bulduğun makaleyi anlamanı sağlar.",
     "renk": "#2F4C86",
     "vurgu": "#2F4C86"
+  },
+  {
+    "slug": "okkacisi",
+    "klasor": "OkKacisi",
+    "ad": "Ok Kaçışı",
+    "emoji": "➡️",
+    "cumle": "Doğru sırayı bul, tüm okları kaçır. Hesap yok, internet gerekmez.",
+    "renk": "#1D2333",
+    "vurgu": "#FF6B47"
+  },
+  {
+    "slug": "renksiralama",
+    "klasor": "RenkSiralama",
+    "ad": "Renk Sıralama",
+    "emoji": "🧪",
+    "cumle": "Topları renklerine ayır, tüpleri tamamla. Can yok, süre yok.",
+    "renk": "#141B3A",
+    "vurgu": "#FFB347"
   }
 ]
