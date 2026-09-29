@@ -11,7 +11,7 @@ for p in "namazvakti NamazVakti" "santiyesefi SantiyeSefi" "cumlekur CumleKur" \
          "pastelpals PastelPals" "fama FAMA" "blokoblast BlokoBlast" \
          "siberciningunlugu SibercininGunlugu" \
          "akademikbulucu AkademikBulucu" \
-         "okkacisi OkKacisi" "renksiralama RenkSiralama"; do
+         "okkacisi OkKacisi" "renksiralama RenkSiralama" "penalti Penalti"; do
   set -- $p
   # Güncel kopyalar 29 Eylül 2026'dan beri ~/Desktop/OYUNLAR altında; masaüstündeki
   # eski OkKacisi/RenkSiralama klasörleri bayat kaldı ve yayındaki politikayı iki gün
