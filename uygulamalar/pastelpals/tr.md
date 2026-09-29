@@ -6,7 +6,7 @@
 
 # PastelPals — Gizlilik Politikası
 
-**Son güncelleme:** 9 Eylül 2026
+**Son güncelleme:** 29 Eylül 2026
 
 PastelPals, çocuklar için tasarlanmış bir giydirme oyunudur. Bu politika,
 uygulamanın verilerle nasıl davrandığını açıklar.
@@ -18,9 +18,9 @@ uygulamanın verilerle nasıl davrandığını açıklar.
 **PastelPals hiçbir kişisel veri toplamaz, saklamaz veya paylaşmaz.**
 
 Oyun çevrimdışı çalışır ve hiçbir sunucuya veri göndermez. Reklam yoktur.
-İsteğe bağlı içerik paketleri satın alınabilir ve fotoğraf paylaşılabilir;
-ikisi de **ebeveyn doğrulamasının arkasındadır** ve ayrıntıları aşağıda
-açıklanmıştır.
+Bu sürümde uygulama içi satın alma yoktur; bütün içerik ücretsizdir.
+Oyunda çekilen fotoğraflar yalnızca cihazdaki albümde durur; dışarı
+paylaşmak **ebeveyn doğrulamasının arkasındadır**. Ayrıntılar aşağıda.
 
 ---
 
@@ -62,8 +62,11 @@ Yukarıdaki "toplanmıyor" listesi bu yüzden doğru kalıyor: kayıt
 
 Oyun ilerlemesi **yalnızca çocuğun kendi cihazında** saklanır:
 
-- Seçilen karakter
+- Seçilen karakter ve çocuğun kendi yaptığı karakter (ten rengi, saç
+  modeli, saç rengi, yüz ifadesi — yalnız çizim seçenekleri; ad, yaş ya da
+  fotoğraf istenmez)
 - Giyilen kıyafet, ayakkabı ve şapka
+- Fotoğraf albümündeki kareler (aşağıda ayrıca açıklanıyor)
 - Stil puanı ve denenen parçalar
 - Ses açık/kapalı tercihi
 
@@ -76,38 +79,39 @@ silinir. Ayrıca "Ebeveynler İçin" ekranından istediğiniz zaman sıfırlayab
 
 ## Uygulama içi satın alma
 
-Oyunun büyük bölümü ücretsizdir ve ücretsiz kalacaktır. Ek içerik paketleri
-satın alınabilir.
+**Bu sürümde uygulama içi satın alma yoktur.** Oyunda ödeme ekranı, fiyat
+ya da kilitli içerik bulunmaz; bütün kıyafetler, yerler ve görevler açıktır.
+Uygulama mağazanın ödeme hizmetine (Google Play Faturalandırma / App Store)
+bağlanmaz.
 
-- Satın alma ekranına ulaşmadan önce **ebeveyn doğrulaması** istenir: yalnızca
-  bir yetişkinin çözebileceği bir toplama sorusu sorulur.
-- Çocuğa baskı yapan hiçbir unsur kullanılmaz: geri sayım, "son fırsat"
-  uyarısı ya da kilitli içeriğin çocuğa gösterilmesi yoktur. Satın alınmamış
-  içerik oyunda **hiç görünmez.**
-- Ödeme işlemi Google Play / App Store tarafından yürütülür. PastelPals
-  ödeme bilgilerinizi görmez, saklamaz ve işlemez.
+## Fotoğraf albümü ve paylaşım
 
-## Fotoğraf paylaşımı
+Çocuk, dışarı çıkma ekranında giydirdiği karakterin fotoğrafını çekebilir.
 
-Çocuk, giydirdiği karakterin fotoğrafını çekip paylaşabilir.
-
-- Paylaşım **ebeveyn doğrulamasının arkasındadır.**
-- Fotoğraf cihazda oluşturulur ve **hiçbir sunucuya gönderilmez.** Nereye
-  gönderileceğine telefonun kendi paylaşım penceresinden yetişkin karar verir.
-- Fotoğrafta yalnızca oyundaki çizim karakter ve arka plan bulunur. Kamera
-  kullanılmaz, çocuğun gerçek fotoğrafı çekilmez, konum bilgisi eklenmez.
+- Çekilen kare **kendiliğinden oyunun albümüne kaydedilir.** Albüm
+  **yalnızca bu cihazda** durur (uygulamanın kendi klasöründe) ve hiçbir
+  yere gönderilmez. En fazla 24 kare tutulur; yenisi gelince en eskisi
+  silinir. Albümden istenen kare iki adımlı onayla silinebilir.
+- Fotoğrafta yalnızca oyundaki çizim karakter ve arka plan bulunur. **Kamera
+  kullanılmaz**, çocuğun gerçek fotoğrafı çekilmez, telefonun galerisine
+  erişilmez, konum bilgisi eklenmez. Albümdeki her kare oyunun kendi
+  çizimidir.
+- Bir kareyi albümden **dışarı paylaşmak ebeveyn doğrulamasının
+  arkasındadır** (basit bir toplama sorusu, ör. 8 + 7). Nereye
+  gönderileceğine telefonun kendi paylaşım penceresinden yetişkin karar verir;
+  PastelPals fotoğrafı hiçbir sunucuya göndermez.
 
 ## Dış bağlantılar
 
 Uygulama içinde çocuğu bir web sitesine ya da sosyal medyaya yönlendiren
-bağlantı yoktur. Yalnızca fotoğraf paylaşımı sırasında, ebeveyn doğrulaması
-sonrasında telefonun kendi paylaşım penceresi açılır.
+bağlantı yoktur. Yalnızca albümden fotoğraf paylaşılırken, ebeveyn
+doğrulaması sonrasında telefonun kendi paylaşım penceresi açılır.
 
 ## İnternet bağlantısı
 
 PastelPals oynamak için internet gerektirmez; tüm içerik cihazda bulunur ve
-uygulama hiçbir sunucuyla veri alışverişi yapmaz. İnternet yalnızca satın alma
-sırasında mağaza tarafından kullanılır.
+uygulama hiçbir sunucuyla veri alışverişi yapmaz. Bu sürümde internete hiç
+ihtiyaç yoktur.
 
 ## Çocukların gizliliği
 

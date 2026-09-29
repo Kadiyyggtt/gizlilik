@@ -6,15 +6,14 @@
 
 # Renk Sıralama — Gizlilik Politikası
 
-**Son güncelleme:** 27 Eylül 2026
+**Son güncelleme:** 29 Eylül 2026
 
 Renk Sıralama bir bulmaca oyunudur. Bu metin, oyunun hangi bilgilere
 dokunduğunu ve dokunmadığını açıkça anlatır.
 
-**Kısa cevap:** Hesap yok, kayıt yok, bizim sunucumuz yok. Oyunun kendisi
-hiçbir bilgi toplamıyor. Oyunda **reklam var**; reklamları Google'ın
-AdMob servisi gösterir ve bu servis reklam gösterebilmek için bazı teknik
-bilgilere erişir. Bunu aşağıda tek tek yazdık.
+**Kısa cevap:** Bu sürümde reklam yok, satın alma yok, hesap yok, bizim
+sunucumuz yok. Oyun hiçbir bilgi toplamıyor ve hiçbir yere göndermiyor.
+Tamamen çevrimdışı çalışır.
 
 ---
 
@@ -26,15 +25,17 @@ Oyun şunları **istemiyor ve toplamıyor:**
 - Konum
 - Rehber, takvim, fotoğraf, dosya
 - Kamera ve mikrofon
-- Kullanım istatistiği, çökme raporu, analiz aracı
+- Reklam kimliği ya da başka bir cihaz kimliği
+- Kullanım istatistiği, analiz aracı, bize gönderilen çökme raporu
 
-Hesap sistemi **yoktur.** Bize ait bir sunucu **yoktur.**
+Hesap sistemi **yoktur.** Bize ait bir sunucu **yoktur.** Oyunda üçüncü
+taraf reklam ya da ölçüm yazılımı **yoktur.**
 
 ## İzinler
 
 **Sana sorulan hiçbir izin yok.** Konum, kamera, mikrofon, kişiler,
 fotoğraf ve depolama izinlerinin hiçbiri istenmiyor. iOS'ta "izleme izni"
-penceresi de çıkmaz: yalnızca kişiselleştirilmemiş reklam istiyoruz.
+penceresi çıkmaz.
 
 Mağaza sayfasında görünebilecek teknik izinler, Android'in kurulumda
 kendiliğinden verdiği ve onay kutusu çıkarmayan izinlerdir:
@@ -43,53 +44,26 @@ kendiliğinden verdiği ve onay kutusu çıkarmayan izinlerdir:
 |---|---|
 | Titreşim | Top yerleşince ve tüp tamamlanınca kısa titreşim — Ayarlar'dan kapatılabilir |
 | Ses ayarları | Oyun seslerinin telefonun kendi müziğini kesmemesi için |
-| İnternet | Reklamların yüklenmesi için. Oyunun kendisi internetsiz de eksiksiz oynanır |
-| Reklam kimliği (Android) | Google'ın reklam servisi tarafından kullanılır (aşağıda) |
+| İnternet | Uygulama çatısının varsayılanı; oyun internete **bağlanmaz** |
+
+Reklam kimliği izni (Android) açıkça **engellenmiştir.**
 
 ---
 
-## Reklamlar (Google AdMob)
+## Reklam ve satın alma
 
-Oyun, **Google AdMob** aracılığıyla reklam gösterir:
+Bu sürümde **reklam yok** ve **uygulama içi satın alma yok.** Oyunun
+tamamı, bütün yardımcılarıyla (geri al, ipucu, ekstra tüp) ücretsizdir.
 
-- **Ödüllü reklam:** yalnız sen istersen, "Reklam izle" düğmesine basınca
-  (ekstra geri alma hakkı, ekstra tüp ya da ipucu için). İzlemezsen oyun
-  aynen devam eder.
-- **Geçiş reklamı:** bazı bölümlerin sonunda, hiçbir zaman oyun ortasında.
-
-**Yalnızca kişiselleştirilmemiş reklam istiyoruz.** Yani reklam senin
-ilgi alanlarına göre değil, o anki genel duruma göre seçilir; profil
-oluşturulmasını istemiyoruz. Reklam içerik derecesi "genel izleyici"
-(G) olarak ayarlıdır.
-
-Reklamı gösterebilmek için Google'ın servisi cihazından şu türde teknik
-bilgilere erişebilir: IP adresi, cihaz modeli ve işletim sistemi,
-reklam kimliği, uygulama kimliği. Bunlar reklamı seçmek, sahtekârlığı
-önlemek ve gösterim sayısını ölçmek için kullanılır. Bu işlemi biz değil
-Google yapar; nasıl yaptığını Google'ın kendi politikası anlatır:
-<https://policies.google.com/privacy> ve
-<https://support.google.com/admob/answer/6128543>.
-
-Avrupa Ekonomik Alanı, Birleşik Krallık ve İsviçre'de yasa gerektirdiği
-için oyun ilk açılışta Google'ın rıza penceresini gösterebilir; orada
-verdiğin karar Google'a iletilir, bize değil.
-
-Reklam kimliğini telefon ayarlarından istediğin zaman sıfırlayabilir ya
-da kişiselleştirilmiş reklamları cihaz genelinde kapatabilirsin.
-
-## Satın alma ve ölçüm
-
-Uygulama içi satın alma **yoktur** (kod içinde ileride eklenebilecek
-"reklamları kaldır" seçeneği kapalıdır; açılırsa bu politika **önceden**
-güncellenir). Analiz/ölçüm aracı **yoktur.**
+İleride bir güncellemeyle reklam eklenirse, bu politika o güncellemeden
+**önce** değiştirilir ve neyin paylaşıldığı burada tek tek yazılır.
 
 ---
 
 ## İnternet
 
-Oyunun kendisi internetsiz çalışır: bölümler telefonunda üretilir,
-ilerlemen telefonunda saklanır. İnternet yalnızca reklamların yüklenmesi
-için kullanılır; internet yoksa reklam çıkmaz, oyun aynen oynanır.
+Oyun internetsiz çalışır: bölümler telefonunda üretilir, ilerlemen
+telefonunda saklanır. Oyun hiçbir sunucuya bağlanmaz.
 
 ---
 
@@ -98,8 +72,12 @@ için kullanılır; internet yoksa reklam çıkmaz, oyun aynen oynanır.
 Yalnız **kendi cihazında** şunlar tutuluyor:
 
 - Hangi bölüme geldiğin ve tamamladığın en yüksek bölüm
+- Yarım kalan bölümün (kaldığın yerden devam edebilmen için)
 - Açtığın ve seçtiğin top görünümleri ile temalar
 - Ayarların (ses, titreşim, dil, renk körü modu)
+- **Teknik kayıt:** oyun beklenmedik şekilde kapanırsa kısa bir hata
+  kaydı (en fazla 10 kayıt). Kayıt telefonda kalır, bize gönderilmez;
+  **Ayarlar → Teknik kayıt** ekranından görebilir ve silebilirsin.
 
 Bunlar hiçbir yere gönderilmez. **Ayarlar → Oyunu sıfırla** ile
 ilerlemeyi silebilirsin; oyunu silmek de tamamını kaldırır.
@@ -109,8 +87,7 @@ ilerlemeyi silebilirsin; oyunu silmek de tamamını kaldırır.
 ## Çocuklar
 
 Renk Sıralama çocuklara yönelik bir uygulama olarak sunulmamaktadır.
-Reklamlar kişiselleştirilmemiş ve "genel izleyici" içerik derecesindedir;
-hesap ve veri toplama olmadığı için başka bir risk taşımaz.
+Hesap, veri toplama ve reklam olmadığı için kişisel bilgi riski taşımaz.
 
 ---
 
@@ -119,8 +96,7 @@ hesap ve veri toplama olmadığı için başka bir risk taşımaz.
 Bizde tuttuğumuz hiçbir kişisel verin olmadığı için bizden silinecek,
 düzeltilecek ya da dışa aktarılacak bir kaydın da yok. Cihazındaki
 ilerlemeyi oyun içinden sıfırlayabilir ya da oyunu silerek tamamen
-kaldırabilirsin. Reklamlarla ilgili haklarını Google'ın yukarıdaki
-sayfalarından kullanabilirsin.
+kaldırabilirsin.
 
 ## İletişim
 

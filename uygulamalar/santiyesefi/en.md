@@ -6,7 +6,7 @@
 
 # Site Boss — Privacy Policy
 
-**Last updated:** 11 September 2026
+**Last updated:** 29 September 2026
 **Developer:** Kadir Yiğit
 **Contact:** yyggttkadir@gmail.com
 
@@ -16,12 +16,15 @@
 
 **Site Boss collects nothing.**
 
-No ads. No accounts. No servers. The game itself never connects to the
-internet.
+No ads. No purchases. No accounts. No servers. The game works fully
+without an internet connection.
 
-The one exception is **sharing**: if the child wants to send a picture of
-their town to family, that picture is sent through the phone's own share
-sheet. That step sits behind a **parental gate** and is entirely optional.
+The only action that leaves the device is **sharing**, and it sits behind
+a **parental gate** and is optional: if the child wants to send a picture
+of their town to family, it is sent through the phone's own share sheet.
+
+In this version all 18 buildings (the main town and the Big City) are
+free and unlocked.
 
 ---
 
@@ -121,10 +124,11 @@ Permissions the app declares on Android:
 | Permission | Why |
 |---|---|
 | `VIBRATE` | Light vibration when digging and placing panels |
-| `INTERNET` | Added by the application framework; the game does **not** connect to the internet |
+| `INTERNET` | Added automatically by the app framework (React Native); the game connects **nowhere** |
 
-Microphone, camera, location, contacts and storage permissions are
-**deliberately blocked** — the app has no need for them.
+Microphone, camera, location, contacts, storage and store billing
+(`BILLING`) permissions are **deliberately blocked** — the app has no
+need for them.
 
 ---
 
@@ -134,7 +138,8 @@ This game is designed for children and built to follow the rules of the
 Google Play **Families** programme.
 
 - No ads — neither personalised nor otherwise.
-- No in-app purchases.
+- No in-app purchases in this version. All 18 buildings are free and none
+  of them is locked.
 - The only action that leaves the app is **sharing**, which sits behind a
   parental gate and is optional.
 - No chat, messaging or interaction with other users.
@@ -147,15 +152,17 @@ require parental consent under COPPA or GDPR-K.
 
 ## Third parties
 
-The app contains **no third-party services, ad networks or analytics
-tools.** No data is shared with anyone, because no data is collected.
+The app contains **no ad networks, analytics tools or payment services.**
+Site Boss shares no data with anyone, because it collects none.
 
 ---
 
 ## Changes
 
-If ads or purchases are ever added to the game, this policy will be
-updated and the change announced on the app's store page.
+If ads or purchases are ever added, this policy will be updated first and
+the change announced on the app's store page. (29 September 2026: this
+version has no purchases; every building, the Big City included, is
+free.)
 
 ---
 

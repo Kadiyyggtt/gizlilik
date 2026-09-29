@@ -6,7 +6,7 @@
 
 # Şantiye Şefi — Gizlilik Politikası
 
-**Son güncelleme:** 11 Eylül 2026
+**Son güncelleme:** 29 Eylül 2026
 **Geliştirici:** Kadir Yiğit
 **İletişim:** yyggttkadir@gmail.com
 
@@ -16,11 +16,16 @@
 
 **Şantiye Şefi hiçbir bilgi toplamıyor.**
 
-Reklam yok. Hesap yok. Sunucu yok. Oyunun kendisi internete bağlanmıyor.
+Reklam yok. Satın alma yok. Hesap yok. Sunucu yok. Oyun internet
+olmadan tamamen çalışıyor.
 
-Tek istisna **paylaşma**: çocuk kasabasının resmini aileye göndermek
-isterse, o resim telefonun kendi paylaşım penceresiyle gönderiliyor.
-Bu adım **ebeveyn kapısı** arkasında ve tamamen isteğe bağlı.
+Oyunun cihazın dışına çıkan tek işlemi **paylaşma**; o da **ebeveyn
+kapısı** arkasında ve isteğe bağlı: çocuk kasabasının resmini aileye
+göndermek isterse, resim telefonun kendi paylaşım penceresiyle
+gönderiliyor.
+
+Bu sürümde 18 binanın hepsi (ana kasaba ve Büyük Şehir) ücretsiz ve
+açık.
 
 ---
 
@@ -121,10 +126,11 @@ Uygulamanın Android'de istediği izinler:
 | İzin | Neden |
 |---|---|
 | `VIBRATE` | Kazarken ve panel yerleştirirken hafif titreşim |
-| `INTERNET` | Uygulama çatısı tarafından ekleniyor; oyun internete **bağlanmıyor** |
+| `INTERNET` | Uygulama çatısının (React Native) kendiliğinden eklediği izin; oyun hiçbir yere **bağlanmıyor** |
 
-Mikrofon, kamera, konum, rehber ve depolama izinleri **bilerek
-engellenmiştir** — uygulamanın bunlara ihtiyacı yok.
+Mikrofon, kamera, konum, rehber, depolama ve mağaza faturalandırma
+(`BILLING`) izinleri **bilerek engellenmiştir** — uygulamanın bunlara
+ihtiyacı yok.
 
 ---
 
@@ -134,7 +140,8 @@ Bu oyun çocuklar için tasarlandı ve Google Play **Families** programının
 kurallarına göre yapıldı.
 
 - Reklam yok — ne kişiselleştirilmiş ne de başka türlü.
-- Uygulama içi satın alma yok.
+- Bu sürümde uygulama içi satın alma yok. 18 binanın hepsi ücretsiz,
+  hiçbiri kilitli değil.
 - Uygulama dışına çıkan tek işlem **paylaşma**, o da ebeveyn kapısı
   arkasında ve isteğe bağlı.
 - Sohbet, mesajlaşma veya başka kullanıcılarla etkileşim yok.
@@ -147,16 +154,18 @@ gerektiren bir işlem yapılmıyor.
 
 ## Üçüncü taraflar
 
-Uygulamada **hiçbir üçüncü taraf hizmeti, reklam ağı veya analitik
-aracı yok.** Hiçbir veri kimseyle paylaşılmıyor çünkü hiçbir veri
-toplanmıyor.
+Uygulamada **hiçbir reklam ağı, analitik aracı veya ödeme hizmeti
+yok.** Şantiye Şefi hiçbir veriyi kimseyle paylaşmıyor çünkü hiçbir
+veri toplamıyor.
 
 ---
 
 ## Değişiklikler
 
-İleride oyuna reklam veya satın alma eklenirse bu politika güncellenecek
-ve değişiklik uygulamanın mağaza sayfasında duyurulacak.
+İleride oyuna reklam ya da satın alma eklenirse bu politika önce
+güncellenecek ve değişiklik uygulamanın mağaza sayfasında duyurulacak.
+(29 Eylül 2026: bu sürüm satın almasız; Büyük Şehir dahil bütün
+binalar ücretsiz.)
 
 ---
 

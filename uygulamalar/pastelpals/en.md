@@ -6,7 +6,7 @@
 
 # PastelPals — Privacy Policy
 
-**Last updated:** 12 September 2026
+**Last updated:** 29 September 2026
 
 PastelPals is a dress-up game designed for children. This policy explains how
 the app behaves with data.
@@ -18,8 +18,9 @@ the app behaves with data.
 **PastelPals collects, stores and shares no personal data.**
 
 The game works offline and sends no data to any server. There is no
-advertising. Optional content packs can be purchased and a photo can be
-shared; both sit **behind a parental gate** and are explained below.
+advertising. This version has no in-app purchases; all content is free.
+Photos taken in the game stay only in the album on the device; sharing
+them out sits **behind a parental gate**. Details below.
 
 ---
 
@@ -61,8 +62,11 @@ This is why the "we never collect" list above stays accurate: the log is
 
 Game progress is stored **only on the child's own device**:
 
-- The chosen character
+- The chosen character and the character the child made themselves (skin
+  tone, hairstyle, hair colour, facial expression — drawing options only; no
+  name, age or photo is asked for)
 - The clothing, shoes and hat being worn
+- The pictures in the photo album (explained separately below)
 - Style points and the pieces tried on
 - The sound on/off preference
 
@@ -75,39 +79,40 @@ app, and you can reset it at any time from the "For Parents" screen.
 
 ## In-app purchases
 
-Most of the game is free and will stay free. Additional content packs can be
-purchased.
+**This version has no in-app purchases.** There is no payment screen, no
+price and no locked content in the game; every outfit, place and challenge is
+open. The app does not connect to the store's payment service (Google Play
+Billing / the App Store).
 
-- A **parental gate** is shown before the purchase screen can be reached: an
-  addition question only an adult can answer.
-- Nothing that pressures a child is used: there is no countdown, no "last
-  chance" warning, and locked content is never shown to the child. Content
-  that has not been purchased **does not appear in the game at all**.
-- Payment is handled by Google Play / the App Store. PastelPals never sees,
-  stores or processes your payment details.
+## Photo album and sharing
 
-## Photo sharing
+On the outing screen a child can take a photo of the character they dressed.
 
-A child can take a photo of the character they dressed and share it.
-
-- Sharing sits **behind the parental gate**.
-- The photo is created on the device and **is never sent to any server**. An
-  adult decides where it goes, using the phone's own share sheet.
-- The photo contains only the drawn game character and background. The camera
-  is not used, no real photo of the child is taken, and no location data is
-  attached.
+- Each picture is **saved automatically to the game's album.** The album
+  stays **only on this device** (in the app's own folder) and is never sent
+  anywhere. Up to 24 pictures are kept; when a new one arrives, the oldest is
+  removed. A picture can be deleted from the album with a two-step
+  confirmation.
+- A photo contains only the drawn game character and background. **The
+  camera is not used**, no real photo of the child is taken, the phone's
+  gallery is not accessed and no location data is attached. Every picture in
+  the album is the game's own drawing.
+- **Sharing a picture out of the album sits behind the parental gate** (a
+  simple addition question such as 8 + 7). An adult decides where it goes
+  using the phone's own share sheet; PastelPals never sends the photo to any
+  server.
 
 ## External links
 
 There is no link inside the app that sends a child to a website or to social
-media. The phone's own share sheet opens only during photo sharing, after the
-parental gate.
+media. The phone's own share sheet opens only when a photo is shared from the
+album, after the parental gate.
 
 ## Internet connection
 
 PastelPals does not require internet to play; all content is on the device and
-the app exchanges no data with any server. Internet is used by the store only
-during a purchase.
+the app exchanges no data with any server. This version needs no internet at
+all.
 
 ## Children's privacy
 
