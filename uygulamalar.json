@@ -88,5 +88,14 @@
     "cumle": "Topları renklerine ayır, tüpleri tamamla. Can yok, süre yok.",
     "renk": "#141B3A",
     "vurgu": "#FFB347"
+  },
+  {
+    "slug": "penalti",
+    "klasor": "Penalti",
+    "ad": "Penaltı",
+    "emoji": "⚽",
+    "cumle": "Geri çek, bırak, gol. Aynı telefonda iki kişi. Reklam yok, hesap yok.",
+    "renk": "#0B120E",
+    "vurgu": "#B5D85A"
   }
 ]
