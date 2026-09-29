@@ -1,121 +1,96 @@
-<!-- PUBLISHED AT — paste this into the store form.
+<!-- PUBLISHED AT — use this URL in store forms.
      English:  https://kadiyyggtt.github.io/gizlilik/uygulamalar/okkacisi/en.html
      Turkish:  https://kadiyyggtt.github.io/gizlilik/uygulamalar/okkacisi/tr.html
      This file is the source; the site is published from ~/Desktop/gizlilik.
-     After editing: bash ~/Desktop/gizlilik/yenile.sh -->
+     After editing here: bash ~/Desktop/gizlilik/yenile.sh -->
 
-# Arrow Escape — Privacy Policy
+# Arrow Escape (Ok Kaçışı) — Privacy Policy
 
-**Last updated:** 27 September 2026
+**Last updated:** 29 September 2026
 
-Arrow Escape is a puzzle game. This document states plainly which
+Arrow Escape is a puzzle game. This page explains plainly which
 information the game touches and which it does not.
 
-**Short answer:** no account, no sign-up, no server of ours. The game
-itself collects nothing. The game **shows ads**; ads are served by
-Google's AdMob service, which accesses some technical information in
-order to show them. Every item is listed below.
+**Short answer:** No account, no sign-up, no server of ours. This version
+has **no ads and no in-app purchases.** The game collects no information,
+sends nothing anywhere, and works offline.
 
 ---
 
-## What we never collect
+## What we do not collect
 
-The game does **not request or collect:**
+The game does **not ask for or collect:**
 
-- Name, e-mail, phone number, date of birth
+- Name, email, phone number, date of birth
 - Location
 - Contacts, calendar, photos, files
-- Camera and microphone
-- Usage statistics, crash reports, analytics tools
+- Camera or microphone
+- Advertising ID or any other device identifier
+- Usage statistics, crash reports, analytics
 
-There is **no account system** and **no server of ours.**
+There is **no** account system and **no** server of ours. No third-party
+advertising, measurement or analytics library is included.
 
 ## Permissions
 
-**You are never asked for a permission.** Location, camera, microphone,
-contacts, photos and storage are not requested. On iOS the "tracking"
-prompt never appears: we request non-personalized ads only.
+**You are not asked for any permission.** Location, camera, microphone,
+contacts, photos and storage are never requested. On iOS there is no
+"allow tracking" prompt — no tracking takes place.
 
-The technical permissions that may appear on the store page are ones
-Android grants automatically at install time without a dialog:
+Technical permissions that may appear on the store page are granted
+automatically by Android at install time without a prompt:
 
 | Permission | Why |
 |---|---|
 | Vibration | A short buzz when an arrow collides and when a level ends — can be turned off in Settings |
 | Audio settings | So game sounds do not interrupt your own music |
-| Internet | To load ads. The game itself plays fully offline |
-| Advertising ID (Android) | Used by Google's ad service (see below) |
 
----
-
-## Advertising (Google AdMob)
-
-The game shows ads through **Google AdMob**:
-
-- **Rewarded ads:** only when you choose to, by tapping "Watch ad" (for
-  an extra life or hint). If you do not watch, the game continues as is.
-- **Interstitial ads:** at the end of some levels, never mid-game.
-
-**We request non-personalized ads only.** Ads are chosen from general
-context, not from your interests; we do not ask for a profile to be
-built. The ad content rating is set to "general audiences" (G).
-
-To serve an ad, Google's service may access technical information such
-as your IP address, device model and operating system, advertising ID
-and app ID. This is used to select the ad, prevent fraud and count
-impressions. This processing is done by Google, not by us; Google's own
-policy describes it: <https://policies.google.com/privacy> and
-<https://support.google.com/admob/answer/6128543>.
-
-In the European Economic Area, the United Kingdom and Switzerland the
-game may show Google's consent dialog on first launch, as the law
-requires; your choice there is passed to Google, not to us.
-
-You can reset your advertising ID or opt out of personalized ads
-device-wide in your phone's settings at any time.
-
-## Purchases and analytics
-
-There are **no in-app purchases** (a "remove ads" option exists in the
-code but is switched off; if it is ever enabled this policy will be
-updated **beforehand**). There is **no analytics tool.**
+Android's advertising-ID permission (AD_ID) is **explicitly blocked** in
+the app.
 
 ---
 
 ## Internet
 
-The game itself works offline: levels are generated on your phone and
-your progress is stored on your phone. Internet is used only to load
-ads; without it no ads appear and the game plays exactly the same.
+The game works offline: levels are generated on your phone and your
+progress is stored on your phone. The game does not connect to any server.
 
 ---
 
 ## What is stored on your device
 
-Only on **your own device**:
+Only **on your own device**:
 
-- The level you have reached and your stars per level
-- Your settings (sound, haptics, language)
+- Which level you reached and your stars per level
+- The moves, lives and hints used in a level you left unfinished
+  (so you can continue where you stopped after closing the app)
+- Your settings (sound, vibration, language)
 
 None of this is sent anywhere. **Settings → Reset game** deletes all of
-it; deleting the game removes everything.
+it; uninstalling the game removes it entirely.
+
+---
+
+## Future versions
+
+If a later update adds advertising or any other feature, this policy will
+be changed **before** that update is published, and the change will be
+described here.
 
 ---
 
 ## Children
 
-Arrow Escape is not presented as an app directed at children. Ads are
-non-personalized and rated for general audiences; with no account and no
-data collection there is no further risk in this respect.
+Arrow Escape is not presented as an app made for children; since it
+collects no personal data and shows no ads, it is safe to play at any age.
 
 ---
 
 ## Your rights
 
-Because we hold no personal data about you, there is nothing for us to
-delete, correct or export. You can reset on-device progress inside the
-game or remove it entirely by deleting the game. Rights related to
-advertising can be exercised through Google's pages linked above.
+We hold no personal data about you, so there is nothing to delete,
+correct or export on our side. You can reset your progress in the game or
+uninstall it to remove everything.
 
 ## Contact
 

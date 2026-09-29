@@ -13,9 +13,15 @@ for p in "namazvakti NamazVakti" "santiyesefi SantiyeSefi" "cumlekur CumleKur" \
          "akademikbulucu AkademikBulucu" \
          "okkacisi OkKacisi" "renksiralama RenkSiralama"; do
   set -- $p
-  # Proje klasörü masaüstünde yoksa (silinmiş olabilir) buradaki kopya korunur;
+  # Güncel kopyalar 29 Eylül 2026'dan beri ~/Desktop/OYUNLAR altında; masaüstündeki
+  # eski OkKacisi/RenkSiralama klasörleri bayat kaldı ve yayındaki politikayı iki gün
+  # "reklam var" diye gösterdi. Önce OYUNLAR'a bakılır.
+  # Proje klasörü hiçbir yerde yoksa (silinmiş olabilir) buradaki kopya korunur;
   # asıl metin o zaman uygulamanın GitHub deposundadır.
-  if [ -d "../$2" ]; then
+  if [ -d "../OYUNLAR/$2" ]; then
+    cp "../OYUNLAR/$2/GIZLILIK-POLITIKASI.md" "uygulamalar/$1/tr.md"
+    cp "../OYUNLAR/$2/PRIVACY-POLICY.md"      "uygulamalar/$1/en.md"
+  elif [ -d "../$2" ]; then
     cp "../$2/GIZLILIK-POLITIKASI.md" "uygulamalar/$1/tr.md"
     cp "../$2/PRIVACY-POLICY.md"      "uygulamalar/$1/en.md"
   else

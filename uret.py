@@ -36,6 +36,10 @@ def satir_ici(metin: str) -> str:
 
 
 def markdown_html(kaynak: str) -> str:
+    # HTML yorumları (`<!-- ... -->`) yayına girmez. Politikaların başındaki
+    # "YAYIN ADRESİ" notu bir yorumdur; 29 Eylül 2026'da BlokoBlast'ın yayındaki
+    # sayfasının tepesinde bu not kaçırılmış ham metin olarak görünüyordu.
+    kaynak = re.sub(r'<!--.*?-->', '', kaynak, flags=re.DOTALL)
     cikti: list[str] = []
     satirlar = kaynak.split('\n')
     i = 0
