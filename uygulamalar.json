@@ -97,5 +97,14 @@
     "cumle": "Geri çek, bırak, gol. Aynı telefonda iki kişi. Reklam yok, hesap yok.",
     "renk": "#0B120E",
     "vurgu": "#B5D85A"
+  },
+  {
+    "slug": "legionrun",
+    "klasor": "LegionRun",
+    "ad": "Legion Run",
+    "emoji": "🛡️",
+    "cumle": "Ordunu büyüt, kapıları seç, boss'u yık. Reklam yok, internet yok.",
+    "renk": "#1E2A5A",
+    "vurgu": "#E0A800"
   }
 ]
