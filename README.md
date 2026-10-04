@@ -10,7 +10,6 @@ Altı mobil uygulamanın gizlilik politikaları, Türkçe ve İngilizce.
 | 🚜 Şantiye Şefi | [tr](uygulamalar/santiyesefi/tr.md) | [en](uygulamalar/santiyesefi/en.md) |
 | 📚 CümleKur | [tr](uygulamalar/cumlekur/tr.md) | [en](uygulamalar/cumlekur/en.md) |
 | 🎀 PastelPals | [tr](uygulamalar/pastelpals/tr.md) | [en](uygulamalar/pastelpals/en.md) |
-| 🎤 FAMA | [tr](uygulamalar/fama/tr.md) | [en](uygulamalar/fama/en.md) |
 | 🧩 BlokoBlast | [tr](uygulamalar/blokoblast/tr.md) | [en](uygulamalar/blokoblast/en.md) |
 
 ## Bu depo neden açık

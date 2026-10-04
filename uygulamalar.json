@@ -36,15 +36,6 @@
     "vurgu": "#C25A82"
   },
   {
-    "slug": "fama",
-    "klasor": "FAMA",
-    "ad": "FAMA",
-    "emoji": "🎤",
-    "cumle": "Şöhret bir sonuç değil, bir dizi seçim.",
-    "renk": "#4A3F1E",
-    "vurgu": "#B8860B"
-  },
-  {
     "slug": "blokoblast",
     "klasor": "BlokoBlast",
     "ad": "BlokoBlast",
@@ -61,15 +52,6 @@
     "cumle": "Siber güvenlik başucu kitabın. Çevrimdışı, reklamsız, hesapsız.",
     "renk": "#332F4D",
     "vurgu": "#3FA684"
-  },
-  {
-    "slug": "akademikbulucu",
-    "klasor": "AkademikBulucu",
-    "ad": "Akademik Bulucu",
-    "emoji": "🔎",
-    "cumle": "Üç veri tabanında tek arama. Bulduğun makaleyi anlamanı sağlar.",
-    "renk": "#2F4C86",
-    "vurgu": "#2F4C86"
   },
   {
     "slug": "okkacisi",

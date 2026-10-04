@@ -8,9 +8,8 @@
 set -eu
 cd "$(dirname "$0")"
 for p in "namazvakti NamazVakti" "santiyesefi SantiyeSefi" "cumlekur CumleKur" \
-         "pastelpals PastelPals" "fama FAMA" "blokoblast BlokoBlast" \
+         "pastelpals PastelPals" "blokoblast BlokoBlast" \
          "siberciningunlugu SibercininGunlugu" \
-         "akademikbulucu AkademikBulucu" \
          "okkacisi OkKacisi" "renksiralama RenkSiralama" "penalti Penalti" "legionrun LegionRun"; do
   set -- $p
   # Güncel kopyalar 29 Eylül 2026'dan beri ~/Desktop/OYUNLAR altında; masaüstündeki
