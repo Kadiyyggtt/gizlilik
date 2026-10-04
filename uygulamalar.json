@@ -45,15 +45,6 @@
     "vurgu": "#C77F00"
   },
   {
-    "slug": "siberciningunlugu",
-    "klasor": "SibercininGunlugu",
-    "ad": "Sibercinin Günlüğü",
-    "emoji": "🛡️",
-    "cumle": "Siber güvenlik başucu kitabın. Çevrimdışı, reklamsız, hesapsız.",
-    "renk": "#332F4D",
-    "vurgu": "#3FA684"
-  },
-  {
     "slug": "okkacisi",
     "klasor": "OkKacisi",
     "ad": "Ok Kaçışı",
@@ -70,15 +61,6 @@
     "cumle": "Topları renklerine ayır, tüpleri tamamla. Can yok, süre yok.",
     "renk": "#141B3A",
     "vurgu": "#FFB347"
-  },
-  {
-    "slug": "penalti",
-    "klasor": "Penalti",
-    "ad": "Penaltı",
-    "emoji": "⚽",
-    "cumle": "Geri çek, bırak, gol. Aynı telefonda iki kişi. Reklam yok, hesap yok.",
-    "renk": "#0B120E",
-    "vurgu": "#B5D85A"
   },
   {
     "slug": "legionrun",

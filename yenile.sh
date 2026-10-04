@@ -9,8 +9,7 @@ set -eu
 cd "$(dirname "$0")"
 for p in "namazvakti NamazVakti" "santiyesefi SantiyeSefi" "cumlekur CumleKur" \
          "pastelpals PastelPals" "blokoblast BlokoBlast" \
-         "siberciningunlugu SibercininGunlugu" \
-         "okkacisi OkKacisi" "renksiralama RenkSiralama" "penalti Penalti" "legionrun LegionRun"; do
+         "okkacisi OkKacisi" "renksiralama RenkSiralama" "legionrun LegionRun"; do
   set -- $p
   # Güncel kopyalar 29 Eylül 2026'dan beri ~/Desktop/OYUNLAR altında; masaüstündeki
   # eski OkKacisi/RenkSiralama klasörleri bayat kaldı ve yayındaki politikayı iki gün
