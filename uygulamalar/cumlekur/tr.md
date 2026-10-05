@@ -6,7 +6,7 @@
 
 # CümleKur — Gizlilik Politikası
 
-**Son güncelleme:** 12 Eylül 2026
+**Son güncelleme:** 5 Ekim 2026
 
 CümleKur, Türkçe konuşanlar için yapılmış bir İngilizce öğrenme
 uygulamasıdır. Bu metin, uygulamanın hangi bilgilere dokunduğunu ve
@@ -62,7 +62,7 @@ Yukarıdaki "toplanmıyor" listesi bu yüzden doğru kalıyor: kayıt
   **cümlenin kendisi değil**, yalnız hatanın türü saklanır)
 - Tamamladığın kelime setleri ve okuma/dinleme ilerlemen
 - Seçtiğin tema, ses ve seviye tercihlerin
-- Satın alma yaptıysan, satın almanın kaydı
+- O gün kaç çeviri yaptığın (günlük çeviri sınırı için; çevirinin kendisi değil)
 
 Bu bilgiler cihazda **şifreli** tutuluyor; şifreleme anahtarı işletim
 sisteminin güvenli deposunda duruyor. Hiçbiri cihazdan dışarı çıkmıyor.
@@ -130,12 +130,16 @@ bildirim için hiçbir kayıt tutulmaz. Ayarlar'dan kapatabilirsin.
 
 ---
 
-## Satın alma
+## Satın alma ve reklam
 
-Uygulama içinde tek seferlik bir satın alma bulunur (abonelik yoktur).
-Ödeme tamamen **Google Play** ya da **App Store** üzerinden yapılır;
-kart bilgin uygulamaya hiçbir zaman girilmez ve bizim erişimimiz olmaz.
-Bize yalnızca mağazadan "bu cihazda satın alma yapılmış" bilgisi gelir.
+Bu sürümde uygulama içi satın alma da reklam da **yoktur**. Uygulama
+mağazanın ödeme sistemine bağlanmaz, ödeme ya da kart bilgisi istemez,
+hiçbir içerik kilitli değildir.
+
+Çeviri ekranında günde 20 çeviri sınırı vardır. Bu bir satış kapısı
+değil, adil kullanım sınırıdır: çeviriyi üreten yapay zekâ hizmetinin
+ücretsiz kotası bütün kullanıcılar için ortaktır. Sayaç yalnız
+cihazında tutulur ve her gün yenilenir.
 
 ---
 

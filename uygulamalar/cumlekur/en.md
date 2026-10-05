@@ -6,7 +6,7 @@
 
 # CümleKur — Privacy Policy
 
-**Last updated:** 12 September 2026
+**Last updated:** 5 October 2026
 
 CümleKur is an English-learning app made for Turkish speakers. This
 document states plainly what the app touches and what it does not.
@@ -63,7 +63,8 @@ The following is kept **only on your own device**:
   sentence you wrote**
 - Word sets completed and your reading/listening progress
 - Your theme, voice and level preferences
-- A record of your purchase, if you made one
+- How many translations you made today (for the daily translation limit;
+  not the translations themselves)
 
 This data is stored **encrypted** on the device, with the key held in
 the operating system's secure storage. None of it leaves the device.
@@ -132,13 +133,16 @@ Settings.
 
 ---
 
-## Purchases
+## Purchases and ads
 
-The app offers a single one-time purchase (there is no subscription).
-Payment is handled entirely by **Google Play** or the **App Store**;
-your card details are never entered into the app and we never have
-access to them. We only receive the store's confirmation that a purchase
-exists on this device.
+This version contains **no in-app purchases and no ads**. The app does
+not connect to the store's billing system, never asks for payment or
+card details, and no content is locked.
+
+The translation screen has a limit of 20 translations per day. This is
+a fair-use limit, not a sales gate: the free quota of the AI service
+that produces the translations is shared by all users. The counter is
+kept only on your device and resets every day.
 
 ---
 
