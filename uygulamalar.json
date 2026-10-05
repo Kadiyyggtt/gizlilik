@@ -31,7 +31,7 @@
     "klasor": "PastelPals",
     "ad": "PastelPals",
     "emoji": "🎀",
-    "cumle": "Türkiye'nin kendi giydirme oyunu. Bir kez al, hepsi senin.",
+    "cumle": "Türkiye'nin kendi giydirme oyunu. Reklamsız, satın almasız, çevrimdışı.",
     "renk": "#8A4A66",
     "vurgu": "#C25A82"
   },
@@ -70,5 +70,14 @@
     "cumle": "Ordunu büyüt, kapıları seç, boss'u yık. Reklam yok, internet yok.",
     "renk": "#1E2A5A",
     "vurgu": "#E0A800"
+  },
+  {
+    "slug": "minikciftlik",
+    "klasor": "MinikCiftlik",
+    "ad": "Minik Çiftlik",
+    "emoji": "🐣",
+    "cumle": "Hayvanlarını besle, yıka, oyna. Reklam yok, satın alma yok.",
+    "renk": "#2E6B3A",
+    "vurgu": "#3F8F4E"
   }
 ]

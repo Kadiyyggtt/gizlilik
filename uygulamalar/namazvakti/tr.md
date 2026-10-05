@@ -31,8 +31,14 @@ uygulama konum izni ister.
 
 - Cihazınızın içinde kalır. Hesaplama tamamen telefonunuzda, `adhan`
   kütüphanesiyle yapılır.
-- **Hiçbir sunucuya gönderilmez.** Uygulamanın konum verisi gönderdiği bir
-  sunucu yoktur.
+- **Bizim bir sunucumuza gönderilmez.** Uygulamanın konum verisi gönderdiği
+  bir sunucu yoktur.
+- **Tek istisna, yer adı:** ekranda "İstanbul" gibi bir şehir adı gösterebilmek
+  için koordinat, telefonunuzun kendi adres çözme hizmetine (Android'de
+  Google, iPhone'da Apple) sorulur. Bu, işletim sisteminin standart
+  hizmetidir; biz bu istekten hiçbir şey görmeyiz ve yanıt yalnızca
+  cihazınızda kalır. Çevrimdışıysanız yer adı gösterilmez, vakitler yine
+  hesaplanır.
 - Yalnızca en son kullanılan konum, uygulamayı her açtığınızda yeniden izin
   sormamak için cihazda saklanır.
 - Uygulamayı sildiğinizde bu bilgi de silinir.

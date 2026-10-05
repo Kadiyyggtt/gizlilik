@@ -31,8 +31,14 @@ app asks for location permission.
 
 - It stays inside your device. The calculation runs entirely on your phone,
   using the `adhan` library.
-- **It is never sent to any server.** There is no server the app sends
+- **It is never sent to a server of ours.** There is no server the app sends
   location data to.
+- **One exception, the place name:** to show a city name such as "Istanbul" on
+  screen, the coordinates are passed to your phone's own address lookup
+  service (Google on Android, Apple on iPhone). This is the operating
+  system's standard service; we see nothing of that request and the answer
+  stays on your device. Offline, no place name is shown and the times are
+  still calculated.
 - Only the most recently used location is kept on the device, so that you are
   not asked for permission every time you open the app.
 - Deleting the app deletes this information with it.

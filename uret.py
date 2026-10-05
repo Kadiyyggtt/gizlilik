@@ -194,27 +194,30 @@ def sayfa(baslik: str, vurgu: str, govde: str) -> str:
 bugun = date.today().strftime('%d.%m.%Y')
 uretilen = 0
 
+DILLER = [('tr', 'Türkçe'), ('en', 'English'), ('es', 'Español')]
+GERI = {'tr': 'Tüm uygulamalar', 'en': 'All apps', 'es': 'Todas las apps'}
+
 for u in UYGULAMALAR:
-    for dil, dosya, etiket, digerEtiket in [
-        ('tr', 'tr.md', 'Türkçe', 'English'),
-        ('en', 'en.md', 'English', 'Türkçe'),
-    ]:
-        kaynak = (KOK / 'uygulamalar' / u['slug'] / dosya).read_text()
+    klasor = KOK / 'uygulamalar' / u['slug']
+    # tr ve en zorunlu; es yalnız dosyası varsa (Minik Çiftlik üç dilde).
+    mevcut = [(d, e) for d, e in DILLER if d in ('tr', 'en') or (klasor / f'{d}.md').exists()]
+    for dil, etiket in mevcut:
+        kaynak = (klasor / f'{dil}.md').read_text()
         icerik = markdown_html(kaynak)
-        diger = 'en' if dil == 'tr' else 'tr'
-        geri = 'Tüm uygulamalar' if dil == 'tr' else 'All apps'
+        baglantilar = '\n    '.join(
+            ('<a class="etkin" href="%s.html">%s</a>' if d == dil else '<a href="%s.html">%s</a>') % (d, e)
+            for d, e in mevcut)
         govde = f"""
 <header>
-  <a class="geri" href="../../index.html">← {geri}</a>
+  <a class="geri" href="../../index.html">← {GERI[dil]}</a>
   <div class="rozet">{u['emoji']} {html.escape(u['ad'])}</div>
   <div class="diller">
-    <a class="etkin" href="{dil}.html">{etiket}</a>
-    <a href="{diger}.html">{digerEtiket}</a>
+    {baglantilar}
   </div>
 </header>
 {icerik}
 <footer>Kadir Yiğit · yyggttkadir@gmail.com · {bugun}</footer>"""
-        hedef = KOK / 'uygulamalar' / u['slug'] / f'{dil}.html'
+        hedef = klasor / f'{dil}.html'
         hedef.write_text(sayfa(f"{u['ad']} — Gizlilik Politikası", u['vurgu'], govde))
         uretilen += 1
 
