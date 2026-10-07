@@ -10,7 +10,8 @@ cd "$(dirname "$0")"
 for p in "namazvakti NamazVakti" "santiyesefi SantiyeSefi" "cumlekur CumleKur" \
          "pastelpals PastelPals" "blokoblast BlokoBlast" \
          "okkacisi OkKacisi" "renksiralama RenkSiralama" "legionrun LegionRun" \
-         "minikciftlik MinikCiftlik" "minimalistsniper MinimalistSniper"; do
+         "minikciftlik MinikCiftlik" "minimalistsniper MinimalistSniper" \
+         "jellymerge JellyMerge"; do
   set -- $p
   # Güncel kopyalar 29 Eylül 2026'dan beri ~/Desktop/OYUNLAR altında; masaüstündeki
   # eski OkKacisi/RenkSiralama klasörleri bayat kaldı ve yayındaki politikayı iki gün
