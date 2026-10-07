@@ -79,5 +79,14 @@
     "cumle": "Sürükle, bırak, tık. Her şey kendi yerinde. Reklam yok, internet yok.",
     "renk": "#3B3450",
     "vurgu": "#7A5FC4"
+  },
+  {
+    "slug": "hexastack",
+    "klasor": "HexaStack",
+    "ad": "Hexa Stack",
+    "emoji": "🔷",
+    "cumle": "Sürükle, eşle, birleştir. Reklam yok, internet yok.",
+    "renk": "#3A3247",
+    "vurgu": "#5B4BC4"
   }
 ]
