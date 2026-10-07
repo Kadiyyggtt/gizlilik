@@ -6,7 +6,7 @@
 
 # CümleKur — Gizlilik Politikası
 
-**Son güncelleme:** 5 Ekim 2026
+**Son güncelleme:** 7 Ekim 2026
 
 CümleKur, Türkçe konuşanlar için yapılmış bir İngilizce öğrenme
 uygulamasıdır. Bu metin, uygulamanın hangi bilgilere dokunduğunu ve
@@ -14,7 +14,8 @@ dokunmadığını açıkça anlatır.
 
 **Kısa cevap:** Hesap açmıyorsun, kimliğini istemiyoruz, reklam yok,
 takip yok. Öğrenme ilerlemenin tamamı **yalnız senin cihazında** duruyor.
-Tek istisna çeviri özelliği — aşağıda ayrıntısıyla anlatılıyor.
+Tek istisna isteğe bağlı Google Play skor tablosu — aşağıda
+ayrıntısıyla anlatılıyor.
 
 ---
 
@@ -28,10 +29,12 @@ Uygulama şunları **istemiyor, toplamıyor ve hiçbir yere göndermiyor:**
 - Kamera ve mikrofon (izin bile istenmiyor)
 - Reklam kimliği (uygulamada reklam yoktur)
 - Kullanım istatistiği, **bize gönderilen** çökme raporu, analiz aracı
-  (aşağıdaki teknik kayıt cihazından hiç çıkmıyor)
+  (aşağıdaki teknik kayıt cihazından hiç çıkmıyor; isteğe bağlı Google
+  Play skor tablosunun kendi tanılama verisi aşağıda anlatılıyor)
 
-Hesap sistemi **yoktur.** Giriş yapmıyorsun, çünkü giriş yapılacak bir
-yer yok.
+Bizim bir hesap sistemimiz **yoktur.** Uygulamaya giriş yapmıyorsun.
+(Android'de isteğe bağlı Google Play Oyunlar girişi yalnız skor tablosu
+içindir ve Google'ın kendi hesabıdır — aşağıda.)
 
 ---
 
@@ -62,7 +65,6 @@ Yukarıdaki "toplanmıyor" listesi bu yüzden doğru kalıyor: kayıt
   **cümlenin kendisi değil**, yalnız hatanın türü saklanır)
 - Tamamladığın kelime setleri ve okuma/dinleme ilerlemen
 - Seçtiğin tema, ses ve seviye tercihlerin
-- O gün kaç çeviri yaptığın (günlük çeviri sınırı için; çevirinin kendisi değil)
 
 Bu bilgiler cihazda **şifreli** tutuluyor; şifreleme anahtarı işletim
 sisteminin güvenli deposunda duruyor. Hiçbiri cihazdan dışarı çıkmıyor.
@@ -73,52 +75,43 @@ tamamen çevrimdışı çalışır.
 
 ---
 
-## Çeviri özelliği — internete giden tek şey
+## İnternet bağlantısı
 
-Uygulamada "Türkçe → İngilizce" ekranı var. Oraya bir cümle yazıp
-çevirtirsen:
-
-1. **Yalnızca yazdığın metin** kendi sunucumuza (Cloudflare Workers)
-   gönderilir. Yanında kimlik, cihaz numarası, konum ya da başka
-   hiçbir bilgi gitmez.
-2. Sunucumuz metni, çeviriyi üretmesi için **Google'ın Gemini** yapay
-   zekâ hizmetine iletir.
-3. Çeviri geri döner ve ekranda gösterilir.
-
-**Sunucumuz yazdığın metni saklamaz, günlüğe yazmaz ve başka bir yere
-aktarmaz** — yalnızca iletir ve cevabı geri verir.
-
-Metin Google'ın hizmetine gittiği için, o aşamada Google'ın kendi
-gizlilik koşulları geçerlidir:
-<https://policies.google.com/privacy>
-
-**Bu özellik isteğe bağlıdır.** Çeviri ekranını hiç açmazsan uygulama
-hiçbir sunucuya bağlanmaz. Oyunların, derslerin ve ilerlemenin tamamı
-internetsiz çalışır.
-
-> **Öneri:** Çeviri kutusuna kişisel bilgi (ad, adres, telefon, parola
-> gibi) yazma. Bu kutu bir dil aracıdır, özel bir not defteri değildir.
+Bizim bir sunucumuz yoktur. Oyunların, derslerin ve ilerlemenin tamamı
+internetsiz çalışır. Uygulamanın internete çıktığı tek yer, aşağıda
+anlatılan isteğe bağlı Google Play skor tablosudur; ona girmezsen
+uygulama ağa hiçbir şey göndermez.
 
 ---
 
-## Hatalı çeviri bildirmek
+## Google Play skor tablosu (isteğe bağlı)
 
-Çeviriyi bir yapay zekâ üretiyor ve her zaman doğru olmayabilir. Çeviri
-sonucunun altında **"Yanlış ya da uygunsuz mu? Bildir"** bağlantısı var.
+CümleKur Android sürümünde Google Play Oyun Hizmetleri'nin **skor
+tablosunu** kullanabilir (günlük, haftalık ve tüm zamanlar; ilk 10 ve
+senin sıran). Bu özellik **isteğe bağlıdır**: Google Play Oyunlar
+hesabınla girmezsen hiçbir şey gönderilmez ve uygulama bugünkü gibi tamamen
+cihazında kalır.
 
-Bu bağlantıya dokunduğunda:
+Girersen, Google'ın kendi açıklamasına göre
+(developer.android.com/games/pgs/data-collection):
 
-1. **Kendi e-posta uygulaman** açılır — uygulama arka planda hiçbir şey
-   göndermez.
-2. Mesajın içinde yazdığın Türkçe cümle ve gelen çeviri **hazır olarak
-   durur**; göndermeden önce görürsün ve istersen silersin.
-3. Göndermeye karar verirsen mesaj doğrudan bize ulaşır.
+- **Oyuncu kimliğin** (Play Oyunlar takma adın ve avatarın) bu uygulamayla
+  paylaşılır ve skor tablosunda görünür.
+- **Skorların** (toplam XP'n) Google'ın sunucularına gönderilir ve skor
+  tablosunda gösterilir.
+- Play Oyun Hizmetleri kendi kararlılığı için **analiz ve tanılama**
+  verisi toplar.
+- Veriler aktarım sırasında **HTTPS ile şifrelenir**.
+- Profilinin kimlere görüneceğini (herkes / yalnız arkadaşlar / yalnız
+  sen) Play Oyunlar ayarlarından **sen seçersin**.
+- Bu verileri Play Oyunlar profilinden (play.google.com/games/profile)
+  ya da Google Hesabından (myaccount.google.com) **silebilirsin**.
 
-Yani bu bir **senin başlattığın** e-postadır. Göndermezsen hiçbir şey
-bize ulaşmaz.
+Bu veriler **Google'a gider, bize gelmez**: e-posta adresini, gerçek
+adını ya da konumunu görmüyoruz. Google'ın işlemesi Google Gizlilik
+Politikası'na tabidir (policies.google.com/privacy).
 
-Bildirimleri yalnızca çeviriyi düzeltmek için okuruz; başka bir yerde
-kullanmayız ve kimseyle paylaşmayız.
+iOS sürümünde skor tablosu yoktur; orada hiçbir şey gönderilmez.
 
 ---
 
@@ -136,11 +129,6 @@ Bu sürümde uygulama içi satın alma da reklam da **yoktur**. Uygulama
 mağazanın ödeme sistemine bağlanmaz, ödeme ya da kart bilgisi istemez,
 hiçbir içerik kilitli değildir.
 
-Çeviri ekranında günde 20 çeviri sınırı vardır. Bu bir satış kapısı
-değil, adil kullanım sınırıdır: çeviriyi üreten yapay zekâ hizmetinin
-ücretsiz kotası bütün kullanıcılar için ortaktır. Sayaç yalnız
-cihazında tutulur ve her gün yenilenir.
-
 ---
 
 ## Çocuklar
@@ -155,7 +143,8 @@ hiç kimseden kişisel bilgi toplamıyoruz.
 
 Tuttuğumuz hiçbir kişisel verin olmadığı için silinecek, düzeltilecek
 ya da dışa aktarılacak bir kaydın da yok. Cihazındaki ilerlemeyi
-uygulamayı silerek her zaman tamamen kaldırabilirsin.
+uygulamayı silerek her zaman tamamen kaldırabilirsin. Skor tablosu
+verilerini Play Oyunlar profilinden ya da Google Hesabından silebilirsin.
 
 ---
 

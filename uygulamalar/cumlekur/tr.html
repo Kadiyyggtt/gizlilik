@@ -62,14 +62,14 @@ footer{margin-top:56px;padding-top:20px;border-top:1px solid var(--cizgi);
   </div>
 </header>
 <h1>CümleKur — Gizlilik Politikası</h1>
-<p><strong>Son güncelleme:</strong> 5 Ekim 2026</p>
+<p><strong>Son güncelleme:</strong> 7 Ekim 2026</p>
 <p>CümleKur, Türkçe konuşanlar için yapılmış bir İngilizce öğrenme uygulamasıdır. Bu metin, uygulamanın hangi bilgilere dokunduğunu ve dokunmadığını açıkça anlatır.</p>
-<p><strong>Kısa cevap:</strong> Hesap açmıyorsun, kimliğini istemiyoruz, reklam yok, takip yok. Öğrenme ilerlemenin tamamı <strong>yalnız senin cihazında</strong> duruyor. Tek istisna çeviri özelliği — aşağıda ayrıntısıyla anlatılıyor.</p>
+<p><strong>Kısa cevap:</strong> Hesap açmıyorsun, kimliğini istemiyoruz, reklam yok, takip yok. Öğrenme ilerlemenin tamamı <strong>yalnız senin cihazında</strong> duruyor. Tek istisna isteğe bağlı Google Play skor tablosu — aşağıda ayrıntısıyla anlatılıyor.</p>
 <hr>
 <h2>Toplamadığımız şeyler</h2>
 <p>Uygulama şunları <strong>istemiyor, toplamıyor ve hiçbir yere göndermiyor:</strong></p>
-<ul><li>Ad, soyad, e-posta, telefon numarası</li><li>Konum</li><li>Rehber, takvim, fotoğraf, dosya</li><li>Kamera ve mikrofon (izin bile istenmiyor)</li><li>Reklam kimliği (uygulamada reklam yoktur)</li><li>Kullanım istatistiği, <strong>bize gönderilen</strong> çökme raporu, analiz aracı (aşağıdaki teknik kayıt cihazından hiç çıkmıyor)</li></ul>
-<p>Hesap sistemi <strong>yoktur.</strong> Giriş yapmıyorsun, çünkü giriş yapılacak bir yer yok.</p>
+<ul><li>Ad, soyad, e-posta, telefon numarası</li><li>Konum</li><li>Rehber, takvim, fotoğraf, dosya</li><li>Kamera ve mikrofon (izin bile istenmiyor)</li><li>Reklam kimliği (uygulamada reklam yoktur)</li><li>Kullanım istatistiği, <strong>bize gönderilen</strong> çökme raporu, analiz aracı (aşağıdaki teknik kayıt cihazından hiç çıkmıyor; isteğe bağlı Google Play skor tablosunun kendi tanılama verisi aşağıda anlatılıyor)</li></ul>
+<p>Bizim bir hesap sistemimiz <strong>yoktur.</strong> Uygulamaya giriş yapmıyorsun. (Android&#x27;de isteğe bağlı Google Play Oyunlar girişi yalnız skor tablosu içindir ve Google&#x27;ın kendi hesabıdır — aşağıda.)</p>
 <hr>
 <h2>Cihazında kalan teknik kayıt</h2>
 <p>CümleKur beklenmedik şekilde kapanırsa, ne olduğuna dair kısa bir teknik kayıt <strong>yalnızca telefonunda</strong> tutulur. Bu kayıt hiçbir yere gönderilmez ve hiçbir sunucuya ulaşmaz.</p>
@@ -78,40 +78,34 @@ footer{margin-top:56px;padding-top:20px;border-top:1px solid var(--cizgi);
 <p>Yukarıdaki &quot;toplanmıyor&quot; listesi bu yüzden doğru kalıyor: kayıt <strong>toplanmıyor</strong>, yalnızca senin cihazında duruyor.</p>
 <h2>Cihazında saklanan bilgiler</h2>
 <p>Şunlar <strong>yalnız kendi cihazında</strong> saklanıyor:</p>
-<ul><li>Kurduğun cümle sayısı, öğrendiğin kelimeler, XP ve günlük serin</li><li>Hangi hata türlerinde zorlandığın (koç ekranının konuşabilmesi için; <strong>cümlenin kendisi değil</strong>, yalnız hatanın türü saklanır)</li><li>Tamamladığın kelime setleri ve okuma/dinleme ilerlemen</li><li>Seçtiğin tema, ses ve seviye tercihlerin</li><li>O gün kaç çeviri yaptığın (günlük çeviri sınırı için; çevirinin kendisi değil)</li></ul>
+<ul><li>Kurduğun cümle sayısı, öğrendiğin kelimeler, XP ve günlük serin</li><li>Hangi hata türlerinde zorlandığın (koç ekranının konuşabilmesi için; <strong>cümlenin kendisi değil</strong>, yalnız hatanın türü saklanır)</li><li>Tamamladığın kelime setleri ve okuma/dinleme ilerlemen</li><li>Seçtiğin tema, ses ve seviye tercihlerin</li></ul>
 <p>Bu bilgiler cihazda <strong>şifreli</strong> tutuluyor; şifreleme anahtarı işletim sisteminin güvenli deposunda duruyor. Hiçbiri cihazdan dışarı çıkmıyor. Uygulamayı silersen hepsi silinir.</p>
 <p><strong>Kelime veritabanı</strong> (2.818 kelime) uygulamanın içinde gelir ve tamamen çevrimdışı çalışır.</p>
 <hr>
-<h2>Çeviri özelliği — internete giden tek şey</h2>
-<p>Uygulamada &quot;Türkçe → İngilizce&quot; ekranı var. Oraya bir cümle yazıp çevirtirsen:</p>
-<ol><li><strong>Yalnızca yazdığın metin</strong> kendi sunucumuza (Cloudflare Workers) gönderilir. Yanında kimlik, cihaz numarası, konum ya da başka hiçbir bilgi gitmez.</li><li>Sunucumuz metni, çeviriyi üretmesi için <strong>Google&#x27;ın Gemini</strong> yapay zekâ hizmetine iletir.</li><li>Çeviri geri döner ve ekranda gösterilir.</li></ol>
-<p><strong>Sunucumuz yazdığın metni saklamaz, günlüğe yazmaz ve başka bir yere aktarmaz</strong> — yalnızca iletir ve cevabı geri verir.</p>
-<p>Metin Google&#x27;ın hizmetine gittiği için, o aşamada Google&#x27;ın kendi gizlilik koşulları geçerlidir: <a href="https://policies.google.com/privacy">https://policies.google.com/privacy</a></p>
-<p><strong>Bu özellik isteğe bağlıdır.</strong> Çeviri ekranını hiç açmazsan uygulama hiçbir sunucuya bağlanmaz. Oyunların, derslerin ve ilerlemenin tamamı internetsiz çalışır.</p>
-<blockquote><strong>Öneri:</strong> Çeviri kutusuna kişisel bilgi (ad, adres, telefon, parola gibi) yazma. Bu kutu bir dil aracıdır, özel bir not defteri değildir.</blockquote>
+<h2>İnternet bağlantısı</h2>
+<p>Bizim bir sunucumuz yoktur. Oyunların, derslerin ve ilerlemenin tamamı internetsiz çalışır. Uygulamanın internete çıktığı tek yer, aşağıda anlatılan isteğe bağlı Google Play skor tablosudur; ona girmezsen uygulama ağa hiçbir şey göndermez.</p>
 <hr>
-<h2>Hatalı çeviri bildirmek</h2>
-<p>Çeviriyi bir yapay zekâ üretiyor ve her zaman doğru olmayabilir. Çeviri sonucunun altında <strong>&quot;Yanlış ya da uygunsuz mu? Bildir&quot;</strong> bağlantısı var.</p>
-<p>Bu bağlantıya dokunduğunda:</p>
-<ol><li><strong>Kendi e-posta uygulaman</strong> açılır — uygulama arka planda hiçbir şey göndermez.</li><li>Mesajın içinde yazdığın Türkçe cümle ve gelen çeviri <strong>hazır olarak durur</strong>; göndermeden önce görürsün ve istersen silersin.</li><li>Göndermeye karar verirsen mesaj doğrudan bize ulaşır.</li></ol>
-<p>Yani bu bir <strong>senin başlattığın</strong> e-postadır. Göndermezsen hiçbir şey bize ulaşmaz.</p>
-<p>Bildirimleri yalnızca çeviriyi düzeltmek için okuruz; başka bir yerde kullanmayız ve kimseyle paylaşmayız.</p>
+<h2>Google Play skor tablosu (isteğe bağlı)</h2>
+<p>CümleKur Android sürümünde Google Play Oyun Hizmetleri&#x27;nin <strong>skor tablosunu</strong> kullanabilir (günlük, haftalık ve tüm zamanlar; ilk 10 ve senin sıran). Bu özellik <strong>isteğe bağlıdır</strong>: Google Play Oyunlar hesabınla girmezsen hiçbir şey gönderilmez ve uygulama bugünkü gibi tamamen cihazında kalır.</p>
+<p>Girersen, Google&#x27;ın kendi açıklamasına göre (developer.android.com/games/pgs/data-collection):</p>
+<ul><li><strong>Oyuncu kimliğin</strong> (Play Oyunlar takma adın ve avatarın) bu uygulamayla paylaşılır ve skor tablosunda görünür.</li><li><strong>Skorların</strong> (toplam XP&#x27;n) Google&#x27;ın sunucularına gönderilir ve skor tablosunda gösterilir.</li><li>Play Oyun Hizmetleri kendi kararlılığı için <strong>analiz ve tanılama</strong> verisi toplar.</li><li>Veriler aktarım sırasında <strong>HTTPS ile şifrelenir</strong>.</li><li>Profilinin kimlere görüneceğini (herkes / yalnız arkadaşlar / yalnız sen) Play Oyunlar ayarlarından <strong>sen seçersin</strong>.</li><li>Bu verileri Play Oyunlar profilinden (play.google.com/games/profile) ya da Google Hesabından (myaccount.google.com) <strong>silebilirsin</strong>.</li></ul>
+<p>Bu veriler <strong>Google&#x27;a gider, bize gelmez</strong>: e-posta adresini, gerçek adını ya da konumunu görmüyoruz. Google&#x27;ın işlemesi Google Gizlilik Politikası&#x27;na tabidir (policies.google.com/privacy).</p>
+<p>iOS sürümünde skor tablosu yoktur; orada hiçbir şey gönderilmez.</p>
 <hr>
 <h2>Hatırlatma bildirimleri</h2>
 <p>Uygulama günlük çalışma hatırlatması gönderebilir. Bu bildirimler <strong>tamamen cihazında</strong> kurulur ve çalışır; bir sunucudan gönderilmez ve bildirim için hiçbir kayıt tutulmaz. Ayarlar&#x27;dan kapatabilirsin.</p>
 <hr>
 <h2>Satın alma ve reklam</h2>
 <p>Bu sürümde uygulama içi satın alma da reklam da <strong>yoktur</strong>. Uygulama mağazanın ödeme sistemine bağlanmaz, ödeme ya da kart bilgisi istemez, hiçbir içerik kilitli değildir.</p>
-<p>Çeviri ekranında günde 20 çeviri sınırı vardır. Bu bir satış kapısı değil, adil kullanım sınırıdır: çeviriyi üreten yapay zekâ hizmetinin ücretsiz kotası bütün kullanıcılar için ortaktır. Sayaç yalnız cihazında tutulur ve her gün yenilenir.</p>
 <hr>
 <h2>Çocuklar</h2>
 <p>CümleKur çocuklara yönelik değildir; hedef kitlesi ergen ve yetişkinlerdir. Çocuklardan bilerek bilgi toplamıyoruz — zaten hiç kimseden kişisel bilgi toplamıyoruz.</p>
 <hr>
 <h2>Haklarını kullanmak</h2>
-<p>Tuttuğumuz hiçbir kişisel verin olmadığı için silinecek, düzeltilecek ya da dışa aktarılacak bir kaydın da yok. Cihazındaki ilerlemeyi uygulamayı silerek her zaman tamamen kaldırabilirsin.</p>
+<p>Tuttuğumuz hiçbir kişisel verin olmadığı için silinecek, düzeltilecek ya da dışa aktarılacak bir kaydın da yok. Cihazındaki ilerlemeyi uygulamayı silerek her zaman tamamen kaldırabilirsin. Skor tablosu verilerini Play Oyunlar profilinden ya da Google Hesabından silebilirsin.</p>
 <hr>
 <h2>Değişiklikler</h2>
 <p>Bu politika değişirse yukarıdaki tarih güncellenir. Veri kullanımını genişleten bir değişiklik olursa uygulama içinde bildirilir.</p>
 <h2>İletişim</h2>
 <p>Soruların için: <strong>yyggttkadir@gmail.com</strong></p>
-<footer>Kadir Yiğit · yyggttkadir@gmail.com · 05.10.2026</footer></div></body></html>
+<footer>Kadir Yiğit · yyggttkadir@gmail.com · 07.10.2026</footer></div></body></html>

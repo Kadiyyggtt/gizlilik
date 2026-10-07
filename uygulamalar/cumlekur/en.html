@@ -62,14 +62,14 @@ footer{margin-top:56px;padding-top:20px;border-top:1px solid var(--cizgi);
   </div>
 </header>
 <h1>CümleKur — Privacy Policy</h1>
-<p><strong>Last updated:</strong> 5 October 2026</p>
+<p><strong>Last updated:</strong> 7 October 2026</p>
 <p>CümleKur is an English-learning app made for Turkish speakers. This document states plainly what the app touches and what it does not.</p>
-<p><strong>Short answer:</strong> There is no account, we never ask who you are, there are no ads and no tracking. All of your learning progress stays <strong>on your own device</strong>. The one exception is the translation feature, explained in full below.</p>
+<p><strong>Short answer:</strong> There is no account, we never ask who you are, there are no ads and no tracking. All of your learning progress stays <strong>on your own device</strong>. The only exception is the optional Google Play leaderboard — explained in full below.</p>
 <hr>
 <h2>What we never collect</h2>
 <p>The app does not request, collect or transmit:</p>
-<ul><li>Name, e-mail address or phone number</li><li>Location</li><li>Contacts, calendar, photos or files</li><li>Camera or microphone (no permission is even requested)</li><li>Advertising identifier (the app contains no ads)</li><li>Usage analytics, or crash reports <strong>sent to us</strong> (the technical log described below never leaves your device)</li></ul>
-<p>There is <strong>no account system.</strong> You do not sign in, because there is nothing to sign in to.</p>
+<ul><li>Name, e-mail address or phone number</li><li>Location</li><li>Contacts, calendar, photos or files</li><li>Camera or microphone (no permission is even requested)</li><li>Advertising identifier (the app contains no ads)</li><li>Usage analytics, or crash reports <strong>sent to us</strong> (the technical log described below never leaves your device; the optional Google Play leaderboard&#x27;s own diagnostics data is described below)</li></ul>
+<p>We have <strong>no account system.</strong> You do not sign in to the app. (On Android, the optional Google Play Games sign-in is only for the leaderboard and is Google&#x27;s own account — see below.)</p>
 <hr>
 <h2>The technical log that stays on your device</h2>
 <p>If CümleKur closes unexpectedly, a short technical log of what happened is kept <strong>on your phone only</strong>. It is never sent anywhere and never reaches any server.</p>
@@ -78,40 +78,34 @@ footer{margin-top:56px;padding-top:20px;border-top:1px solid var(--cizgi);
 <p>This is why the &quot;we never collect&quot; list above stays accurate: the log is <strong>not collected</strong>, it simply sits on your device.</p>
 <h2>What is stored on your device</h2>
 <p>The following is kept <strong>only on your own device</strong>:</p>
-<ul><li>Sentences completed, words learned, XP and your daily streak</li><li>Which kinds of mistakes you struggle with, so the coach screen can speak from real data — <strong>only the type of mistake is stored, never the sentence you wrote</strong></li><li>Word sets completed and your reading/listening progress</li><li>Your theme, voice and level preferences</li><li>How many translations you made today (for the daily translation limit; not the translations themselves)</li></ul>
+<ul><li>Sentences completed, words learned, XP and your daily streak</li><li>Which kinds of mistakes you struggle with, so the coach screen can speak from real data — <strong>only the type of mistake is stored, never the sentence you wrote</strong></li><li>Word sets completed and your reading/listening progress</li><li>Your theme, voice and level preferences</li></ul>
 <p>This data is stored <strong>encrypted</strong> on the device, with the key held in the operating system&#x27;s secure storage. None of it leaves the device. Deleting the app deletes all of it.</p>
 <p>The <strong>word database</strong> (2,818 words) ships inside the app and works entirely offline.</p>
 <hr>
-<h2>The translation feature — the only thing that goes online</h2>
-<p>The app has a &quot;Turkish → English&quot; screen. If you type a sentence there and ask for a translation:</p>
-<ol><li><strong>Only the text you typed</strong> is sent to our own server (Cloudflare Workers). No identifier, device number, location or other data is sent with it.</li><li>Our server passes the text to <strong>Google&#x27;s Gemini</strong> AI service to produce the translation.</li><li>The translation comes back and is shown on screen.</li></ol>
-<p><strong>Our server does not store your text, does not log it and does not pass it anywhere else</strong> — it forwards the request and returns the answer.</p>
-<p>Because the text reaches Google&#x27;s service, Google&#x27;s own privacy terms apply at that step: <a href="https://policies.google.com/privacy">https://policies.google.com/privacy</a></p>
-<p><strong>This feature is optional.</strong> If you never open the translation screen, the app never connects to any server. The games, lessons and all progress work without an internet connection.</p>
-<blockquote><strong>Advice:</strong> Do not type personal information (names, addresses, phone numbers, passwords) into the translation box. It is a language tool, not a private notebook.</blockquote>
+<h2>Internet connection</h2>
+<p>We do not run a server of our own. The games, lessons and all progress work without an internet connection. The only place the app goes online is the optional Google Play leaderboard described below; if you do not sign in to it, the app sends nothing over the network.</p>
 <hr>
-<h2>Reporting a bad translation</h2>
-<p>Translations are produced by an AI and may be wrong. Under every result there is a <strong>&quot;Yanlış ya da uygunsuz mu? Bildir&quot;</strong> (Wrong or inappropriate? Report) link.</p>
-<p>When you tap it:</p>
-<ol><li><strong>Your own email app</strong> opens — the app sends nothing in the background.</li><li>The Turkish sentence you typed and the translation you received are <strong>already in the message</strong>; you see them before sending and may delete them.</li><li>If you choose to send, the message reaches us directly.</li></ol>
-<p>So this is an email <strong>you</strong> start. If you do not send it, nothing reaches us.</p>
-<p>We read reports only to fix translations. We do not use them for anything else and do not share them.</p>
+<h2>Google Play leaderboard (optional)</h2>
+<p>On Android, CümleKur can use the Google Play Games Services <strong>leaderboard</strong> (daily, weekly and all-time; top 10 and your own rank). This feature is <strong>optional</strong>: if you do not sign in with your Google Play Games account, nothing is sent and the app stays entirely on your device, as before.</p>
+<p>If you do sign in, according to Google&#x27;s own disclosure (developer.android.com/games/pgs/data-collection):</p>
+<ul><li>Your <strong>gamer identity</strong> (Play Games gamertag and avatar) is shared with this app and shown on the leaderboard.</li><li>Your <strong>scores</strong> (your total XP) are sent to Google&#x27;s servers and shown on the leaderboard.</li><li>Play Games Services collects <strong>analytics and diagnostics</strong> data to keep its own SDK stable.</li><li>Data is <strong>encrypted in transit using HTTPS</strong>.</li><li><strong>You choose</strong> who can see your profile (everyone / friends only / only you) in your Play Games settings.</li><li>You can <strong>delete</strong> this data from your Play Games profile (play.google.com/games/profile) or your Google Account (myaccount.google.com).</li></ul>
+<p>This data <strong>goes to Google, not to us</strong>: we never see your e-mail address, real name or location. Google&#x27;s processing is governed by the Google Privacy Policy (policies.google.com/privacy).</p>
+<p>The iOS version has no leaderboard; nothing is sent there.</p>
 <hr>
 <h2>Reminder notifications</h2>
 <p>The app can send a daily practice reminder. These notifications are created and delivered <strong>entirely on your device</strong>; they are not sent from a server and no record is kept for them. You can turn them off in Settings.</p>
 <hr>
 <h2>Purchases and ads</h2>
 <p>This version contains <strong>no in-app purchases and no ads</strong>. The app does not connect to the store&#x27;s billing system, never asks for payment or card details, and no content is locked.</p>
-<p>The translation screen has a limit of 20 translations per day. This is a fair-use limit, not a sales gate: the free quota of the AI service that produces the translations is shared by all users. The counter is kept only on your device and resets every day.</p>
 <hr>
 <h2>Children</h2>
 <p>CümleKur is not directed at children; it is intended for teenagers and adults. We do not knowingly collect information from children — we do not collect personal information from anyone.</p>
 <hr>
 <h2>Your rights</h2>
-<p>Because we hold no personal data about you, there is nothing to delete, correct or export. You can remove all on-device progress at any time by deleting the app.</p>
+<p>Because we hold no personal data about you, there is nothing to delete, correct or export. You can remove all on-device progress at any time by deleting the app, and leaderboard data from your Play Games profile or your Google Account.</p>
 <hr>
 <h2>Changes</h2>
 <p>If this policy changes, the date above is updated. If a change ever widens how data is used, it will be announced inside the app.</p>
 <h2>Contact</h2>
 <p>Questions: <strong>yyggttkadir@gmail.com</strong></p>
-<footer>Kadir Yiğit · yyggttkadir@gmail.com · 05.10.2026</footer></div></body></html>
+<footer>Kadir Yiğit · yyggttkadir@gmail.com · 07.10.2026</footer></div></body></html>
