@@ -79,5 +79,14 @@
     "cumle": "Hayvanlarını besle, yıka, oyna. Reklam yok, satın alma yok.",
     "renk": "#2E6B3A",
     "vurgu": "#3F8F4E"
+  },
+  {
+    "slug": "minimalistsniper",
+    "klasor": "MinimalistSniper",
+    "ad": "Minimalist Sniper",
+    "emoji": "🎯",
+    "cumle": "Basılı tut, nişan al, bırak ve vur. Reklam yok, internet yok.",
+    "renk": "#27304A",
+    "vurgu": "#C63B32"
   }
 ]
