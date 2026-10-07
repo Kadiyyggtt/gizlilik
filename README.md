@@ -1,20 +1,17 @@
 # Gizlilik Politikaları
 
-Mobil uygulamaların gizlilik politikaları, Türkçe ve İngilizce (Minik Çiftlik ayrıca İspanyolca).
+Mobil uygulamaların gizlilik politikaları, Türkçe ve İngilizce.
 
 **https://kadiyyggtt.github.io/gizlilik/**
 
 | Uygulama | Türkçe | English |
 |---|---|---|
 | 🕌 Namaz Vakti | [tr](uygulamalar/namazvakti/tr.md) | [en](uygulamalar/namazvakti/en.md) |
-| 🚜 Şantiye Şefi | [tr](uygulamalar/santiyesefi/tr.md) | [en](uygulamalar/santiyesefi/en.md) |
 | 📚 CümleKur | [tr](uygulamalar/cumlekur/tr.md) | [en](uygulamalar/cumlekur/en.md) |
-| 🎀 PastelPals | [tr](uygulamalar/pastelpals/tr.md) | [en](uygulamalar/pastelpals/en.md) |
 | 🧩 BlokoBlast | [tr](uygulamalar/blokoblast/tr.md) | [en](uygulamalar/blokoblast/en.md) |
 | ➡️ Ok Kaçışı | [tr](uygulamalar/okkacisi/tr.md) | [en](uygulamalar/okkacisi/en.md) |
 | 🧪 Renk Sıralama | [tr](uygulamalar/renksiralama/tr.md) | [en](uygulamalar/renksiralama/en.md) |
 | 🛡️ Legion Run | [tr](uygulamalar/legionrun/tr.md) | [en](uygulamalar/legionrun/en.md) |
-| 🐣 Minik Çiftlik | [tr](uygulamalar/minikciftlik/tr.md) | [en](uygulamalar/minikciftlik/en.md) · [es](uygulamalar/minikciftlik/es.md) |
 
 ## Bu depo neden açık
 

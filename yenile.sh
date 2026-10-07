@@ -7,10 +7,10 @@
 #     && git -C ~/Desktop/gizlilik push
 set -eu
 cd "$(dirname "$0")"
-for p in "namazvakti NamazVakti" "santiyesefi SantiyeSefi" "cumlekur CumleKur" \
-         "pastelpals PastelPals" "blokoblast BlokoBlast" \
+for p in "namazvakti NamazVakti" "cumlekur CumleKur" \
+         "blokoblast BlokoBlast" \
          "okkacisi OkKacisi" "renksiralama RenkSiralama" "legionrun LegionRun" \
-         "minikciftlik MinikCiftlik" "minimalistsniper MinimalistSniper" \
+         "minimalistsniper MinimalistSniper" \
          "jellymerge JellyMerge"; do
   set -- $p
   # Güncel kopyalar 29 Eylül 2026'dan beri ~/Desktop/OYUNLAR altında; masaüstündeki

@@ -92,7 +92,7 @@ def markdown_html(kaynak: str) -> str:
         # DEVAM SATIRLARI ÖĞEYE KATILIYOR. İlk yazımda her satır ayrı bir
         # öğeydi ve iki satıra yayılan bir öğe ikiye bölünüyordu; ortasında
         # kalın yazı varsa `**` işareti ekranda ÇİĞ kalıyordu. İki sayfada
-        # tam olarak bu oldu (ŞantiyeSefi EN, CümleKur TR).
+        # tam olarak bu oldu (bir uygulama EN, CümleKur TR).
         def liste_topla(isaret: str, baslangic: int) -> tuple[list[str], int]:
             ogeler: list[str] = []
             j = baslangic
@@ -199,7 +199,7 @@ GERI = {'tr': 'Tüm uygulamalar', 'en': 'All apps', 'es': 'Todas las apps'}
 
 for u in UYGULAMALAR:
     klasor = KOK / 'uygulamalar' / u['slug']
-    # tr ve en zorunlu; es yalnız dosyası varsa (Minik Çiftlik üç dilde).
+    # tr ve en zorunlu; es yalnız dosyası varsa.
     mevcut = [(d, e) for d, e in DILLER if d in ('tr', 'en') or (klasor / f'{d}.md').exists()]
     for dil, etiket in mevcut:
         kaynak = (klasor / f'{dil}.md').read_text()
