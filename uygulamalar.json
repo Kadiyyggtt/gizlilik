@@ -97,5 +97,14 @@
     "cumle": "Düşür, eşle, birleştir. Reklamsız, internetsiz.",
     "renk": "#2B2140",
     "vurgu": "#CF3256"
+  },
+  {
+    "slug": "cozyshelf",
+    "klasor": "CozyShelf",
+    "ad": "Cozy Shelf",
+    "emoji": "📚",
+    "cumle": "Sürükle, bırak, tık. Her şey kendi yerinde. Reklam yok, internet yok.",
+    "renk": "#3B3450",
+    "vurgu": "#7A5FC4"
   }
 ]
