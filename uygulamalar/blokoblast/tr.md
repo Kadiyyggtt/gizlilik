@@ -6,14 +6,14 @@
 
 # Bloko Blast — Gizlilik Politikası
 
-**Son güncelleme:** 12 Eylül 2026
+**Son güncelleme:** 8 Ekim 2026
 
 Bloko Blast bir bulmaca oyunudur. Bu metin, oyunun hangi bilgilere
 dokunduğunu ve dokunmadığını açıkça anlatır.
 
-**Kısa cevap: hiçbir bilgi toplanmıyor.** Hesap yok, reklam yok,
-internet gerekmiyor, sana sorulan hiçbir izin yok. Oyun tamamen
-cihazında çalışıyor.
+**Kısa cevap: biz hiçbir bilgi toplamıyoruz.** Hesap yok, reklam yok,
+oynamak için internet gerekmiyor, sana sorulan hiçbir izin yok. Oyun
+tamamen cihazında çalışıyor ve hiçbir sunucuya bağlanmıyor.
 
 ---
 
@@ -50,16 +50,18 @@ Yukarıdaki "toplanmıyor" listesi bu yüzden doğru kalıyor: kayıt
 ## İzinler
 
 **Sana sorulan hiçbir izin yok.** Konum, kamera, mikrofon, kişiler,
-fotoğraf ve depolama izinlerinin hiçbiri istenmiyor.
+fotoğraf ve depolama izinlerinin hiçbiri istenmiyor. **İnternet izni de
+yok** — oyun ağa çıkamaz.
 
-Mağaza sayfasında üç teknik izin görünüyor. Bunlar Android'in kurulumda
-kendiliğinden verdiği, onay kutusu çıkarmayan izinlerdir:
+Mağaza sayfasında dört teknik izin görünebilir. Bunlar Android'in
+kurulumda kendiliğinden verdiği, onay kutusu çıkarmayan izinlerdir:
 
 | İzin | Neden |
 |---|---|
 | Titreşim | Parça yerleşince ve satır patlayınca kısa titreşim — Ayarlar'dan kapatılabilir |
 | Ses ayarları | Oyun seslerinin telefonun kendi müziğini kesmemesi için |
-| İnternet | Uygulama çatısı ekliyor. **Oyun hiçbir sunucuya bağlanmıyor** — uçak modunda da eksiksiz çalışır |
+| Ağ bağlantılarını görme | Android'in ses çalma kütüphanesi (AndroidX Media3) ekliyor. Oyun bunu kullanmaz; internet izni olmadığı için hiçbir bağlantı kuramaz |
+| Telefonun uykuya geçmesini önleme | Aynı ses kütüphanesi ekliyor (ses çalarken kesilmesin diye). Oyun ekranı kendisi açık tutmaz |
 
 Hesap sistemi **yoktur.**
 
@@ -68,7 +70,15 @@ Hesap sistemi **yoktur.**
 ## İnternet
 
 **Oyun internetsiz çalışır.** Hiçbir sunucuya bağlanmaz, hiçbir istek
-göndermez. Uçak modunda da tamamen oynanır.
+göndermez; pakette internet izni bile yoktur. Uçak modunda da tamamen
+oynanır.
+
+Ayarlar'daki **Gizlilik politikası** satırı bu sayfayı telefonunun
+kendi tarayıcısında açar; o bağlantıyı oyun değil tarayıcı kurar.
+
+Bu sürümde Google Play skor tablosu **yoktur**; Google Play Oyun
+Hizmetleri pakete hiç girmez. İleride eklenirse bu politika **önceden**
+güncellenir.
 
 ---
 
@@ -76,7 +86,9 @@ göndermez. Uçak modunda da tamamen oynanır.
 
 Yalnız **kendi cihazında** şunlar tutuluyor:
 
-- En yüksek skorun, seviyen ve günlük serin
+- En yüksek skorun, oynadığın oyun sayısı, en yüksek combo'n, coin'lerin,
+  günlük serin ve Günlük Meydan Okuma skorun
+- Yarım kalan oyunun (kaldığın yerden devam edebilmen için)
 - Açtığın temalar ve ayarların (ses, titreşim, dil)
 
 Bu bilgiler cihazdan çıkmaz. Oyunu silersen hepsi silinir.
@@ -103,8 +115,8 @@ açıdan bir risk taşımaz.
 
 ## Haklarını kullanmak
 
-Tuttuğumuz hiçbir kişisel verin olmadığı için silinecek, düzeltilecek ya
-da dışa aktarılacak bir kaydın da yok. Cihazındaki oyun ilerlemesini,
+Tuttuğumuz hiçbir kişisel verin olmadığı için bizde silinecek, düzeltilecek
+ya da dışa aktarılacak bir kaydın da yok. Cihazındaki oyun ilerlemesini,
 oyunu silerek tamamen kaldırabilirsin.
 
 ## İletişim

@@ -88,5 +88,23 @@
     "cumle": "Sürükle, eşle, birleştir. Reklam yok, internet yok.",
     "renk": "#3A3247",
     "vurgu": "#5B4BC4"
+  },
+  {
+    "slug": "orbitjump",
+    "klasor": "OrbitJump",
+    "ad": "Orbit Jump",
+    "emoji": "🪐",
+    "cumle": "Dokun, yörünge değiştir, yüksel. Reklam yok, internet yok.",
+    "renk": "#1B1F3B",
+    "vurgu": "#7C6CF2"
+  },
+  {
+    "slug": "tinyisles",
+    "klasor": "TinyIsles",
+    "ad": "Tiny Isles",
+    "emoji": "🏝️",
+    "cumle": "Topla, kur, adanı büyüt. Reklam yok, internet yok.",
+    "renk": "#1F4A5A",
+    "vurgu": "#2FA57A"
   }
 ]

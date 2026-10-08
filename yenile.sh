@@ -11,14 +11,26 @@ for p in "namazvakti NamazVakti" "cumlekur CumleKur" \
          "blokoblast BlokoBlast" \
          "okkacisi OkKacisi" "renksiralama RenkSiralama" "legionrun LegionRun" \
          "minimalistsniper MinimalistSniper" \
-         "jellymerge JellyMerge"; do
+         "jellymerge JellyMerge" "cozyshelf CozyShelf" "hexastack HexaStack" \
+         "orbitjump OrbitJump" "tinyisles TinyIsles"; do
   set -- $p
   # Güncel kopyalar 29 Eylül 2026'dan beri ~/Desktop/OYUNLAR altında; masaüstündeki
   # eski OkKacisi/RenkSiralama klasörleri bayat kaldı ve yayındaki politikayı iki gün
   # "reklam var" diye gösterdi. Önce OYUNLAR'a bakılır.
   # Proje klasörü hiçbir yerde yoksa (silinmiş olabilir) buradaki kopya korunur;
   # asıl metin o zaman uygulamanın GitHub deposundadır.
-  if [ -d "../OYUNLAR/$2" ]; then
+  # 5 Ekim 2026'dan beri uygulamalar harici SSD'de. Önce orası; SSD takılı
+  # değilse eski yollara düşülür. Kopyalamadan önce o depo origin/main ile
+  # aynı olmalı (bayat SSD kopyası bir kez eski politikayı yayına taşımıştı).
+  SSD="/Volumes/Yer/mobil uygulamalar/$2"
+  if [ -f "$SSD/GIZLILIK-POLITIKASI.md" ]; then
+    mkdir -p "uygulamalar/$1"
+    cp "$SSD/GIZLILIK-POLITIKASI.md" "uygulamalar/$1/tr.md"
+    cp "$SSD/PRIVACY-POLICY.md"      "uygulamalar/$1/en.md"
+    if [ -f "$SSD/POLITICA-DE-PRIVACIDAD.md" ]; then
+      cp "$SSD/POLITICA-DE-PRIVACIDAD.md" "uygulamalar/$1/es.md"
+    fi
+  elif [ -d "../OYUNLAR/$2" ]; then
     cp "../OYUNLAR/$2/GIZLILIK-POLITIKASI.md" "uygulamalar/$1/tr.md"
     cp "../OYUNLAR/$2/PRIVACY-POLICY.md"      "uygulamalar/$1/en.md"
     if [ -f "../OYUNLAR/$2/POLITICA-DE-PRIVACIDAD.md" ]; then

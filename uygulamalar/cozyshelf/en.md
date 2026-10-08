@@ -9,7 +9,7 @@ Last updated: 7 October 2026
 - **No ads, no purchases.** This version contains no advertising and no real-money purchases. In-game stars are earned only by playing and are only used to decorate the in-game room.
 - **No analytics or tracking.** No usage statistics, advertising ID or location are collected.
 - **Progress stays on your phone.** Your level, stars, the things in your rooms and the colours you chose, your sound packs, your album, your daily task progress, your day streak and your settings (sound, vibration, language) are stored only in the app's folder on your device and are deleted when you uninstall the app.
-- **Permissions:** only *vibration* (for in-game feedback; can be turned off in Settings).
+- **Permissions:** only **vibration** (for in-game feedback; can be turned off in Settings).
 - **Children:** there is no violence, no chat and no contact with other players; collecting no personal data, the game collects none from children.
 
 If this policy changes, this page will be updated. Questions: yyggttkadir@gmail.com

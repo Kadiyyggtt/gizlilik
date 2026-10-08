@@ -62,18 +62,20 @@ footer{margin-top:56px;padding-top:20px;border-top:1px solid var(--cizgi);
   </div>
 </header>
 <h1>Renk Sıralama — Gizlilik Politikası</h1>
-<p><strong>Son güncelleme:</strong> 29 Eylül 2026</p>
+<p><strong>Son güncelleme:</strong> 8 Ekim 2026</p>
 <p>Renk Sıralama bir bulmaca oyunudur. Bu metin, oyunun hangi bilgilere dokunduğunu ve dokunmadığını açıkça anlatır.</p>
-<p><strong>Kısa cevap:</strong> Bu sürümde reklam yok, satın alma yok, hesap yok, bizim sunucumuz yok. Oyun hiçbir bilgi toplamıyor ve hiçbir yere göndermiyor. Tamamen çevrimdışı çalışır.</p>
+<p><strong>Kısa cevap:</strong> Bu sürümde reklam yok, satın alma yok, hesap yok, bizim sunucumuz yok. Biz hiçbir bilgi toplamıyoruz; oyun tamamen çevrimdışı oynanır. Tek istisna isteğe bağlı <strong>Google Play skor tablosudur</strong>: Play Oyunlar hesabınla girersen ilerlemen ve oyuncu kimliğin Google&#x27;a gider (aşağıda).</p>
 <hr>
 <h2>Toplamadığımız şeyler</h2>
 <p>Oyun şunları <strong>istemiyor ve toplamıyor:</strong></p>
 <ul><li>Ad, e-posta, telefon numarası, doğum tarihi</li><li>Konum</li><li>Rehber, takvim, fotoğraf, dosya</li><li>Kamera ve mikrofon</li><li>Reklam kimliği ya da başka bir cihaz kimliği</li><li>Kullanım istatistiği, analiz aracı, bize gönderilen çökme raporu</li></ul>
-<p>Hesap sistemi <strong>yoktur.</strong> Bize ait bir sunucu <strong>yoktur.</strong> Oyunda üçüncü taraf reklam ya da ölçüm yazılımı <strong>yoktur.</strong></p>
+<p>Hesap sistemi <strong>yoktur.</strong> Bize ait bir sunucu <strong>yoktur.</strong> Oyunda üçüncü taraf reklam ya da ölçüm yazılımı <strong>yoktur.</strong> (İsteğe bağlı Google Play skor tablosunun kendi tanılama verisi aşağıda anlatılıyor.)</p>
 <h2>İzinler</h2>
 <p><strong>Sana sorulan hiçbir izin yok.</strong> Konum, kamera, mikrofon, kişiler, fotoğraf ve depolama izinlerinin hiçbiri istenmiyor. iOS&#x27;ta &quot;izleme izni&quot; penceresi çıkmaz.</p>
 <p>Mağaza sayfasında görünebilecek teknik izinler, Android&#x27;in kurulumda kendiliğinden verdiği ve onay kutusu çıkarmayan izinlerdir:</p>
-<table><thead><tr><th>İzin</th><th>Neden</th></tr></thead><tbody><tr><td>Titreşim</td><td>Top yerleşince ve tüp tamamlanınca kısa titreşim — Ayarlar&#x27;dan kapatılabilir</td></tr><tr><td>Ses ayarları</td><td>Oyun seslerinin telefonun kendi müziğini kesmemesi için</td></tr><tr><td>İnternet</td><td>Uygulama çatısının varsayılanı; oyun internete <strong>bağlanmaz</strong></td></tr></tbody></table>
+<table><thead><tr><th>İzin</th><th>Neden</th></tr></thead><tbody><tr><td>Titreşim</td><td>Top yerleşince ve tüp tamamlanınca kısa titreşim — Ayarlar&#x27;dan kapatılabilir</td></tr><tr><td>Ses ayarları</td><td>Oyun seslerinin telefonun kendi müziğini kesmemesi için</td></tr><tr><td>İnternet</td><td>Yalnız isteğe bağlı Google Play skor tablosu için — oyunun kendisi internetsiz çalışır</td></tr><tr><td>Ağ durumunu görme</td><td>Oyun seslerini çalan Android ses kütüphanesi (AndroidX Media3) kendiliğinden ekler; oyun bununla hiçbir şey göndermez</td></tr><tr><td>Cihazı uyanık tutma</td><td>Aynı ses kütüphanesi kendiliğinden ekler</td></tr></tbody></table>
+<p>Android&#x27;in kendi kütüphanesi ayrıca yalnız oyunun kendi içinde kullanılan bir iç izin ekler (<code>…DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION</code>); başka uygulamalara hiçbir şey açmaz, sana hiçbir şey sormaz.</p>
+<p>Skor tablosu açık olmayan sürümlerde Google Play Oyun Hizmetleri kütüphanesi pakette <strong>hiç yoktur</strong>.</p>
 <p>Reklam kimliği izni (Android) açıkça <strong>engellenmiştir.</strong></p>
 <hr>
 <h2>Reklam ve satın alma</h2>
@@ -81,18 +83,25 @@ footer{margin-top:56px;padding-top:20px;border-top:1px solid var(--cizgi);
 <p>İleride bir güncellemeyle reklam eklenirse, bu politika o güncellemeden <strong>önce</strong> değiştirilir ve neyin paylaşıldığı burada tek tek yazılır.</p>
 <hr>
 <h2>İnternet</h2>
-<p>Oyun internetsiz çalışır: bölümler telefonunda üretilir, ilerlemen telefonunda saklanır. Oyun hiçbir sunucuya bağlanmaz.</p>
+<p>Oyun internetsiz çalışır: bölümler telefonunda üretilir, ilerlemen telefonunda saklanır. İnternete yalnız Google Play skor tablosu (Play Oyunlar hesabınla girdiysen) bağlanır; çevrimdışıyken skor sessizce atlanır, oyun beklemez.</p>
+<hr>
+<h2>Google Play skor tablosu (isteğe bağlı)</h2>
+<p>Renk Sıralama Android sürümünde Google Play Oyun Hizmetleri&#x27;nin <strong>skor tablosunu</strong> kullanabilir (günlük, haftalık ve tüm zamanlar; ilk 10 ve senin sıran). Bu özellik <strong>isteğe bağlıdır</strong>: Google Play Oyunlar hesabınla girmezsen hiçbir şey gönderilmez ve oyun bugünkü gibi tamamen cihazında kalır.</p>
+<p>Girersen, Google&#x27;ın kendi açıklamasına göre (developer.android.com/games/pgs/data-collection):</p>
+<ul><li><strong>Oyuncu kimliğin</strong> (Play Oyunlar takma adın ve avatarın) bu oyunla paylaşılır ve skor tablosunda görünür.</li><li><strong>Skorların</strong> (bitirdiğin en yüksek bölüm) Google&#x27;ın sunucularına gönderilir ve skor tablosunda gösterilir.</li><li>Play Oyun Hizmetleri kendi kararlılığı için <strong>analiz ve tanılama</strong> verisi toplar.</li><li>Veriler aktarım sırasında <strong>HTTPS ile şifrelenir</strong>.</li><li>Profilinin kimlere görüneceğini (herkes / yalnız arkadaşlar / yalnız sen) Play Oyunlar ayarlarından <strong>sen seçersin</strong>.</li><li>Bu verileri Play Oyunlar profilinden (play.google.com/games/profile) ya da Google Hesabından (myaccount.google.com) <strong>silebilirsin</strong>.</li></ul>
+<p>Bu veriler <strong>Google&#x27;a gider, bize gelmez</strong>: e-posta adresini, gerçek adını ya da konumunu görmüyoruz. Google&#x27;ın işlemesi Google Gizlilik Politikası&#x27;na tabidir (policies.google.com/privacy).</p>
+<p>iOS sürümünde skor tablosu yoktur; orada hiçbir şey gönderilmez.</p>
 <hr>
 <h2>Cihazında saklananlar</h2>
 <p>Yalnız <strong>kendi cihazında</strong> şunlar tutuluyor:</p>
 <ul><li>Hangi bölüme geldiğin ve tamamladığın en yüksek bölüm</li><li>Yarım kalan bölümün (kaldığın yerden devam edebilmen için)</li><li>Açtığın ve seçtiğin top görünümleri ile temalar</li><li>Ayarların (ses, titreşim, dil, renk körü modu)</li><li><strong>Teknik kayıt:</strong> oyun beklenmedik şekilde kapanırsa kısa bir hata kaydı (en fazla 10 kayıt). Kayıt telefonda kalır, bize gönderilmez; <strong>Ayarlar → Teknik kayıt</strong> ekranından görebilir ve silebilirsin.</li></ul>
-<p>Bunlar hiçbir yere gönderilmez. <strong>Ayarlar → Oyunu sıfırla</strong> ile ilerlemeyi silebilirsin; oyunu silmek de tamamını kaldırır.</p>
+<p>Bunlar hiçbir yere gönderilmez (yalnız yukarıdaki skor tablosu sayısı, giriş yaptıysan Google&#x27;a gider). <strong>Ayarlar → Oyunu sıfırla</strong> ile ilerlemeyi silebilirsin; oyunu silmek de tamamını kaldırır.</p>
 <hr>
 <h2>Çocuklar</h2>
-<p>Renk Sıralama çocuklara yönelik bir uygulama olarak sunulmamaktadır. Hesap, veri toplama ve reklam olmadığı için kişisel bilgi riski taşımaz.</p>
+<p>Renk Sıralama çocuklara yönelik bir uygulama olarak sunulmamaktadır. Hesap ve reklam yoktur, biz veri toplamıyoruz; skor tablosu isteğe bağlıdır ve Google Play Oyunlar hesabıyla girilmeden hiçbir şey göndermez.</p>
 <hr>
 <h2>Haklarını kullanmak</h2>
-<p>Bizde tuttuğumuz hiçbir kişisel verin olmadığı için bizden silinecek, düzeltilecek ya da dışa aktarılacak bir kaydın da yok. Cihazındaki ilerlemeyi oyun içinden sıfırlayabilir ya da oyunu silerek tamamen kaldırabilirsin.</p>
+<p>Bizde tuttuğumuz hiçbir kişisel verin olmadığı için bizden silinecek, düzeltilecek ya da dışa aktarılacak bir kaydın da yok. Cihazındaki ilerlemeyi oyun içinden sıfırlayabilir ya da oyunu silerek tamamen kaldırabilirsin. Skor tablosu verilerini Play Oyunlar profilinden ya da Google Hesabından silebilirsin.</p>
 <h2>İletişim</h2>
 <p>Soruların için: <strong>yyggttkadir@gmail.com</strong></p>
-<footer>Kadir Yiğit · yyggttkadir@gmail.com · 05.10.2026</footer></div></body></html>
+<footer>Kadir Yiğit · yyggttkadir@gmail.com · 08.10.2026</footer></div></body></html>

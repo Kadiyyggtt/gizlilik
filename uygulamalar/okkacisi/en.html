@@ -1,8 +1,8 @@
 <!doctype html>
-<html lang="tr"><head>
+<html lang="en"><head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Ok Kaçışı — Gizlilik Politikası</title>
+<title>Ok Kaçışı — Privacy Policy</title>
 <style>
 :root{--zemin:#FAF9FC;--kart:#FFFFFF;--yazi:#22202A;--soluk:#5E5A6B;
        --cizgi:#E6E2ED;--vurgu:#FF6B47}
@@ -62,36 +62,44 @@ footer{margin-top:56px;padding-top:20px;border-top:1px solid var(--cizgi);
   </div>
 </header>
 <h1>Arrow Escape (Ok Kaçışı) — Privacy Policy</h1>
-<p><strong>Last updated:</strong> 29 September 2026</p>
+<p><strong>Last updated:</strong> 8 October 2026</p>
 <p>Arrow Escape is a puzzle game. This page explains plainly which information the game touches and which it does not.</p>
-<p><strong>Short answer:</strong> No account, no sign-up, no server of ours. This version has <strong>no ads and no in-app purchases.</strong> The game collects no information, sends nothing anywhere, and works offline.</p>
+<p><strong>Short answer:</strong> No account, no sign-up, no server of ours. This version has <strong>no ads and no in-app purchases.</strong> We collect no information and the game plays offline. The one exception is the optional <strong>Google Play leaderboard</strong>: if you sign in with Play Games, your progress numbers and gamer identity go to Google (see below).</p>
 <hr>
 <h2>What we do not collect</h2>
 <p>The game does <strong>not ask for or collect:</strong></p>
 <ul><li>Name, email, phone number, date of birth</li><li>Location</li><li>Contacts, calendar, photos, files</li><li>Camera or microphone</li><li>Advertising ID or any other device identifier</li><li>Usage statistics, crash reports, analytics</li></ul>
-<p>There is <strong>no</strong> account system and <strong>no</strong> server of ours. No third-party advertising, measurement or analytics library is included.</p>
+<p>There is <strong>no</strong> account system and <strong>no</strong> server of ours. No third-party advertising, measurement or analytics library is included. (The optional Google Play leaderboard&#x27;s own diagnostics data is described below.)</p>
 <h2>Permissions</h2>
 <p><strong>You are not asked for any permission.</strong> Location, camera, microphone, contacts, photos and storage are never requested. On iOS there is no &quot;allow tracking&quot; prompt — no tracking takes place.</p>
 <p>Technical permissions that may appear on the store page are granted automatically by Android at install time without a prompt:</p>
-<table><thead><tr><th>Permission</th><th>Why</th></tr></thead><tbody><tr><td>Vibration</td><td>A short buzz when an arrow collides and when a level ends — can be turned off in Settings</td></tr><tr><td>Audio settings</td><td>So game sounds do not interrupt your own music</td></tr></tbody></table>
+<table><thead><tr><th>Permission</th><th>Why</th></tr></thead><tbody><tr><td>Vibration</td><td>A short buzz when an arrow collides and when a level ends — can be turned off in Settings</td></tr><tr><td>Audio settings</td><td>So game sounds do not interrupt your own music</td></tr><tr><td>Internet</td><td>Only for the optional Google Play leaderboard (in versions where it is switched on) — the game itself works offline and connects nowhere else. The permission ships with Expo&#x27;s standard components</td></tr><tr><td>View network connections</td><td>Comes from the audio playback library (AndroidX Media3); the game does not read this information or send it anywhere</td></tr><tr><td>Prevent phone from sleeping</td><td>Comes from the same audio library; the game does not use it and plays no sound in the background</td></tr></tbody></table>
+<p>The package also contains an internal permission defined by Android&#x27;s own library for in-app security (<code>…DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION</code>); you are never asked for it and it opens nothing to other apps.</p>
 <p>Android&#x27;s advertising-ID permission (AD_ID) is <strong>explicitly blocked</strong> in the app.</p>
 <hr>
 <h2>Internet</h2>
-<p>The game works offline: levels are generated on your phone and your progress is stored on your phone. The game does not connect to any server.</p>
+<p>The game works offline: levels are generated on your phone and your progress is stored on your phone. Only the Google Play leaderboard (if you signed in with Play Games) goes online; while offline a score is silently skipped and the game never waits.</p>
+<hr>
+<h2>Google Play leaderboard (optional)</h2>
+<p>On Android, Arrow Escape can use the Google Play Games Services <strong>leaderboard</strong> (daily, weekly and all-time; top 10 and your own rank). This feature is <strong>optional</strong>: if you do not sign in with your Google Play Games account, nothing is sent and the game stays entirely on your device, as before.</p>
+<p>If you do sign in, according to Google&#x27;s own disclosure (developer.android.com/games/pgs/data-collection):</p>
+<ul><li>Your <strong>gamer identity</strong> (Play Games gamertag and avatar) is shared with this game and shown on the leaderboard.</li><li>Your <strong>scores</strong> (the highest level you have completed and your total stars) are sent to Google&#x27;s servers and shown on the leaderboard.</li><li>Play Games Services collects <strong>analytics and diagnostics</strong> data to keep its own SDK stable.</li><li>Data is <strong>encrypted in transit using HTTPS</strong>.</li><li><strong>You choose</strong> who can see your profile (everyone / friends only / only you) in your Play Games settings.</li><li>You can <strong>delete</strong> this data from your Play Games profile (play.google.com/games/profile) or your Google Account (myaccount.google.com).</li></ul>
+<p>This data <strong>goes to Google, not to us</strong>: we never see your e-mail address, real name or location. Google&#x27;s processing is governed by the Google Privacy Policy (policies.google.com/privacy).</p>
+<p>The iOS version has no leaderboard; nothing is sent there.</p>
 <hr>
 <h2>What is stored on your device</h2>
 <p>Only <strong>on your own device</strong>:</p>
 <ul><li>Which level you reached and your stars per level</li><li>The moves, lives and hints used in a level you left unfinished (so you can continue where you stopped after closing the app)</li><li>Your settings (sound, vibration, language)</li></ul>
-<p>None of this is sent anywhere. <strong>Settings → Reset game</strong> deletes all of it; uninstalling the game removes it entirely.</p>
+<p>None of this is sent anywhere (only the leaderboard numbers above go to Google, if you signed in). <strong>Settings → Reset game</strong> deletes all of it; uninstalling the game removes it entirely.</p>
 <hr>
 <h2>Future versions</h2>
 <p>If a later update adds advertising or any other feature, this policy will be changed <strong>before</strong> that update is published, and the change will be described here.</p>
 <hr>
 <h2>Children</h2>
-<p>Arrow Escape is not presented as an app made for children; since it collects no personal data and shows no ads, it is safe to play at any age.</p>
+<p>Arrow Escape is not presented as an app made for children; we collect no personal data and there are no ads; the leaderboard is optional and sends nothing unless the player signs in to Google Play Games.</p>
 <hr>
 <h2>Your rights</h2>
-<p>We hold no personal data about you, so there is nothing to delete, correct or export on our side. You can reset your progress in the game or uninstall it to remove everything.</p>
+<p>We hold no personal data about you, so there is nothing to delete, correct or export on our side. You can reset your progress in the game or uninstall it to remove everything, and delete leaderboard data from your Play Games profile or your Google Account.</p>
 <h2>Contact</h2>
 <p>Questions: <strong>yyggttkadir@gmail.com</strong></p>
-<footer>Kadir Yiğit · yyggttkadir@gmail.com · 05.10.2026</footer></div></body></html>
+<footer>Kadir Yiğit · yyggttkadir@gmail.com · 08.10.2026</footer></div></body></html>

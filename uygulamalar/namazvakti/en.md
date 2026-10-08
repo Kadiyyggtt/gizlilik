@@ -6,7 +6,7 @@
 
 # NamazVakti — Privacy Policy
 
-**Last updated:** 12 September 2026
+**Last updated:** 8 October 2026
 
 This policy applies to the **NamazVakti** application.
 
@@ -16,8 +16,10 @@ This policy applies to the **NamazVakti** application.
 
 **NamazVakti collects, stores and shares no personal data.**
 
-Your location is used only inside your device, to calculate prayer times, and
-**is never sent anywhere**. You do not need to register, no account is asked
+Your location is used inside your device, to calculate prayer times, and
+**is never sent to us or to any other server.** The one exception is the
+lookup your phone's own address service performs to show a city name on
+screen (described below). You do not need to register, no account is asked
 for, and no advertising is shown.
 
 ---
@@ -43,8 +45,11 @@ app asks for location permission.
   not asked for permission every time you open the app.
 - Deleting the app deletes this information with it.
 
-**If you deny permission:** the app keeps working; you select your location
-manually to see the times.
+**If you deny permission:** prayer times, prayer notifications and the qibla
+direction cannot be shown; the app has no way to pick a location manually.
+The Quran translation and recitations, the Names of Allah, supplications,
+tesbihat and the verse of the day keep working. You can grant the permission
+later in your phone's settings.
 
 ## Internet use
 
@@ -52,8 +57,8 @@ The app's **core features work without internet:**
 
 - Prayer times are calculated on the device
 - The qibla direction is calculated on the device
-- The Quran text, translation, transliteration, Names of Allah, supplications
-  and the verse of the day are stored on the device
+- The Quran translation, supplication transliterations, Names of Allah,
+  supplications and the verse of the day are stored on the device
 
 Internet is used for **one thing only**: listening to surah recitations. The
 audio files are served from `mp3quran.net`. Unless you play a recitation, the
@@ -66,11 +71,12 @@ identity, location or personal information is transmitted.
 
 The following is stored only on your phone:
 
-- The most recently used location
-- Calculation method and madhab preference
-- Time adjustment settings (± minutes)
-- Translation preference
-- Adhan and notification settings
+- The most recently used location and city name
+- How you would like to be addressed (name and title — only if you enter them)
+- Calculation method
+- Prayer time and Hijri date adjustments
+- Adhan, notification, vibration, theme and font settings
+- Tesbihat counters
 
 This information is **never sent anywhere** and is deleted together with the
 app.
@@ -123,6 +129,8 @@ This is why the "we never collect" list above stays accurate: the log is
 | Background audio | So recitation continues when the screen is off |
 | Motion sensor | So the qibla compass can show which way the phone faces |
 | Vibration | A short tap response — can be turned off in Settings |
+| Exact alarms ("Alarms & reminders") | So the adhan notification arrives in the minute the prayer time begins. You grant this yourself; if it is off, the notification may be a few minutes late |
+| Run at startup | To re-schedule prayer notifications after the phone restarts |
 
 The app does **not** request **microphone**, **camera**, **contacts**,
 **photos** or **storage** permissions.
@@ -140,7 +148,7 @@ data from any user, it collects none from children either.
 
 ## Content sources
 
-The sources of the Quran text, translation, transliteration and recitations
+The sources of the translation, transliteration and recitations
 are listed openly on the **Sources** screen inside the app.
 
 ## Changes

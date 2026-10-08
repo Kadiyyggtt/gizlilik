@@ -6,14 +6,14 @@
 
 # Bloko Blast — Privacy Policy
 
-**Last updated:** 12 September 2026
+**Last updated:** 8 October 2026
 
 Bloko Blast is a puzzle game. This document states plainly what the game
 touches and what it does not.
 
-**Short answer: no information is collected.** There is no account, no
-advertising, no internet requirement and no permission you are asked for
-request. The game runs entirely on your device.
+**Short answer: we collect no information.** There is no account, no
+advertising, no internet needed to play and no permission you are asked
+for. The game runs entirely on your device and connects to no server.
 
 ---
 
@@ -50,16 +50,18 @@ This is why the "we never collect" list above stays accurate: the log is
 ## Permissions
 
 **You are never asked for a permission.** Location, camera, microphone,
-contacts, photos and storage are all never requested.
+contacts, photos and storage are all never requested. **There is no
+internet permission either** — the game cannot go online.
 
-Three technical permissions appear on the store page. These are granted
-automatically by Android at install time and never show a prompt:
+Four technical permissions may appear on the store page. These are
+granted automatically by Android at install time and never show a prompt:
 
 | Permission | Why |
 |---|---|
 | Vibration | A short buzz when a piece lands and a line clears — can be turned off in Settings |
 | Audio settings | So game sounds do not interrupt your own music |
-| Internet | Added by the app framework. **The game connects to no server** — it works fully in airplane mode |
+| View network connections | Added by Android's audio playback library (AndroidX Media3). The game does not use it; without the internet permission it cannot open any connection |
+| Prevent phone from sleeping | Added by the same audio library (so sound is not cut off while playing). The game does not keep the screen on itself |
 
 There is **no account system.**
 
@@ -68,7 +70,15 @@ There is **no account system.**
 ## Internet
 
 **The game works offline.** It connects to no server and sends no
-requests. It is fully playable in airplane mode.
+requests; the package does not even hold the internet permission. It is
+fully playable in airplane mode.
+
+The **Privacy policy** row in Settings opens this page in your phone's
+own browser; that connection is made by the browser, not by the game.
+
+This version has **no** Google Play leaderboard; Google Play Games
+Services is not included in the package at all. If it is ever added, this
+policy will be updated **beforehand**.
 
 ---
 
@@ -76,7 +86,9 @@ requests. It is fully playable in airplane mode.
 
 Only the following is kept **on your own device**:
 
-- Your high score, level and daily streak
+- Your high score, number of games played, best combo, coins, daily
+  streak and Daily Challenge score
+- Your unfinished game (so you can pick up where you left off)
 - Themes you have unlocked and your settings (sound, vibration, language)
 
 None of this leaves the device. Deleting the game deletes all of it.
@@ -97,16 +109,16 @@ none of them exist.
 ## Children
 
 Bloko Blast is not presented as an app directed at children. That said,
-since the game contains no ads, no purchases and no data collection, it
-carries no risk in this respect.
+the game contains no ads, no purchases and no data collection, so it
+carries no risk in that respect.
 
 ---
 
 ## Your rights
 
 Because we hold no personal data about you, there is nothing to delete,
-correct or export. You can remove all on-device progress by deleting the
-game.
+correct or export on our side. You can remove all on-device progress by
+deleting the game.
 
 ## Contact
 

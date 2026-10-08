@@ -6,7 +6,7 @@
 
 # NamazVakti — Gizlilik Politikası
 
-**Son güncelleme:** 10 Eylül 2026
+**Son güncelleme:** 8 Ekim 2026
 
 Bu politika **NamazVakti** uygulaması için geçerlidir.
 
@@ -16,8 +16,10 @@ Bu politika **NamazVakti** uygulaması için geçerlidir.
 
 **NamazVakti hiçbir kişisel veri toplamaz, saklamaz veya paylaşmaz.**
 
-Konum bilginiz yalnızca cihazınızın içinde, namaz vakitlerini hesaplamak için
-kullanılır ve **hiçbir yere gönderilmez.** Kayıt olmanız gerekmez, hesap
+Konum bilginiz cihazınızın içinde, namaz vakitlerini hesaplamak için
+kullanılır ve **bize ya da başka bir sunucuya gönderilmez.** Tek istisna,
+ekranda şehir adını göstermek için telefonunuzun kendi adres çözme hizmetine
+yapılan sorgudur (aşağıda anlatılıyor). Kayıt olmanız gerekmez, hesap
 açmanız istenmez, reklam gösterilmez.
 
 ---
@@ -43,8 +45,10 @@ uygulama konum izni ister.
   sormamak için cihazda saklanır.
 - Uygulamayı sildiğinizde bu bilgi de silinir.
 
-**İzin vermezseniz:** uygulama çalışmaya devam eder; vakitleri görmek için
-konumu elle seçmeniz gerekir.
+**İzin vermezseniz:** namaz vakitleri, vakit bildirimleri ve kıble yönü
+gösterilemez; uygulamada konumu elle seçme imkânı yoktur. Kuran meali ve
+tilaveti, Esmâ-ül Hüsnâ, dualar, tesbihat ve günün ayeti çalışmaya devam
+eder. İzni sonradan telefonunuzun ayarlarından verebilirsiniz.
 
 ## İnternet kullanımı
 
@@ -52,7 +56,7 @@ Uygulamanın **çekirdek işlevleri internetsiz çalışır:**
 
 - Namaz vakitleri cihazda hesaplanır
 - Kıble yönü cihazda hesaplanır
-- Kuran metni, meal, okunuş, Esmâ-ül Hüsnâ, dualar ve günün ayeti cihazda
+- Kuran meali, dua okunuşları, Esmâ-ül Hüsnâ, dualar ve günün ayeti cihazda
   saklıdır
 
 İnternet **yalnızca tek bir şey için** kullanılır: sure tilavetlerini
@@ -66,11 +70,12 @@ konum veya kişisel bilgi gönderilmez.
 
 Aşağıdakiler yalnızca telefonunuzda saklanır:
 
-- Son kullanılan konum
-- Hesaplama yöntemi ve mezhep tercihi
-- Vakit düzeltme ayarları (±dakika)
-- Meal tercihi
-- Ezan ve bildirim ayarları
+- Son kullanılan konum ve şehir adı
+- Size nasıl hitap edileceği (ad ve hitap — yalnız yazarsanız)
+- Hesaplama yöntemi
+- Vakit ve hicri tarih düzeltme ayarları
+- Ezan, bildirim, titreşim, tema ve yazı stili ayarları
+- Tesbihat sayaçları
 
 Bu bilgiler cihazdan **hiçbir yere gönderilmez** ve uygulama silindiğinde
 birlikte silinir.
@@ -123,6 +128,8 @@ Yukarıdaki "toplanmıyor" listesi bu yüzden doğru kalıyor: kayıt
 | Arka planda ses | Ekran kapalıyken tilavetin devam etmesi |
 | Hareket sensörü | Kıble pusulasının telefonun baktığı yönü göstermesi |
 | Titreşim | Düğmelere dokununca kısa titreşim — Ayarlar'dan kapatılabilir |
+| Tam zamanlı alarm ("Alarmlar ve hatırlatıcılar") | Ezan bildiriminin vakit girdiği dakikada gelmesi. Bu izni siz verirsiniz; kapalıysa bildirim birkaç dakika gecikebilir |
+| Açılışta başlatma | Telefon yeniden başladığında kurulu vakit bildirimlerinin yeniden kurulması |
 
 Uygulama **mikrofon**, **kamera**, **kişiler**, **fotoğraflar** veya
 **depolama** izni istemez.
@@ -140,7 +147,7 @@ toplamadığı için çocuklardan da veri toplamaz.
 
 ## İçerik kaynakları
 
-Kuran metni, meal, okunuş ve tilavet kaynakları uygulama içindeki
+Meal, okunuş ve tilavet kaynakları uygulama içindeki
 **Kaynaklar** ekranında açıkça listelenmiştir.
 
 ## Değişiklikler

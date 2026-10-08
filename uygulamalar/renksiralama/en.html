@@ -1,8 +1,8 @@
 <!doctype html>
-<html lang="tr"><head>
+<html lang="en"><head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Renk Sıralama — Gizlilik Politikası</title>
+<title>Renk Sıralama — Privacy Policy</title>
 <style>
 :root{--zemin:#FAF9FC;--kart:#FFFFFF;--yazi:#22202A;--soluk:#5E5A6B;
        --cizgi:#E6E2ED;--vurgu:#FFB347}
@@ -62,18 +62,20 @@ footer{margin-top:56px;padding-top:20px;border-top:1px solid var(--cizgi);
   </div>
 </header>
 <h1>Color Sort — Privacy Policy</h1>
-<p><strong>Last updated:</strong> 29 September 2026</p>
+<p><strong>Last updated:</strong> 8 October 2026</p>
 <p>Color Sort is a puzzle game. This document states plainly which information the game touches and which it does not.</p>
-<p><strong>Short answer:</strong> in this version there are no ads, no purchases, no account and no server of ours. The game collects nothing and sends nothing anywhere. It works fully offline.</p>
+<p><strong>Short answer:</strong> in this version there are no ads, no purchases, no account and no server of ours. We collect nothing and the game plays fully offline. The one exception is the optional <strong>Google Play leaderboard</strong>: if you sign in with Play Games, your progress and gamer identity go to Google (see below).</p>
 <hr>
 <h2>What we never collect</h2>
 <p>The game does <strong>not request or collect:</strong></p>
 <ul><li>Name, e-mail, phone number, date of birth</li><li>Location</li><li>Contacts, calendar, photos, files</li><li>Camera and microphone</li><li>Advertising ID or any other device identifier</li><li>Usage statistics, analytics tools, crash reports sent to us</li></ul>
-<p>There is <strong>no</strong> account system. There is <strong>no</strong> server of ours. There is <strong>no</strong> third-party advertising or analytics software in the game.</p>
+<p>There is <strong>no</strong> account system. There is <strong>no</strong> server of ours. There is <strong>no</strong> third-party advertising or analytics software in the game. (The optional Google Play leaderboard&#x27;s own diagnostics data is described below.)</p>
 <h2>Permissions</h2>
 <p><strong>You are not asked for any permission.</strong> Location, camera, microphone, contacts, photos and storage are not requested. On iOS no &quot;tracking&quot; prompt appears.</p>
 <p>Technical permissions that may show on the store page are ones Android grants at install time without a prompt:</p>
-<table><thead><tr><th>Permission</th><th>Why</th></tr></thead><tbody><tr><td>Vibration</td><td>A short buzz when a ball lands or a tube is completed — can be turned off in Settings</td></tr><tr><td>Audio settings</td><td>So game sounds don&#x27;t stop your own music</td></tr><tr><td>Internet</td><td>Framework default; the game does <strong>not</strong> connect</td></tr></tbody></table>
+<table><thead><tr><th>Permission</th><th>Why</th></tr></thead><tbody><tr><td>Vibration</td><td>A short buzz when a ball lands or a tube is completed — can be turned off in Settings</td></tr><tr><td>Audio settings</td><td>So game sounds don&#x27;t stop your own music</td></tr><tr><td>Internet</td><td>Only for the optional Google Play leaderboard — the game itself works offline</td></tr><tr><td>View network state</td><td>Added automatically by Android&#x27;s sound library (AndroidX Media3) that plays the game sounds; the game sends nothing with it</td></tr><tr><td>Keep device awake</td><td>Added automatically by the same sound library</td></tr></tbody></table>
+<p>Android&#x27;s own support library also adds an internal permission used only inside the game itself (<code>…DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION</code>); it opens nothing to other apps and never asks you anything.</p>
+<p>In versions without the leaderboard turned on, the Google Play Games Services library is <strong>not in the app at all</strong>.</p>
 <p>The advertising ID permission (Android) is explicitly <strong>blocked</strong>.</p>
 <hr>
 <h2>Ads and purchases</h2>
@@ -81,18 +83,25 @@ footer{margin-top:56px;padding-top:20px;border-top:1px solid var(--cizgi);
 <p>If ads are added in a future update, this policy will be changed <strong>before</strong> that update, listing exactly what is shared.</p>
 <hr>
 <h2>Internet</h2>
-<p>The game works offline: levels are generated on your phone and your progress is stored on your phone. The game connects to no server.</p>
+<p>The game works offline: levels are generated on your phone and your progress is stored on your phone. Only the Google Play leaderboard (if you signed in with Play Games) goes online; while offline a score is silently skipped and the game never waits.</p>
+<hr>
+<h2>Google Play leaderboard (optional)</h2>
+<p>On Android, Color Sort can use the Google Play Games Services <strong>leaderboard</strong> (daily, weekly and all-time; top 10 and your own rank). This feature is <strong>optional</strong>: if you do not sign in with your Google Play Games account, nothing is sent and the game stays entirely on your device, as before.</p>
+<p>If you do sign in, according to Google&#x27;s own disclosure (developer.android.com/games/pgs/data-collection):</p>
+<ul><li>Your <strong>gamer identity</strong> (Play Games gamertag and avatar) is shared with this game and shown on the leaderboard.</li><li>Your <strong>scores</strong> (the highest level you have completed) are sent to Google&#x27;s servers and shown on the leaderboard.</li><li>Play Games Services collects <strong>analytics and diagnostics</strong> data to keep its own SDK stable.</li><li>Data is <strong>encrypted in transit using HTTPS</strong>.</li><li><strong>You choose</strong> who can see your profile (everyone / friends only / only you) in your Play Games settings.</li><li>You can <strong>delete</strong> this data from your Play Games profile (play.google.com/games/profile) or your Google Account (myaccount.google.com).</li></ul>
+<p>This data <strong>goes to Google, not to us</strong>: we never see your e-mail address, real name or location. Google&#x27;s processing is governed by the Google Privacy Policy (policies.google.com/privacy).</p>
+<p>The iOS version has no leaderboard; nothing is sent there.</p>
 <hr>
 <h2>What is stored on your device</h2>
 <p>Only <strong>on your own device</strong>:</p>
 <ul><li>Which level you are on and the highest level completed</li><li>An unfinished level (so you can continue where you left off)</li><li>Ball styles and themes you unlocked and selected</li><li>Your settings (sound, vibration, language, colour-blind mode)</li><li><strong>Technical log:</strong> if the game closes unexpectedly, a short error record (at most 10). It stays on the phone and is never sent to us; you can view and delete it in <strong>Settings → Technical log</strong>.</li></ul>
-<p>None of this is sent anywhere. <strong>Settings → Reset game</strong> clears your progress; deleting the game removes everything.</p>
+<p>None of this is sent anywhere (only the leaderboard number above goes to Google, if you signed in). <strong>Settings → Reset game</strong> clears your progress; deleting the game removes everything.</p>
 <hr>
 <h2>Children</h2>
-<p>Color Sort is not offered as an app directed at children. With no account, no data collection and no ads it carries no personal-data risk.</p>
+<p>Color Sort is not offered as an app directed at children. There is no account and no ads, and we collect no data; the leaderboard is optional and sends nothing unless the player signs in to Google Play Games.</p>
 <hr>
 <h2>Your rights</h2>
-<p>We hold no personal data about you, so there is nothing for us to delete, correct or export. You can reset progress in the game or delete the game to remove everything.</p>
+<p>We hold no personal data about you, so there is nothing for us to delete, correct or export. You can reset progress in the game or delete the game to remove everything, and delete leaderboard data from your Play Games profile or your Google Account.</p>
 <h2>Contact</h2>
 <p>Questions: <strong>yyggttkadir@gmail.com</strong></p>
-<footer>Kadir Yiğit · yyggttkadir@gmail.com · 05.10.2026</footer></div></body></html>
+<footer>Kadir Yiğit · yyggttkadir@gmail.com · 08.10.2026</footer></div></body></html>

@@ -30,6 +30,9 @@ def satir_ici(metin: str) -> str:
     m = html.escape(metin)
     m = re.sub(r'`([^`]+)`', r'<code>\1</code>', m)
     m = re.sub(r'\*\*([^*]+)\*\*', r'<strong>\1</strong>', m)
+    # Tek yıldızlı italik: `*titreşim*` önceden yıldızlarıyla çiğ görünüyordu
+    # (8 Ekim 2026'da üç politikada yakalandı).
+    m = re.sub(r'(?<![*\w])\*(?![\s*])([^*]+?)(?<!\s)\*(?![*\w])', r'<em>\1</em>', m)
     m = re.sub(r'\[([^\]]+)\]\((https?://[^)]+)\)', r'<a href="\2">\1</a>', m)
     m = re.sub(r'&lt;(https?://[^&]+)&gt;', r'<a href="\1">\1</a>', m)
     return m
@@ -181,9 +184,9 @@ footer{margin-top:56px;padding-top:20px;border-top:1px solid var(--cizgi);
 """
 
 
-def sayfa(baslik: str, vurgu: str, govde: str) -> str:
+def sayfa(baslik: str, vurgu: str, govde: str, dil: str = 'tr') -> str:
     return f"""<!doctype html>
-<html lang="tr"><head>
+<html lang="{dil}"><head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>{html.escape(baslik)}</title>
@@ -196,6 +199,28 @@ uretilen = 0
 
 DILLER = [('tr', 'Türkçe'), ('en', 'English'), ('es', 'Español')]
 GERI = {'tr': 'Tüm uygulamalar', 'en': 'All apps', 'es': 'Todas las apps'}
+BASLIK = {'tr': 'Gizlilik Politikası', 'en': 'Privacy Policy', 'es': 'Política de Privacidad'}
+
+
+def degisim_tarihi(md: pathlib.Path) -> str:
+    """Alt bilgideki tarih: md'nin bu depodaki son commit tarihi.
+
+    Önceden her sayfaya BUGÜN yazılıyordu; tek politika değişince 20 sayfa
+    "güncellendi" görünüyordu. Commit'lenmemiş (yeni kopyalanmış) md bugünü alır.
+    """
+    import subprocess
+    try:
+        kirli = subprocess.run(['git', 'status', '--porcelain', '--', str(md)], cwd=KOK,
+                               capture_output=True, text=True, check=True).stdout.strip()
+        if not kirli:
+            t = subprocess.run(['git', 'log', '-1', '--format=%cs', '--', str(md)], cwd=KOK,
+                               capture_output=True, text=True, check=True).stdout.strip()
+            if t:
+                y, a, g = t.split('-')
+                return f'{g}.{a}.{y}'
+    except (OSError, subprocess.CalledProcessError, ValueError):
+        pass
+    return bugun
 
 for u in UYGULAMALAR:
     klasor = KOK / 'uygulamalar' / u['slug']
@@ -216,9 +241,9 @@ for u in UYGULAMALAR:
   </div>
 </header>
 {icerik}
-<footer>Kadir Yiğit · yyggttkadir@gmail.com · {bugun}</footer>"""
+<footer>Kadir Yiğit · yyggttkadir@gmail.com · {degisim_tarihi(klasor / f'{dil}.md')}</footer>"""
         hedef = klasor / f'{dil}.html'
-        hedef.write_text(sayfa(f"{u['ad']} — Gizlilik Politikası", u['vurgu'], govde))
+        hedef.write_text(sayfa(f"{u['ad']} — {BASLIK[dil]}", u['vurgu'], govde, dil))
         uretilen += 1
 
 # Kapak
