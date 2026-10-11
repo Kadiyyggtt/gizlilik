@@ -106,5 +106,14 @@
     "cumle": "Topla, kur, adanı büyüt. Reklam yok, internet yok.",
     "renk": "#1F4A5A",
     "vurgu": "#2FA57A"
+  },
+  {
+    "slug": "hisseradar",
+    "klasor": "HisseRadar",
+    "ad": "HisseRadar",
+    "emoji": "📈",
+    "cumle": "Formasyonu öğren, bugün hangi hissede oluştuğunu gör. Hesap yok, kişisel veri yok.",
+    "renk": "#0F1B2D",
+    "vurgu": "#1FA67A"
   }
 ]

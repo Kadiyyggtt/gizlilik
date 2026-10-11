@@ -12,7 +12,8 @@ for p in "namazvakti NamazVakti" "cumlekur CumleKur" \
          "okkacisi OkKacisi" "renksiralama RenkSiralama" "legionrun LegionRun" \
          "minimalistsniper MinimalistSniper" \
          "jellymerge JellyMerge" "cozyshelf CozyShelf" "hexastack HexaStack" \
-         "orbitjump OrbitJump" "tinyisles TinyIsles"; do
+         "orbitjump OrbitJump" "tinyisles TinyIsles" \
+         "hisseradar HisseRadar"; do
   set -- $p
   # Güncel kopyalar 29 Eylül 2026'dan beri ~/Desktop/OYUNLAR altında; masaüstündeki
   # eski OkKacisi/RenkSiralama klasörleri bayat kaldı ve yayındaki politikayı iki gün
