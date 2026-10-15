@@ -115,5 +115,14 @@
     "cumle": "Formasyonu öğren, bugün hangi hissede oluştuğunu gör. Hesap yok, kişisel veri yok.",
     "renk": "#0F1B2D",
     "vurgu": "#1FA67A"
+  },
+  {
+    "slug": "mono",
+    "klasor": "mono-arcade-godot",
+    "ad": "MONO",
+    "emoji": "🕹️",
+    "cumle": "Beş piksel arcade oyunu tek uygulamada. Reklam yok, internet yok.",
+    "renk": "#4B4B5C",
+    "vurgu": "#4B4B5C"
   }
 ]
