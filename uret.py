@@ -258,8 +258,8 @@ kapak = f"""
 <header>
   <h1>Gizlilik Politikaları</h1>
   <p style="color:var(--soluk);margin-top:-.2em">
-    Aşağıdaki uygulamaların hiçbiri kişisel veri toplamıyor. Her politikanın
-    Türkçe ve İngilizce sürümü var.
+    Her uygulamanın ne topladığı (çoğu için: hiçbir şey) kendi sayfasında yazıyor.
+    Her politikanın Türkçe ve İngilizce sürümü var.
   </p>
 </header>
 <div class="liste">{kartlar}</div>
