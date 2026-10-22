@@ -6,7 +6,7 @@
 
 # CümleKur — Privacy Policy
 
-**Last updated:** 7 October 2026
+**Last updated:** 22 October 2026
 
 CümleKur is an English-learning app made for Turkish speakers. This
 document states plainly what the app touches and what it does not.
@@ -25,7 +25,8 @@ The app does not request, collect or transmit:
 - Name, e-mail address or phone number
 - Location
 - Contacts, calendar, photos or files
-- Camera or microphone (no permission is even requested)
+- Camera. The microphone is used only **when you tap the "Say it" button**;
+  audio is **not recorded, stored, or sent to us** (separate section below)
 - Advertising identifier (the app contains no ads)
 - Usage analytics, or crash reports **sent to us**
   (the technical log described below never leaves your device; the
@@ -72,6 +73,27 @@ Deleting the app deletes all of it.
 
 The **word database** (2,818 words) ships inside the app and works
 entirely offline.
+
+---
+
+## Microphone and speech recognition (optional)
+
+In Sentence Builder you can say a sentence you built out loud and have it
+checked. This feature is **entirely optional**; if you never use it, the
+microphone permission is never requested.
+
+- The microphone opens **only while you press the "Say it" button** and
+  closes when you stop speaking.
+- Audio is **not recorded or stored.** The app never writes the audio to a
+  file; it only compares the **text** produced by your phone's speech
+  recognition with the target sentence, then discards that text.
+- Recognition is done by **your phone's own system**. If your device supports
+  on-device recognition, audio does not leave the phone. If it does not, the
+  system's recognition service (on Android usually Google's speech service,
+  on iOS Apple's) may process audio **under its own privacy policy**. That
+  processing does not reach us; we never see or receive the audio.
+- You can withdraw the permission at any time in your phone's Settings; the
+  rest of the app works exactly the same.
 
 ---
 

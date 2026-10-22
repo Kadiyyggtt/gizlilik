@@ -6,7 +6,7 @@
 
 # CümleKur — Gizlilik Politikası
 
-**Son güncelleme:** 7 Ekim 2026
+**Son güncelleme:** 22 Ekim 2026
 
 CümleKur, Türkçe konuşanlar için yapılmış bir İngilizce öğrenme
 uygulamasıdır. Bu metin, uygulamanın hangi bilgilere dokunduğunu ve
@@ -26,7 +26,8 @@ Uygulama şunları **istemiyor, toplamıyor ve hiçbir yere göndermiyor:**
 - Ad, soyad, e-posta, telefon numarası
 - Konum
 - Rehber, takvim, fotoğraf, dosya
-- Kamera ve mikrofon (izin bile istenmiyor)
+- Kamera. Mikrofon yalnız **sen "Sesli söyle" düğmesine bastığında** kullanılır;
+  ses **kaydedilmez, saklanmaz, bize gönderilmez** (aşağıda ayrı bölüm)
 - Reklam kimliği (uygulamada reklam yoktur)
 - Kullanım istatistiği, **bize gönderilen** çökme raporu, analiz aracı
   (aşağıdaki teknik kayıt cihazından hiç çıkmıyor; isteğe bağlı Google
@@ -72,6 +73,27 @@ Uygulamayı silersen hepsi silinir.
 
 **Kelime veritabanı** (2.818 kelime) uygulamanın içinde gelir ve
 tamamen çevrimdışı çalışır.
+
+---
+
+## Mikrofon ve ses tanıma (isteğe bağlı)
+
+Cümle Kur'da doğru kurduğun cümleyi sesli söyleyip kontrol edebilirsin.
+Bu özellik **tamamen isteğe bağlıdır**; kullanmazsan mikrofon izni hiç
+istenmez.
+
+- Mikrofon **yalnız "Söyle" düğmesine bastığın an** açılır, konuşman
+  bitince kapanır.
+- Ses **kaydedilmez ve saklanmaz.** Uygulama sesin kendisini hiçbir
+  dosyaya yazmaz; yalnızca telefonun ses tanıma özelliğinin ürettiği
+  **yazıyı** hedef cümleyle karşılaştırır, sonra o yazıyı atar.
+- Ses tanımayı **telefonunun kendi sistemi** yapar. Cihazın çevrimdışı
+  tanımayı destekliyorsa ses telefondan çıkmaz. Desteklemiyorsa, telefonun
+  sistem servisi (Android'de genellikle Google'ın ses tanıma servisi, iOS'ta
+  Apple'ın ses tanıma servisi) sesi **kendi gizlilik politikasına göre**
+  işleyebilir. Bu işleme bize ulaşmaz; biz sesi görmeyiz ve almayız.
+- İzni dilediğin zaman telefonunun Ayarlar bölümünden geri alabilirsin;
+  uygulamanın geri kalanı aynen çalışır.
 
 ---
 
