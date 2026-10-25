@@ -243,7 +243,7 @@ for u in UYGULAMALAR:
 {icerik}
 <footer>Kadir Yiğit · yyggttkadir@gmail.com · {degisim_tarihi(klasor / f'{dil}.md')}</footer>"""
         hedef = klasor / f'{dil}.html'
-        hedef.write_text(sayfa(f"{u['ad']} — {BASLIK[dil]}", u['vurgu'], govde, dil))
+        hedef.write_text(sayfa(f"{u['ad']} {BASLIK[dil]}", u['vurgu'], govde, dil))
         uretilen += 1
 
 # Kapak
