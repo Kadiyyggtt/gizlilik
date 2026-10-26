@@ -117,15 +117,6 @@
   "vurgu": "#1FA67A"
  },
  {
-  "slug": "mono",
-  "klasor": "mono-arcade-godot",
-  "ad": "MONO",
-  "emoji": "🕹️",
-  "cumle": "Beş piksel arcade oyunu tek uygulamada. Reklam yok, internet yok.",
-  "renk": "#4B4B5C",
-  "vurgu": "#4B4B5C"
- },
- {
   "slug": "ermenice",
   "klasor": "ermenice",
   "ad": "Ermenice",
