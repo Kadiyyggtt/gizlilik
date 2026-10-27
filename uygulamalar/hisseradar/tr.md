@@ -1,6 +1,6 @@
 # HisseRadar Gizlilik Politikası
 
-Son güncelleme: 25 Ekim 2026
+Son güncelleme: 27 Ekim 2026
 
 HisseRadar, borsa formasyonlarını kısa derslerle öğreten ve her gün BIST ile ABD hisselerinde bu formasyonlara uyanları listeleyen bir eğitim uygulamasıdır. Uygulamayı Kadir Yiğit geliştirir.
 
@@ -9,6 +9,23 @@ HisseRadar, borsa formasyonlarını kısa derslerle öğreten ve her gün BIST i
 - Reklam yoktur, analitik ya da izleme aracı yoktur.
 - Uygulamada girdiğin her şey yalnız senin cihazında saklanır.
 - Bildirim için Firebase Cloud Messaging (Google) bir cihaz belirteci kullanır; ayrıntısı aşağıda.
+
+Bu metin aynı zamanda, 6698 sayılı Kişisel Verilerin Korunması Kanunu (KVKK) ve Aydınlatma Yükümlülüğünün Yerine Getirilmesinde Uyulacak Usul ve Esaslar Hakkında Tebliğ uyarınca hazırlanmış aydınlatma metnidir.
+
+## Veri sorumlusu
+KVKK kapsamında veri sorumlusu, uygulamayı bireysel olarak geliştiren gerçek kişi **Kadir Yiğit**'tir. İletişim: yyggttkadir@gmail.com
+
+## İşlenen kişisel veriler, amaç ve hukuki sebep
+Uygulamada kişisel veri sayılabilecek tek şey bildirim için kullanılan iki kimliktir. Bunlar yalnız sen bir bildirimi açtığında oluşur:
+
+| Veri | Amaç | Hukuki sebep | Toplama yöntemi | Ne zaman sona erer |
+|---|---|---|---|---|
+| Firebase bildirim belirteci | Açtığın bildirimleri cihazına ulaştırmak | Açık rıza (KVKK m. 5/1) | Bildirimi açtığında cihazdaki Firebase kütüphanesiyle, otomatik yolla | Bildirimleri kapattığında ya da uygulamayı sildiğinde |
+| Firebase kurulum kimliği | Belirtecin doğru cihaza bağlı kalması | Açık rıza (KVKK m. 5/1) | Aynı şekilde, otomatik yolla | Bildirimleri kapattığında ya da uygulamayı sildiğinde |
+
+Bu kimlikler yalnız bildirim için kullanılır; reklam, profil çıkarma ya da başka bir amaçla işlenmez. Bildirimi açman bu işlemeye açık rıza vermendir; bildirim açmadan uygulamanın geri kalanını kullanabilirsin.
+
+Cihazında tutulan veriler (takip listesi, ders ilerlemesi, sanal ve gerçek portföy, ayarlar) geliştiriciye ya da başka bir sunucuya ulaşmaz. Bu yüzden geliştirici açısından kişisel veri işleme sayılmaz; bunları yalnız sen görür, yalnız sen silersin.
 
 ## Cihazında saklananlar
 Aşağıdakiler yalnız telefonunda, uygulamanın kendi deposunda tutulur ve hiçbir sunucuya gönderilmez:
@@ -23,7 +40,7 @@ Aşağıdakiler yalnız telefonunda, uygulamanın kendi deposunda tutulur ve hi�
 Uygulamayı silersen bu veriler de silinir. Bizim elimizde bir kopyası yoktur, bu yüzden geri getirilemez.
 
 ## İnternet kullanımı
-Uygulama tarama sonuçlarını, grafik verisini ve geçmiş kayıtlarını herkese açık JSON dosyaları olarak GitHub Pages'ten (GitHub, Inc.) indirir: kadiyyggtt.github.io/hisseradar-veri. Bu isteklerde hesap ya da cihaz kimliği gönderilmez; sonuç herkes için aynıdır. Her internet isteğinde olduğu gibi, dosyaları barındıran GitHub isteği karşılarken IP adresini ve temel cihaz bilgisini (user agent) görür ve bunları kendi gizlilik bildirimine göre işler. Uygulamanın aracı kurumla, banka ya da ödeme sistemiyle hiçbir bağlantısı yoktur.
+Uygulama tarama sonuçlarını, grafik verisini ve geçmiş kayıtlarını herkese açık JSON dosyaları olarak GitHub Pages'ten (GitHub, Inc., ABD) indirir: kadiyyggtt.github.io/hisseradar-veri. Bu isteklerde hesap ya da cihaz kimliği gönderilmez; sonuç herkes için aynıdır. Her internet isteğinde olduğu gibi, dosyaları barındıran GitHub isteği karşılarken IP adresini ve temel cihaz bilgisini (user agent) görür ve bunları kendi gizlilik bildirimine göre işler. Uygulamanın aracı kurumla, banka ya da ödeme sistemiyle hiçbir bağlantısı yoktur.
 
 ## Bildirimler (Firebase Cloud Messaging)
 Bildirimler Google'ın Firebase Cloud Messaging hizmetiyle gönderilir. Bunun için Firebase, cihazına özgü bir **bildirim belirteci** ve bir **Firebase kurulum kimliği** üretir ve Google sunucularında tutar. Bu kimlikler adına, e-postana ya da bir hesaba bağlı değildir; reklam ya da izleme için kullanılmaz. Bizim belirteç saklayan bir sunucumuz yoktur: Cihazın yalnız açtığın "konulara" abone olur ve mesaj o konuya gönderilir.
@@ -36,6 +53,31 @@ Konular ve nereden kapatıldıkları:
 - **Haftalık özet:** Pazar. Ayarlar'dan kapatılır.
 
 Android 13 ve üstünde uygulama bildirim iznini ilk bildirimi açtığında ister; izni istediğin zaman telefonun ayarlarından geri alabilirsin. Uygulamayı silince abonelikler ve belirteç de geçersiz olur.
+
+## Yurt dışına aktarım
+Bildirim belirteci ve kurulum kimliği, Firebase Cloud Messaging hizmeti için Google LLC'nin (ABD) sunucularında işlenir. Bu yurt dışına aktarım, KVKK m. 9 kapsamında açık rızana dayanır (m. 9/6-a). Bilmen gereken risk şudur: ABD için Kişisel Verileri Koruma Kurulunun verdiği bir yeterlilik kararı yoktur ve bu veriler orada ABD mevzuatına tabi olabilir. Bir bildirimi açmak bu aktarıma rıza vermektir; bütün bildirimleri kapattığında ya da uygulamayı sildiğinde aktarım durur.
+
+Tarama verisi GitHub Pages'ten (GitHub, Inc., ABD) indirilir; bu istekte hesap ya da cihaz kimliği gönderilmez. GitHub'ın isteği karşılarken gördüğü IP adresini geliştirici almaz ve saklamaz.
+
+## Saklama süresi
+Bildirim belirteci ve kurulum kimliği, bildirim açık kaldığı sürece Google sunucularında durur. Bildirimleri kapattığında ya da uygulamayı sildiğinde geçersiz olur. Geliştirici tarafında hiçbir kayıt tutulmaz: Belirteç, IP adresi ya da kullanım bilgisi saklayan bir sunucu yoktur.
+
+## KVKK kapsamındaki hakların
+KVKK m. 11 uyarınca veri sorumlusuna başvurarak şu haklarını kullanabilirsin:
+
+- Kişisel verinin işlenip işlenmediğini öğrenme
+- İşlenmişse buna ilişkin bilgi isteme
+- İşlenme amacını ve amacına uygun kullanılıp kullanılmadığını öğrenme
+- Yurt içinde ya da yurt dışında aktarıldığı üçüncü kişileri bilme
+- Eksik ya da yanlış işlenmişse düzeltilmesini isteme
+- KVKK m. 7'deki şartlar çerçevesinde silinmesini ya da yok edilmesini isteme
+- Düzeltme ve silme işlemlerinin, verinin aktarıldığı üçüncü kişilere bildirilmesini isteme
+- Yalnız otomatik sistemlerle analiz edilmesi sonucu aleyhine bir sonuç çıkmasına itiraz etme
+- Kanuna aykırı işlenmesi sebebiyle zarara uğrarsan zararın giderilmesini isteme
+
+**Başvuru yolu:** Başvurunu yyggttkadir@gmail.com adresine e-postayla gönderebilirsin; Veri Sorumlusuna Başvuru Usul ve Esasları Hakkında Tebliğde sayılan diğer yollar da (yazılı başvuru, kayıtlı elektronik posta) geçerlidir. Başvuruna en geç 30 gün içinde ve ücretsiz cevap verilir. Geliştirici belirteci tutmadığı için seni tanıyamaz; bildirim verisini silmenin en hızlı yolu bildirimleri kapatmak ya da uygulamayı silmektir.
+
+Başvurun reddedilirse, cevabı yetersiz bulursan ya da 30 gün içinde cevap alamazsan Kişisel Verileri Koruma Kuruluna şikâyette bulunabilirsin (KVKK m. 14).
 
 ## Yedek dosyası
 Ayarlar'dan "Yedek al" dediğinde takip listesi, ders ilerlemesi, sanal ve gerçek portföy ve ayarlar tek bir dosyaya yazılır. Dosyayı nereye kaydedeceğini ya da kime göndereceğini sen seçersin; uygulama onu hiçbir sunucuya yüklemez. Dosyayı paylaşırsan içeriğini de paylaşmış olursun.
@@ -50,7 +92,7 @@ Hisse ekranında "Kartı paylaş" dediğinde formasyon kartı cihazında bir gö
 Bu sürümde reklam, analitik ve satın alma yoktur. Eklenirse bu politika önceden güncellenir ve uygulama içinde duyurulur.
 
 ## Çocuklar
-Uygulama yetişkinlere yöneliktir; 18 yaş altından bilerek veri toplanmaz.
+Uygulama yetişkinlere yöneliktir; 18 yaş altına hitap etmez ve 18 yaş altından bilerek veri toplanmaz.
 
 ## Yatırım tavsiyesi değildir
 Uygulamadaki dersler ve tarama sonuçları eğitim amaçlıdır; yatırım tavsiyesi değildir. Alım satım kararı ve sonuçları kullanıcıya aittir.
