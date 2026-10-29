@@ -1,6 +1,6 @@
 # HisseRadar Privacy Policy
 
-Last updated: October 29, 2026
+Last updated: October 30, 2026
 
 HisseRadar is an educational app that teaches stock chart patterns in short lessons and lists, every trading day, the BIST and US stocks that match those patterns. The app is developed by Kadir Yiğit.
 
@@ -38,13 +38,13 @@ The following are kept on your phone, in the app's own storage. Unless you turn 
 - Badges and day streak
 - Settings (theme, time horizon preference, the notifications you turned on)
 
-Deleting the app deletes this data. We do not hold a copy, so it cannot be restored.
+Deleting the app deletes this data from your device. Your portfolio, watchlist and progress are kept on your device. Depending on your settings, Android and iOS may include them in their own backup (your Google account / iCloud); we cannot access these backups. Scan data, the chart cache and the notification subscription record are not backed up; they are downloaded again on a new device.
 
 ## Internet use
 The app downloads scan results, chart data and history records as public JSON files from GitHub Pages (GitHub, Inc., USA): kadiyyggtt.github.io/hisseradar-veri. No account or device identifier is sent with these requests; the result is the same for everyone. As with any internet request, GitHub, which hosts the files, sees your IP address and basic device information (user agent) when serving them and handles that under its own privacy statement. The app has no connection to any brokerage, bank or payment system.
 
 ## Notifications (Firebase Cloud Messaging)
-Notifications are delivered through Google's Firebase Cloud Messaging. For this, Firebase creates a device-specific **notification token** and a **Firebase installation ID** and keeps them on Google's servers. These identifiers are not linked to your name, email or any account, and they are not used for advertising or tracking. We run no server that stores tokens: your device only subscribes to the "topics" you turn on, and messages are sent to those topics.
+Notifications are delivered through Google's Firebase Cloud Messaging. For this, Firebase creates a device-specific **notification token** and a **Firebase installation ID** and keeps them on Google's servers. These identifiers are not linked to your name, email or any account, and they are not used for advertising or tracking. We run no server that stores tokens: your device only subscribes to the "topics" you turn on, and messages are sent to those topics. Firebase auto-initialization is turned off: the token is not created when the app opens, only when you turn a notification on and grant permission; when you turn all notifications off or revoke permission, the app leaves all topics and deletes the token.
 
 Topics and where to turn them off:
 

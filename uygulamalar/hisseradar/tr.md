@@ -1,6 +1,6 @@
 # HisseRadar Gizlilik Politikası
 
-Son güncelleme: 29 Ekim 2026
+Son güncelleme: 30 Ekim 2026
 
 HisseRadar, borsa formasyonlarını kısa derslerle öğreten ve her gün BIST ile ABD hisselerinde bu formasyonlara uyanları listeleyen bir eğitim uygulamasıdır. Uygulamayı Kadir Yiğit geliştirir.
 
@@ -38,13 +38,13 @@ Aşağıdakiler telefonunda, uygulamanın kendi deposunda tutulur. Hisse bildiri
 - Rozetler ve gün serisi
 - Ayarlar (tema, vade tercihi, açtığın bildirimler)
 
-Uygulamayı silersen bu veriler de silinir. Bizim elimizde bir kopyası yoktur, bu yüzden geri getirilemez.
+Uygulamayı silersen bu veriler de silinir. Portföy, takip listesi ve ilerlemen cihazında tutulur. Android ve iOS, senin ayarına bağlı olarak bunları kendi yedeğine (Google hesabın / iCloud) alabilir; biz bu yedeklere erişemeyiz. Tarama verisi, grafik önbelleği ve bildirim abonelik kaydı yedeğe alınmaz; yeni cihazda yeniden indirilir.
 
 ## İnternet kullanımı
 Uygulama tarama sonuçlarını, grafik verisini ve geçmiş kayıtlarını herkese açık JSON dosyaları olarak GitHub Pages'ten (GitHub, Inc., ABD) indirir: kadiyyggtt.github.io/hisseradar-veri. Bu isteklerde hesap ya da cihaz kimliği gönderilmez; sonuç herkes için aynıdır. Her internet isteğinde olduğu gibi, dosyaları barındıran GitHub isteği karşılarken IP adresini ve temel cihaz bilgisini (user agent) görür ve bunları kendi gizlilik bildirimine göre işler. Uygulamanın aracı kurumla, banka ya da ödeme sistemiyle hiçbir bağlantısı yoktur.
 
 ## Bildirimler (Firebase Cloud Messaging)
-Bildirimler Google'ın Firebase Cloud Messaging hizmetiyle gönderilir. Bunun için Firebase, cihazına özgü bir **bildirim belirteci** ve bir **Firebase kurulum kimliği** üretir ve Google sunucularında tutar. Bu kimlikler adına, e-postana ya da bir hesaba bağlı değildir; reklam ya da izleme için kullanılmaz. Bizim belirteç saklayan bir sunucumuz yoktur: Cihazın yalnız açtığın "konulara" abone olur ve mesaj o konuya gönderilir.
+Bildirimler Google'ın Firebase Cloud Messaging hizmetiyle gönderilir. Bunun için Firebase, cihazına özgü bir **bildirim belirteci** ve bir **Firebase kurulum kimliği** üretir ve Google sunucularında tutar. Bu kimlikler adına, e-postana ya da bir hesaba bağlı değildir; reklam ya da izleme için kullanılmaz. Bizim belirteç saklayan bir sunucumuz yoktur: Cihazın yalnız açtığın "konulara" abone olur ve mesaj o konuya gönderilir. Firebase'in otomatik başlatması kapalıdır: Belirteç uygulama açılınca değil, yalnız bir bildirimi açıp izin verdiğinde üretilir; bütün bildirimleri kapattığında ya da izni geri aldığında konulardan çıkılır ve belirteç silinir.
 
 Konular ve nereden kapatıldıkları:
 
