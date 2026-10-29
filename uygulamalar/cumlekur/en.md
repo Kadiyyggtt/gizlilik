@@ -6,15 +6,18 @@
 
 # CümleKur — Privacy Policy
 
-**Last updated:** 22 October 2026
+**Last updated:** 29 October 2026
 
 CümleKur is an English-learning app made for Turkish speakers. This
 document states plainly what the app touches and what it does not.
 
 **Short answer:** There is no account, we never ask who you are, there
 are no ads and no tracking. All of your learning progress stays **on
-your own device**. The only exception is the optional Google Play
-leaderboard — explained in full below.
+your own device**. The app does not send data to the internet on its own.
+The one thing to know about is the optional "Say it" feature: if your
+device has no on-device speech recognition, the app asks you first and the
+phone's system service processes the audio **only if you agree** (see the
+"Microphone" section below).
 
 ---
 
@@ -29,12 +32,9 @@ The app does not request, collect or transmit:
   audio is **not recorded, stored, or sent to us** (separate section below)
 - Advertising identifier (the app contains no ads)
 - Usage analytics, or crash reports **sent to us**
-  (the technical log described below never leaves your device; the
-  optional Google Play leaderboard's own diagnostics data is described below)
+  (the technical log described below never leaves your device)
 
-We have **no account system.** You do not sign in to the app. (On
-Android, the optional Google Play Games sign-in is only for the
-leaderboard and is Google's own account — see below.)
+We have **no account system.** You do not sign in to the app.
 
 ---
 
@@ -67,9 +67,14 @@ The following is kept **only on your own device**:
 - Word sets completed and your reading/listening progress
 - Your theme, voice and level preferences
 
-This data is stored **encrypted** on the device, with the key held in
-the operating system's secure storage. None of it leaves the device.
-Deleting the app deletes all of it.
+This data is stored **only on your device**; the app does not send it
+anywhere. So that you do not lose your progress when you change phones,
+this progress record is included in **your phone's own backup**: on
+Android, the Android backup in your Google account and device-to-device
+transfer; on iPhone, iCloud backup. That backup is kept by your phone's
+system in your account; we cannot see or receive it. You can turn backup
+off in your phone's settings. Deleting the app deletes the record on the
+device.
 
 The **word database** (2,818 words) ships inside the app and works
 entirely offline.
@@ -88,10 +93,22 @@ microphone permission is never requested.
   file; it only compares the **text** produced by your phone's speech
   recognition with the target sentence, then discards that text.
 - Recognition is done by **your phone's own system**. If your device supports
-  on-device recognition, audio does not leave the phone. If it does not, the
-  system's recognition service (on Android usually Google's speech service,
-  on iOS Apple's) may process audio **under its own privacy policy**. That
-  processing does not reach us; we never see or receive the audio.
+  on-device recognition, the app uses it and audio does not leave the phone.
+- If your device does not support on-device recognition (or the English
+  recognition pack is not installed), the app **asks you first:** "Your
+  phone can't recognize speech on the device. For this feature, your voice
+  will be sent to Google's service; the app doesn't store it. Continue?"
+  (on iPhone: "Apple's service"). The app's interface is Turkish; this is
+  the English translation of the dialog.
+  - **If you choose "Continue"**, the audio is processed by your phone's
+    system service (on Android usually Google's speech service, on iOS
+    Apple's) **under its own privacy policy**. That processing does not
+    reach us; we never see or receive the audio.
+  - **If you choose "No"**, audio does not leave the phone and the feature
+    stays off.
+  - Your answer is saved and you are not asked again. You can change it at
+    any time with the **"Allow cloud speech recognition"** switch on the
+    Settings screen (shown in Turkish as "Bulut ses tanımaya izin ver").
 - You can withdraw the permission at any time in your phone's Settings; the
   rest of the app works exactly the same.
 
@@ -100,40 +117,19 @@ microphone permission is never requested.
 ## Internet connection
 
 We do not run a server of our own. The games, lessons and all progress
-work without an internet connection. The only place the app goes online
-is the optional Google Play leaderboard described below; if you do not
-sign in to it, the app sends nothing over the network.
+work without an internet connection, and the app does not send data over
+the network on its own. The internet comes into play only in two cases:
 
----
+- If **you tap** the privacy-policy link in Settings or a site listed on
+  the Sources screen, your phone's browser opens. Visiting that site is
+  governed by the browser and by that site's own rules.
+- In the "Say it" feature, when the device has no on-device recognition
+  and **you have agreed**, the system's speech recognition service (section
+  above).
 
-## Google Play leaderboard (optional)
-
-On Android, CümleKur can use the Google Play Games Services **leaderboard**
-(daily, weekly and all-time; top 10 and your own rank). This feature is
-**optional**: if you do not sign in with your Google Play Games account,
-nothing is sent and the app stays entirely on your device, as before.
-
-If you do sign in, according to Google's own disclosure
-(developer.android.com/games/pgs/data-collection):
-
-- Your **gamer identity** (Play Games gamertag and avatar) is shared with
-  this app and shown on the leaderboard.
-- Your **scores** (your total XP) are sent to Google's servers and shown on the
-  leaderboard.
-- Play Games Services collects **analytics and diagnostics** data to keep
-  its own SDK stable.
-- Data is **encrypted in transit using HTTPS**.
-- **You choose** who can see your profile (everyone / friends only / only
-  you) in your Play Games settings.
-- You can **delete** this data from your Play Games profile
-  (play.google.com/games/profile) or your Google Account
-  (myaccount.google.com).
-
-This data **goes to Google, not to us**: we never see your e-mail address,
-real name or location. Google's processing is governed by the Google
-Privacy Policy (policies.google.com/privacy).
-
-The iOS version has no leaderboard; nothing is sent there.
+This version has no Google Play leaderboard or any other online ranking.
+If such a feature is added later, this policy will be updated before that
+version is released.
 
 ---
 
@@ -156,9 +152,9 @@ card details, and no content is locked.
 
 ## Children
 
-CümleKur is not directed at children; it is intended for teenagers and
-adults. We do not knowingly collect information from children — we do
-not collect personal information from anyone.
+CümleKur is intended for users **aged 13 and over** and is not directed
+at children under 13. We do not knowingly collect information from
+children — we do not collect personal information from anyone.
 
 ---
 
@@ -166,15 +162,15 @@ not collect personal information from anyone.
 
 Because we hold no personal data about you, there is nothing to delete,
 correct or export. You can remove all on-device progress at any time by
-deleting the app, and leaderboard data from your Play Games profile or
-your Google Account.
+deleting the app.
 
 ---
 
 ## Changes
 
 If this policy changes, the date above is updated. If a change ever
-widens how data is used, it will be announced inside the app.
+widens how data is used (for example, if an online feature is added), the
+policy will be updated before that version is released.
 
 ## Contact
 

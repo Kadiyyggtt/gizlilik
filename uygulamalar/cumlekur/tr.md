@@ -6,7 +6,7 @@
 
 # CümleKur — Gizlilik Politikası
 
-**Son güncelleme:** 22 Ekim 2026
+**Son güncelleme:** 29 Ekim 2026
 
 CümleKur, Türkçe konuşanlar için yapılmış bir İngilizce öğrenme
 uygulamasıdır. Bu metin, uygulamanın hangi bilgilere dokunduğunu ve
@@ -14,8 +14,10 @@ dokunmadığını açıkça anlatır.
 
 **Kısa cevap:** Hesap açmıyorsun, kimliğini istemiyoruz, reklam yok,
 takip yok. Öğrenme ilerlemenin tamamı **yalnız senin cihazında** duruyor.
-Tek istisna isteğe bağlı Google Play skor tablosu — aşağıda
-ayrıntısıyla anlatılıyor.
+Uygulama kendi başına internete veri göndermez. Tek dikkat edilecek nokta
+isteğe bağlı "Sesli söyle" özelliği: cihazın çevrim dışı ses tanıması yoksa
+uygulama önce sana sorar; **izin verirsen** telefonun sistem servisi sesi
+işler (aşağıdaki "Mikrofon" bölümü).
 
 ---
 
@@ -30,12 +32,9 @@ Uygulama şunları **istemiyor, toplamıyor ve hiçbir yere göndermiyor:**
   ses **kaydedilmez, saklanmaz, bize gönderilmez** (aşağıda ayrı bölüm)
 - Reklam kimliği (uygulamada reklam yoktur)
 - Kullanım istatistiği, **bize gönderilen** çökme raporu, analiz aracı
-  (aşağıdaki teknik kayıt cihazından hiç çıkmıyor; isteğe bağlı Google
-  Play skor tablosunun kendi tanılama verisi aşağıda anlatılıyor)
+  (aşağıdaki teknik kayıt cihazından hiç çıkmıyor)
 
 Bizim bir hesap sistemimiz **yoktur.** Uygulamaya giriş yapmıyorsun.
-(Android'de isteğe bağlı Google Play Oyunlar girişi yalnız skor tablosu
-içindir ve Google'ın kendi hesabıdır — aşağıda.)
 
 ---
 
@@ -67,12 +66,16 @@ Yukarıdaki "toplanmıyor" listesi bu yüzden doğru kalıyor: kayıt
 - Tamamladığın kelime setleri ve okuma/dinleme ilerlemen
 - Seçtiğin tema, ses ve seviye tercihlerin
 
-Bu bilgiler cihazda **şifreli** tutuluyor; şifreleme anahtarı işletim
-sisteminin güvenli deposunda duruyor. Hiçbiri cihazdan dışarı çıkmıyor.
-Uygulamayı silersen hepsi silinir.
+Bu bilgiler **yalnız cihazında** saklanır; uygulama onları hiçbir yere
+göndermez. Telefon değiştirince ilerlemen kaybolmasın diye bu ilerleme
+kaydı telefonunun **kendi yedeğine** dahildir: Android'de Google
+hesabındaki Android yedeğine ve yeni telefona aktarıma, iPhone'da iCloud
+yedeğine. Bu yedeği telefonunun sistemi senin hesabında tutar; biz onu
+göremeyiz ve almayız. Yedeklemeyi telefonunun ayarlarından kapatabilirsin.
+Uygulamayı silersen cihazdaki kayıt silinir.
 
 **Kelime veritabanı** (2.818 kelime) uygulamanın içinde gelir ve
-tamamen çevrimdışı çalışır.
+tamamen çevrim dışı çalışır.
 
 ---
 
@@ -87,11 +90,20 @@ istenmez.
 - Ses **kaydedilmez ve saklanmaz.** Uygulama sesin kendisini hiçbir
   dosyaya yazmaz; yalnızca telefonun ses tanıma özelliğinin ürettiği
   **yazıyı** hedef cümleyle karşılaştırır, sonra o yazıyı atar.
-- Ses tanımayı **telefonunun kendi sistemi** yapar. Cihazın çevrimdışı
-  tanımayı destekliyorsa ses telefondan çıkmaz. Desteklemiyorsa, telefonun
-  sistem servisi (Android'de genellikle Google'ın ses tanıma servisi, iOS'ta
-  Apple'ın ses tanıma servisi) sesi **kendi gizlilik politikasına göre**
-  işleyebilir. Bu işleme bize ulaşmaz; biz sesi görmeyiz ve almayız.
+- Ses tanımayı **telefonunun kendi sistemi** yapar. Cihazın çevrim dışı
+  tanımayı destekliyorsa uygulama onu kullanır ve ses telefondan çıkmaz.
+- Cihaz çevrim dışı tanımayı desteklemiyorsa (ya da İngilizce tanıma
+  paketi yüklü değilse) uygulama **önce sorar:** "Telefonun konuşmayı
+  cihaz üzerinde tanıyamıyor. Bu özellik için sesin Google'ın servisine
+  gönderilecek; uygulama sesi saklamaz. Devam edilsin mi?" (iPhone'da
+  "Apple'ın servisine").
+  - **"Devam et" dersen** ses, telefonunun sistem servisi (Android'de
+    genellikle Google'ın ses tanıma servisi, iOS'ta Apple'ın ses tanıma
+    servisi) tarafından **kendi gizlilik politikasına göre** işlenir. Bu
+    işleme bize ulaşmaz; biz sesi görmeyiz ve almayız.
+  - **"Hayır" dersen** ses telefondan çıkmaz ve bu özellik kapalı kalır.
+  - Cevabın saklanır, bir daha sorulmaz. Ayarlar ekranındaki **"Bulut
+    ses tanımaya izin ver"** anahtarıyla dilediğin zaman değiştirebilirsin.
 - İzni dilediğin zaman telefonunun Ayarlar bölümünden geri alabilirsin;
   uygulamanın geri kalanı aynen çalışır.
 
@@ -100,40 +112,18 @@ istenmez.
 ## İnternet bağlantısı
 
 Bizim bir sunucumuz yoktur. Oyunların, derslerin ve ilerlemenin tamamı
-internetsiz çalışır. Uygulamanın internete çıktığı tek yer, aşağıda
-anlatılan isteğe bağlı Google Play skor tablosudur; ona girmezsen
-uygulama ağa hiçbir şey göndermez.
+internetsiz çalışır; uygulama kendi başına ağa veri göndermez. İnternet
+yalnız şu iki durumda devreye girer:
 
----
+- Ayarlar'daki gizlilik politikası bağlantısına ya da Kaynaklar
+  ekranındaki sitelere **sen dokunursan** telefonunun tarayıcısı açılır.
+  O siteye giriş tarayıcının ve o sitenin kuralına tabidir.
+- "Sesli söyle" özelliğinde, cihazda çevrim dışı tanıma yoksa ve **sen
+  izin verdiysen** sistemin ses tanıma servisi (yukarıdaki bölüm).
 
-## Google Play skor tablosu (isteğe bağlı)
-
-CümleKur Android sürümünde Google Play Oyun Hizmetleri'nin **skor
-tablosunu** kullanabilir (günlük, haftalık ve tüm zamanlar; ilk 10 ve
-senin sıran). Bu özellik **isteğe bağlıdır**: Google Play Oyunlar
-hesabınla girmezsen hiçbir şey gönderilmez ve uygulama bugünkü gibi tamamen
-cihazında kalır.
-
-Girersen, Google'ın kendi açıklamasına göre
-(developer.android.com/games/pgs/data-collection):
-
-- **Oyuncu kimliğin** (Play Oyunlar takma adın ve avatarın) bu uygulamayla
-  paylaşılır ve skor tablosunda görünür.
-- **Skorların** (toplam XP'n) Google'ın sunucularına gönderilir ve skor
-  tablosunda gösterilir.
-- Play Oyun Hizmetleri kendi kararlılığı için **analiz ve tanılama**
-  verisi toplar.
-- Veriler aktarım sırasında **HTTPS ile şifrelenir**.
-- Profilinin kimlere görüneceğini (herkes / yalnız arkadaşlar / yalnız
-  sen) Play Oyunlar ayarlarından **sen seçersin**.
-- Bu verileri Play Oyunlar profilinden (play.google.com/games/profile)
-  ya da Google Hesabından (myaccount.google.com) **silebilirsin**.
-
-Bu veriler **Google'a gider, bize gelmez**: e-posta adresini, gerçek
-adını ya da konumunu görmüyoruz. Google'ın işlemesi Google Gizlilik
-Politikası'na tabidir (policies.google.com/privacy).
-
-iOS sürümünde skor tablosu yoktur; orada hiçbir şey gönderilmez.
+Bu sürümde Google Play skor tablosu ya da başka bir çevrim içi sıralama
+yoktur. İleride böyle bir özellik eklenirse bu politika, sürüm yayımlanmadan
+önce güncellenir.
 
 ---
 
@@ -155,9 +145,9 @@ hiçbir içerik kilitli değildir.
 
 ## Çocuklar
 
-CümleKur çocuklara yönelik değildir; hedef kitlesi ergen ve
-yetişkinlerdir. Çocuklardan bilerek bilgi toplamıyoruz — zaten
-hiç kimseden kişisel bilgi toplamıyoruz.
+CümleKur **13 yaş ve üzeri** kullanıcılar için hazırlanmıştır; 13 yaşın
+altındaki çocuklara yönelik değildir. Çocuklardan bilerek bilgi
+toplamıyoruz — zaten hiç kimseden kişisel bilgi toplamıyoruz.
 
 ---
 
@@ -165,15 +155,15 @@ hiç kimseden kişisel bilgi toplamıyoruz.
 
 Tuttuğumuz hiçbir kişisel verin olmadığı için silinecek, düzeltilecek
 ya da dışa aktarılacak bir kaydın da yok. Cihazındaki ilerlemeyi
-uygulamayı silerek her zaman tamamen kaldırabilirsin. Skor tablosu
-verilerini Play Oyunlar profilinden ya da Google Hesabından silebilirsin.
+uygulamayı silerek her zaman tamamen kaldırabilirsin.
 
 ---
 
 ## Değişiklikler
 
 Bu politika değişirse yukarıdaki tarih güncellenir. Veri kullanımını
-genişleten bir değişiklik olursa uygulama içinde bildirilir.
+genişleten bir değişiklik olursa (örneğin çevrim içi bir özellik eklenirse)
+yeni sürümden önce politika güncellenir.
 
 ## İletişim
 
