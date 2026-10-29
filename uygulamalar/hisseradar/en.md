@@ -1,13 +1,13 @@
 # HisseRadar Privacy Policy
 
-Last updated: October 27, 2026
+Last updated: October 29, 2026
 
 HisseRadar is an educational app that teaches stock chart patterns in short lessons and lists, every trading day, the BIST and US stocks that match those patterns. The app is developed by Kadir Yiğit.
 
 ## In short
 - There are no accounts. The app never asks for your name, email, phone number, location, contacts or photos.
 - There are no ads and no analytics or tracking tools.
-- Everything you enter in the app is stored only on your device.
+- Everything you enter in the app is stored only on your device. The one exception: If you turn on stock notifications, the ticker symbols of the stocks you follow are sent to Google Firebase so that notifications can be delivered.
 - For notifications, Firebase Cloud Messaging (Google) uses a device token; details below.
 
 This text is also the privacy notice required by the Turkish Personal Data Protection Law (KVKK, Law No. 6698) and the Communiqué on the Procedures and Principles for Fulfilling the Obligation to Inform.
@@ -16,22 +16,23 @@ This text is also the privacy notice required by the Turkish Personal Data Prote
 Under the Turkish Personal Data Protection Law (KVKK, Law No. 6698), the data controller is **Kadir Yiğit**, the individual who develops the app on his own. Contact: yyggttkadir@gmail.com
 
 ## Personal data processed, purpose and legal basis
-The only things in the app that may count as personal data are the two identifiers used for notifications. They are created only when you turn a notification on:
+The only data in the app that may count as personal data relates to notifications and is processed only when you turn a notification on:
 
 | Data | Purpose | Legal basis | How it is collected | When it ends |
 |---|---|---|---|---|
 | Firebase notification token | Delivering the notifications you turned on to your device | Explicit consent (KVKK Art. 5(1)) | Automatically, by the Firebase library on your device when you turn a notification on | When you turn notifications off or delete the app |
 | Firebase installation ID | Keeping the token tied to the right device | Explicit consent (KVKK Art. 5(1)) | The same way, automatically | When you turn notifications off or delete the app |
+| Ticker symbols of the stocks you follow (only if you turn on stock notifications) | Notifying you when a stock you follow reaches its first target | Explicit consent (KVKK Art. 5(1)) | When you turn on "Stock notifications" in Settings, through one notification topic subscription per stock | When you turn stock notifications off, unfollow the stock, revoke notification permission or delete the app |
 
 These identifiers are used only for notifications; they are not processed for advertising, profiling or any other purpose. Turning a notification on is your explicit consent to this processing; you can use the rest of the app without turning any notification on.
 
-The data kept on your device (watchlist, lesson progress, virtual and real portfolios, settings) never reaches the developer or any other server. For that reason it is not personal data processing on the developer's side; only you can see it and only you can delete it.
+If you turn on stock notifications, the ticker symbols of the stocks you follow are sent to Google Firebase so that notifications can be delivered. Stock notifications are off by default. Apart from that, the data kept on your device (watchlist, lesson progress, virtual and real portfolios, settings) never reaches the developer or any other server. For that reason it is not personal data processing on the developer's side; only you can see it and only you can delete it.
 
 ## Stored on your device
-The following are kept only on your phone, in the app's own storage, and are never sent to any server:
+The following are kept on your phone, in the app's own storage. Unless you turn on stock notifications, none of it is sent to any server:
 
 - Lesson progress and quiz scores
-- Your watchlist and the named lists you create
+- Your watchlist and the named lists you create (if you turn on stock notifications, only the ticker symbols are sent to Google Firebase as notification topics; list names are not sent)
 - Your virtual portfolio (virtual cash, virtual trades and their history)
 - Your real portfolio: The share count and average cost you enter
 - Badges and day streak
@@ -48,19 +49,19 @@ Notifications are delivered through Google's Firebase Cloud Messaging. For this,
 Topics and where to turn them off:
 
 - **Scan notification:** When a pattern has a new match. Turned on and off with the switch on that scan's screen.
-- **Stock target notification:** When a stock you follow reaches its first target. Stops when you unfollow the stock.
+- **Stock target notification:** When a stock you follow reaches its first target. Off by default; turned on and off with the "Stock notifications" switch in Settings. If you turn it on, the ticker symbols of the stocks you follow are sent to Google Firebase so that notifications can be delivered: your device subscribes to one topic per stock, such as "hedef-BIST-THYAO", and Google knows which device is subscribed to which topic. Unfollowing a stock leaves that stock's topic; turning the switch off leaves all stock topics.
 - **Morning briefing:** Weekday mornings. Turned off in Settings.
 - **Weekly summary:** Sundays. Turned off in Settings.
 
-On Android 13 and later, the app asks for notification permission when you first turn a notification on; you can revoke it at any time in your phone's settings. Deleting the app invalidates the subscriptions and the token.
+On Android 13 and later, the app asks for notification permission when you first turn a notification on; you can revoke it at any time in your phone's settings. The app checks the permission every time it opens or comes to the foreground; without permission it leaves all topics. Deleting the app invalidates the subscriptions and the token.
 
 ## Transfer abroad
-The notification token and installation ID are processed on the servers of Google LLC (USA) for Firebase Cloud Messaging. Under Article 9 of the Turkish Personal Data Protection Law (KVKK, Law No. 6698), this transfer abroad is based on your explicit consent (Art. 9(6)(a)). The risk you should know about: the Turkish Personal Data Protection Board has issued no adequacy decision for the USA, and the data may be subject to US law there. Turning a notification on is your consent to this transfer; when you turn all notifications off or delete the app, the transfer stops.
+The notification token, the installation ID and, if you turned on stock notifications, the topic subscriptions for the ticker symbols you follow are processed on the servers of Google LLC (USA) for Firebase Cloud Messaging. Under Article 9 of the Turkish Personal Data Protection Law (KVKK, Law No. 6698), this transfer abroad is based on your explicit consent (Art. 9(6)(a)). The risk you should know about: the Turkish Personal Data Protection Board has issued no adequacy decision for the USA, and the data may be subject to US law there. Turning a notification on is your consent to this transfer; when you turn all notifications off or delete the app, the transfer stops.
 
 Scan data is downloaded from GitHub Pages (GitHub, Inc., USA); no account or device identifier is sent with that request. The developer does not receive or keep the IP address GitHub sees when serving it.
 
 ## Retention
-The notification token and installation ID stay on Google's servers for as long as notifications are on. They become invalid when you turn notifications off or delete the app. The developer keeps no records at all: there is no server that stores tokens, IP addresses or usage information.
+The notification token, the installation ID and the topic subscriptions stay on Google's servers for as long as notifications are on. They become invalid when you turn notifications off or delete the app. The developer keeps no records at all: there is no server that stores tokens, IP addresses or usage information.
 
 ## Your rights under the Turkish Personal Data Protection Law (KVKK, Law No. 6698)
 Under Article 11, you may apply to the data controller to:
