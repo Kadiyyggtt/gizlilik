@@ -48,10 +48,12 @@ Notifications are delivered through Google's Firebase Cloud Messaging. For this,
 
 Topics and where to turn them off:
 
-- **Scan notification:** When a pattern has a new match. Turned on and off with the switch on that scan's screen.
+- **Scan notification:** When a pattern has a new match. Off by default; turned on and off with the switch on that scan's screen.
 - **Stock target notification:** When a stock you follow reaches its first target. Off by default; turned on and off with the "Stock notifications" switch in Settings. If you turn it on, the ticker symbols of the stocks you follow are sent to Google Firebase so that notifications can be delivered: your device subscribes to one topic per stock, such as "hedef-BIST-THYAO", and Google knows which device is subscribed to which topic. Unfollowing a stock leaves that stock's topic; turning the switch off leaves all stock topics.
-- **Morning briefing:** Weekday mornings. Turned off in Settings.
-- **Weekly summary:** Sundays. Turned off in Settings.
+- **Morning briefing:** Weekday mornings. Off by default; turned on and off in Settings.
+- **Weekly summary:** Sundays. Off by default; turned on and off in Settings.
+
+Scan notifications, the morning briefing and the weekly summary are general topics that send the same message to everyone (e.g. "topuk-donusu", "brifing"); a topic name contains no personal data. Still, when your device subscribes to a topic, Google can see which general topics it is subscribed to. If you turn on no notification at all, the device subscribes to no topic and no notification token is ever created.
 
 On Android 13 and later, the app asks for notification permission when you first turn a notification on; you can revoke it at any time in your phone's settings. The app checks the permission every time it opens or comes to the foreground; without permission it leaves all topics. Deleting the app invalidates the subscriptions and the token.
 

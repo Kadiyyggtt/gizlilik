@@ -48,10 +48,12 @@ Bildirimler Google'ın Firebase Cloud Messaging hizmetiyle gönderilir. Bunun i�
 
 Konular ve nereden kapatıldıkları:
 
-- **Tarama bildirimi:** Bir formasyonda yeni eşleşme olunca. İlgili tarama ekranındaki anahtardan açılıp kapatılır.
+- **Tarama bildirimi:** Bir formasyonda yeni eşleşme olunca. Varsayılan olarak kapalıdır; ilgili tarama ekranındaki anahtardan açılıp kapatılır.
 - **Hisse hedef bildirimi:** Takip ettiğin hisse ilk hedefe ulaşınca. Varsayılan olarak kapalıdır; Ayarlar'daki "Hisse bildirimleri" anahtarıyla açılıp kapatılır. Açarsan, takip ettiğin hisse kodları bildirim gönderebilmek için Google Firebase'e iletilir: Cihazın her hisse için "hedef-BIST-THYAO" gibi bir konuya abone olur, Google da hangi cihazın hangi konuya abone olduğunu bilir. Hisseyi takipten çıkarınca o hissenin konusundan, anahtarı kapatınca bütün hisse konularından çıkılır.
-- **Sabah brifingi:** Hafta içi sabah. Ayarlar'dan kapatılır.
-- **Haftalık özet:** Pazar. Ayarlar'dan kapatılır.
+- **Sabah brifingi:** Hafta içi sabah. Varsayılan olarak kapalıdır; Ayarlar'dan açılıp kapatılır.
+- **Haftalık özet:** Pazar. Varsayılan olarak kapalıdır; Ayarlar'dan açılıp kapatılır.
+
+Tarama bildirimi, sabah brifingi ve haftalık özet herkese aynı mesajın gittiği genel konulardır (ör. "topuk-donusu", "brifing"); konu adı kişisel veri içermez. Yine de bir konuya abone olunca Google, cihazının hangi genel konulara abone olduğunu görür. Hiçbir bildirimi açmazsan hiçbir konuya abone olunmaz ve bildirim belirteci hiç üretilmez.
 
 Android 13 ve üstünde uygulama bildirim iznini ilk bildirimi açtığında ister; izni istediğin zaman telefonun ayarlarından geri alabilirsin. Uygulama her açılışta ve öne her gelişinde izni denetler; izin yoksa bütün konulardan çıkar. Uygulamayı silince abonelikler ve belirteç de geçersiz olur.
 
