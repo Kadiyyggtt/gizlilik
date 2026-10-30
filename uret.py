@@ -13,6 +13,12 @@ bırakıyor — sessizce kaybetmiyor.
 
 Politikaların ASLİ KOPYASI her uygulamanın kendi deposunda. Burası
 yalnızca yayın yeri; `yenile.sh` onları buraya kopyalıyor.
+
+Kullanım koşulları: bir uygulamanın klasöründe `kosullar.md` varsa (şimdilik
+yalnız Ermenice) `kosullar.html` de üretilir ve Türkçe politikanın dil
+sekmelerinin yanına "Kullanım Koşulları" bağlantısı eklenir. Koşullar yalnız
+Türkçedir. Önceden Ermenice bu sayfalar ayrı bir betikle üretiliyordu; o betik
+kaldırıldı, tüm sayfalar yalnızca bu dosyadan üretilir.
 """
 
 import html
@@ -184,6 +190,15 @@ footer{margin-top:56px;padding-top:20px;border-top:1px solid var(--cizgi);
 """
 
 
+# Düz yazılmış adresler de tıklanabilir olsun (aynı metin uygulama ekranında düz kalır). Yalnız `kosullar.md`
+# olan uygulamalarda uygulanır: diğer politikaların yayındaki sayfaları bayt bayt aynı kalsın.
+DUZ_ADRES = re.compile(r'(?<![">])(https://[^\s<]+?)(?=[.,;)]?(?:\s|<))')
+
+
+def duz_adresleri_bagla(govde: str) -> str:
+    return DUZ_ADRES.sub(r'<a href="\1">\1</a>', govde)
+
+
 def sayfa(baslik: str, vurgu: str, govde: str, dil: str = 'tr') -> str:
     return f"""<!doctype html>
 <html lang="{dil}"><head>
@@ -222,16 +237,32 @@ def degisim_tarihi(md: pathlib.Path) -> str:
         pass
     return bugun
 
+def ust_bilgi(u: dict, geri: str, baglantilar: str) -> str:
+    return f"""
+<header>
+  <a class="geri" href="../../index.html">← {geri}</a>
+  <div class="rozet">{u['emoji']} {html.escape(u['ad'])}</div>
+  <div class="diller">
+    {baglantilar}
+  </div>
+</header>"""
+
+
 for u in UYGULAMALAR:
     klasor = KOK / 'uygulamalar' / u['slug']
+    kosullar = klasor / 'kosullar.md'
     # tr ve en zorunlu; es yalnız dosyası varsa.
     mevcut = [(d, e) for d, e in DILLER if d in ('tr', 'en') or (klasor / f'{d}.md').exists()]
     for dil, etiket in mevcut:
         kaynak = (klasor / f'{dil}.md').read_text()
         icerik = markdown_html(kaynak)
+        if kosullar.exists():
+            icerik = duz_adresleri_bagla(icerik)
         baglantilar = '\n    '.join(
             ('<a class="etkin" href="%s.html">%s</a>' if d == dil else '<a href="%s.html">%s</a>') % (d, e)
             for d, e in mevcut)
+        if kosullar.exists() and dil == 'tr':
+            baglantilar += '\n    <a href="kosullar.html">Kullanım Koşulları</a>'
         govde = f"""
 <header>
   <a class="geri" href="../../index.html">← {GERI[dil]}</a>
@@ -244,6 +275,14 @@ for u in UYGULAMALAR:
 <footer>Kadir Yiğit · yyggttkadir@gmail.com · {degisim_tarihi(klasor / f'{dil}.md')}</footer>"""
         hedef = klasor / f'{dil}.html'
         hedef.write_text(sayfa(f"{u['ad']} {BASLIK[dil]}", u['vurgu'], govde, dil))
+        uretilen += 1
+
+    # Kullanım koşulları (yalnız Türkçe): sekmeler politika ↔ koşullar.
+    if kosullar.exists():
+        sekmeler = '<a href="tr.html">Gizlilik Politikası</a>\n    <a class="etkin" href="kosullar.html">Kullanım Koşulları</a>'
+        govde = (ust_bilgi(u, GERI['tr'], sekmeler) + '\n' + duz_adresleri_bagla(markdown_html(kosullar.read_text()))
+                 + f"\n<footer>Kadir Yiğit · yyggttkadir@gmail.com · {degisim_tarihi(kosullar)}</footer>")
+        (klasor / 'kosullar.html').write_text(sayfa(f"{u['ad']} Kullanım Koşulları", u['vurgu'], govde, 'tr'))
         uretilen += 1
 
 # Kapak
