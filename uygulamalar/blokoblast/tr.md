@@ -6,14 +6,15 @@
 
 # Bloko Blast — Gizlilik Politikası
 
-**Son güncelleme:** 8 Ekim 2026
+**Son güncelleme:** 19 Ekim 2026
 
 Bloko Blast bir bulmaca oyunudur. Bu metin, oyunun hangi bilgilere
 dokunduğunu ve dokunmadığını açıkça anlatır.
 
 **Kısa cevap: biz hiçbir bilgi toplamıyoruz.** Hesap yok, reklam yok,
-oynamak için internet gerekmiyor, sana sorulan hiçbir izin yok. Oyun
-tamamen cihazında çalışıyor ve hiçbir sunucuya bağlanmıyor.
+oynamak için internet gerekmiyor, sana sorulan hiçbir izin yok. Tek
+istisna isteğe bağlı **Google Play skor tablosudur**: Play Oyunlar
+hesabınla girersen skorun ve oyuncu kimliğin Google'a gider (aşağıda).
 
 ---
 
@@ -50,17 +51,17 @@ Yukarıdaki "toplanmıyor" listesi bu yüzden doğru kalıyor: kayıt
 ## İzinler
 
 **Sana sorulan hiçbir izin yok.** Konum, kamera, mikrofon, kişiler,
-fotoğraf ve depolama izinlerinin hiçbiri istenmiyor. **İnternet izni de
-yok** — oyun ağa çıkamaz.
+fotoğraf ve depolama izinlerinin hiçbiri istenmiyor.
 
-Mağaza sayfasında dört teknik izin görünebilir. Bunlar Android'in
-kurulumda kendiliğinden verdiği, onay kutusu çıkarmayan izinlerdir:
+Mağaza sayfasında beş teknik izin görünebilir. Bunlar Android'in kurulumda
+kendiliğinden verdiği, onay kutusu çıkarmayan izinlerdir:
 
 | İzin | Neden |
 |---|---|
 | Titreşim | Parça yerleşince ve satır patlayınca kısa titreşim — Ayarlar'dan kapatılabilir |
 | Ses ayarları | Oyun seslerinin telefonun kendi müziğini kesmemesi için |
-| Ağ bağlantılarını görme | Android'in ses çalma kütüphanesi (AndroidX Media3) ekliyor. Oyun bunu kullanmaz; internet izni olmadığı için hiçbir bağlantı kuramaz |
+| İnternet | Yalnız isteğe bağlı Google Play skor tablosu için. **Oyunun kendisi internetsiz çalışır** — uçak modunda da eksiksiz oynanır |
+| Ağ bağlantılarını görme | Android'in ses çalma kütüphanesi (AndroidX Media3) ekliyor. Oyun bu bilgiyi okumaz, hiçbir yere göndermez |
 | Telefonun uykuya geçmesini önleme | Aynı ses kütüphanesi ekliyor (ses çalarken kesilmesin diye). Oyun ekranı kendisi açık tutmaz |
 
 Hesap sistemi **yoktur.**
@@ -69,16 +70,41 @@ Hesap sistemi **yoktur.**
 
 ## İnternet
 
-**Oyun internetsiz çalışır.** Hiçbir sunucuya bağlanmaz, hiçbir istek
-göndermez; pakette internet izni bile yoktur. Uçak modunda da tamamen
-oynanır.
+**Oyun internetsiz çalışır.** Uçak modunda da tamamen oynanır. İnternete
+yalnız Google Play skor tablosu (Play Oyunlar hesabınla girdiysen)
+bağlanır; çevrimdışıyken skor sessizce atlanır, oyun beklemez.
 
-Ayarlar'daki **Gizlilik politikası** satırı bu sayfayı telefonunun
-kendi tarayıcısında açar; o bağlantıyı oyun değil tarayıcı kurar.
+---
 
-Bu sürümde Google Play skor tablosu **yoktur**; Google Play Oyun
-Hizmetleri pakete hiç girmez. İleride eklenirse bu politika **önceden**
-güncellenir.
+## Google Play skor tablosu (isteğe bağlı)
+
+Bloko Blast Android sürümünde Google Play Oyun Hizmetleri'nin **skor
+tablosunu** kullanabilir (günlük, haftalık ve tüm zamanlar; ilk 10 ve
+senin sıran). Bu özellik **isteğe bağlıdır**: Google Play Oyunlar
+hesabınla girmezsen hiçbir şey gönderilmez ve oyun bugünkü gibi tamamen
+cihazında kalır.
+
+Girersen, Google'ın kendi açıklamasına göre
+(developer.android.com/games/pgs/data-collection):
+
+- **Oyuncu kimliğin** (Play Oyunlar takma adın ve avatarın) bu oyunla
+  paylaşılır ve skor tablosunda görünür.
+- **Skorların** (oyun skorun ve Günlük Meydan Okuma skorun) Google'ın sunucularına gönderilir ve skor
+  tablosunda gösterilir.
+- Play Oyun Hizmetleri kendi kararlılığı için **analiz ve tanılama**
+  verisi toplar.
+- Veriler aktarım sırasında **HTTPS ile şifrelenir**.
+- Profilinin kimlere görüneceğini (herkes / yalnız arkadaşlar / yalnız
+  sen) Play Oyunlar ayarlarından **sen seçersin**.
+- Bu verileri Play Oyunlar profilinden (play.google.com/games/profile)
+  ya da Google Hesabından (myaccount.google.com) **silebilirsin**.
+
+Bu veriler **Google'a gider, bize gelmez**: e-posta adresini, gerçek
+adını ya da konumunu görmüyoruz. Google'ın işlemesi Google Gizlilik
+Politikası'na tabidir (policies.google.com/privacy).
+
+iOS sürümünde skor tablosu yoktur; orada hiçbir şey gönderilmez.
+
 
 ---
 
@@ -91,7 +117,8 @@ Yalnız **kendi cihazında** şunlar tutuluyor:
 - Yarım kalan oyunun (kaldığın yerden devam edebilmen için)
 - Açtığın temalar ve ayarların (ses, titreşim, dil)
 
-Bu bilgiler cihazdan çıkmaz. Oyunu silersen hepsi silinir.
+Bu bilgiler cihazdan çıkmaz (yalnız yukarıdaki skor tablosu skoru, giriş
+yaptıysan Google'a gider). Oyunu silersen hepsi silinir.
 
 ---
 
@@ -108,15 +135,16 @@ değişiklik oyun içinde bildirilir. Bugün itibarıyla hiçbiri yoktur.
 ## Çocuklar
 
 Bloko Blast çocuklara yönelik bir uygulama olarak sunulmamaktadır.
-Yine de oyunda reklam, satın alma ve veri toplama olmadığı için bu
-açıdan bir risk taşımaz.
+Oyunda reklam ve satın alma yoktur; skor tablosu isteğe bağlıdır ve
+Google Play Oyunlar hesabıyla girilmeden hiçbir şey göndermez.
 
 ---
 
 ## Haklarını kullanmak
 
 Tuttuğumuz hiçbir kişisel verin olmadığı için bizde silinecek, düzeltilecek
-ya da dışa aktarılacak bir kaydın da yok. Cihazındaki oyun ilerlemesini,
+ya da dışa aktarılacak bir kaydın da yok. Skor tablosu verilerini Play
+Oyunlar profilinden ya da Google Hesabından silebilirsin. Cihazındaki oyun ilerlemesini,
 oyunu silerek tamamen kaldırabilirsin.
 
 ## İletişim

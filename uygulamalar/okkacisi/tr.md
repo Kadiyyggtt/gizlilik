@@ -6,7 +6,7 @@
 
 # Ok Kaçışı — Gizlilik Politikası
 
-**Son güncelleme:** 8 Ekim 2026
+**Son güncelleme:** 19 Ekim 2026
 
 Ok Kaçışı bir bulmaca oyunudur. Bu metin, oyunun hangi bilgilere
 dokunduğunu ve dokunmadığını açıkça anlatır.
@@ -47,7 +47,7 @@ kendiliğinden verdiği ve onay kutusu çıkarmayan izinlerdir:
 |---|---|
 | Titreşim | Ok çarpınca ve bölüm bitince kısa titreşim — Ayarlar'dan kapatılabilir |
 | Ses ayarları | Oyun seslerinin telefonun kendi müziğini kesmemesi için |
-| İnternet | Yalnız isteğe bağlı Google Play skor tablosu için (açık olduğu sürümde) — oyunun kendisi internetsiz çalışır ve başka hiçbir yere bağlanmaz. İzin, Expo'nun standart parçalarıyla pakette bulunur |
+| İnternet | Yalnız isteğe bağlı Google Play skor tablosu için — oyunun kendisi internetsiz çalışır ve başka hiçbir yere bağlanmaz. İzin, Expo'nun standart parçalarıyla pakette bulunur |
 | Ağ bağlantılarını görme | Ses çalan kütüphaneden (AndroidX Media3) gelir; oyun bu bilgiyi okumaz, hiçbir yere göndermez |
 | Telefonun uykuya geçmesini önleme | Aynı ses kütüphanesinden gelir; oyun bunu kullanmaz ve arka planda ses çalmaz |
 

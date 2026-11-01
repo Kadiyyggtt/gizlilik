@@ -6,7 +6,7 @@
 
 # Color Sort — Privacy Policy
 
-**Last updated:** 8 October 2026
+**Last updated:** 19 October 2026
 
 Color Sort is a puzzle game. This document states plainly which
 information the game touches and which it does not.
@@ -54,9 +54,6 @@ grants at install time without a prompt:
 Android's own support library also adds an internal permission used only
 inside the game itself (`…DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION`); it
 opens nothing to other apps and never asks you anything.
-
-In versions without the leaderboard turned on, the Google Play Games
-Services library is **not in the app at all**.
 
 The advertising ID permission (Android) is explicitly **blocked**.
 

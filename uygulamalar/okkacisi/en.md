@@ -6,7 +6,7 @@
 
 # Arrow Escape (Ok Kaçışı) — Privacy Policy
 
-**Last updated:** 8 October 2026
+**Last updated:** 19 October 2026
 
 Arrow Escape is a puzzle game. This page explains plainly which
 information the game touches and which it does not.
@@ -47,7 +47,7 @@ automatically by Android at install time without a prompt:
 |---|---|
 | Vibration | A short buzz when an arrow collides and when a level ends — can be turned off in Settings |
 | Audio settings | So game sounds do not interrupt your own music |
-| Internet | Only for the optional Google Play leaderboard (in versions where it is switched on) — the game itself works offline and connects nowhere else. The permission ships with Expo's standard components |
+| Internet | Only for the optional Google Play leaderboard — the game itself works offline and connects nowhere else. The permission ships with Expo's standard components |
 | View network connections | Comes from the audio playback library (AndroidX Media3); the game does not read this information or send it anywhere |
 | Prevent phone from sleeping | Comes from the same audio library; the game does not use it and plays no sound in the background |
 

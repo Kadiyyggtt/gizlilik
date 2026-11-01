@@ -6,7 +6,7 @@
 
 # Renk Sıralama — Gizlilik Politikası
 
-**Son güncelleme:** 8 Ekim 2026
+**Son güncelleme:** 19 Ekim 2026
 
 Renk Sıralama bir bulmaca oyunudur. Bu metin, oyunun hangi bilgilere
 dokunduğunu ve dokunmadığını açıkça anlatır.
@@ -54,9 +54,6 @@ kendiliğinden verdiği ve onay kutusu çıkarmayan izinlerdir:
 Android'in kendi kütüphanesi ayrıca yalnız oyunun kendi içinde kullanılan
 bir iç izin ekler (`…DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION`); başka
 uygulamalara hiçbir şey açmaz, sana hiçbir şey sormaz.
-
-Skor tablosu açık olmayan sürümlerde Google Play Oyun Hizmetleri
-kütüphanesi pakette **hiç yoktur**.
 
 Reklam kimliği izni (Android) açıkça **engellenmiştir.**
 
