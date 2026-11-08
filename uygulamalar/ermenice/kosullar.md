@@ -1,6 +1,6 @@
 # Ermenice — Kullanım Koşulları
 
-Son güncelleme: 5 Kasım 2026
+Son güncelleme: 8 Kasım 2026
 
 Bu koşullar, Ermenice uygulamasının kullanımını ve Ermenice Premium aboneliğini düzenler. Uygulamayı kullanarak ya da abonelik satın alarak bu koşulları kabul etmiş olursun.
 
@@ -18,8 +18,8 @@ Ermenice, Türkçe konuşanlara Doğu Ermenicesini öğreten bir dil öğrenme u
 Ermenice Premium, aylık ya da yıllık olarak alınabilen ve seçilen süre bitince otomatik olarak yenilenen bir aboneliktir. Güncel fiyat, satın almadan önce ödeme ekranında ve mağazada gösterilir; ülkeye göre değişebilir. Ödeme, satın almayı onayladığında Google Play ya da Apple App Store hesabından alınır. Ödemeyi bu mağazalar işler; kart bilgilerini geliştirici hiçbir zaman görmez.
 
 ## Otomatik yenileme ve iptal
-- Abonelik, dönem bitmeden en az 24 saat önce iptal edilmezse seçilen süre sonunda otomatik olarak yenilenir.
-- Yenileme ücreti, dönem bitmeden önceki 24 saat içinde aynı mağaza hesabından alınır.
+- Google Play'de abonelik, yenileme anına kadar iptal edilmezse seçilen süre sonunda otomatik olarak yenilenir; ücret yenileme gününde aynı mağaza hesabından alınır. Aboneliği yenileme anına kadar istediğin zaman iptal edebilirsin.
+- App Store'da abonelik, dönem bitmeden en az 24 saat önce iptal edilmezse seçilen süre sonunda otomatik olarak yenilenir; yenileme ücreti dönem bitmeden önceki 24 saat içinde aynı mağaza hesabından alınır.
 - Aboneliği mağaza hesabından yönetir ve iptal edersin. Android'de: Play Store > profil simgesi > Ödemeler ve abonelikler > Abonelikler. iPhone'da: Ayarlar > Apple hesabın > Abonelikler.
 - Uygulamayı silmek aboneliği iptal etmez.
 - İptal edersen Premium, ödenmiş dönemin sonuna kadar açık kalır; sonra uygulama ücretsiz kullanıma döner. İlerlemen silinmez.
