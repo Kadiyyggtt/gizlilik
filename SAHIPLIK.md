@@ -1,22 +1,22 @@
-# Bu deponun sahipliği (taslak)
+# Bu deponun sahipliği
 
 Bu depo (`~/Desktop/gizlilik`, yayın adresi `https://kadiyyggtt.github.io/gizlilik/`) bütün uygulamaların gizlilik politikası ve kullanım koşulları sayfalarını yayımlar. Mağazalar bu adreslere bağlanır; yayındaki metin uygulamanın gerçek davranışıyla aynı olmak zorundadır.
 
 ## Kural
 
-1. **Siteyi yalnız site oturumu üretir ve yayımlar.** Bu depoda dosya değiştirme, `git add`, `commit` ve `push` yalnız site oturumunun işidir.
-2. **Uygulama oturumları yalnız kendi depolarındaki kaynağı günceller:** `GIZLILIK-POLITIKASI.md`, `PRIVACY-POLICY.md`, varsa `POLITICA-DE-PRIVACIDAD.md` ve `KULLANIM-KOSULLARI.md`. Değişikliği kendi depolarına commit edip gönderir, sonra site oturumuna haber verir.
+1. **Siteyi yalnız CümleKur oturumu üretir ve yayımlar** (8 Kasım 2026'dan beri site sahibi CümleKur oturumudur). Bu depoda dosya değiştirme, `git add`, `commit` ve `push` yalnız onun işidir.
+2. **Uygulama oturumları yalnız kendi depolarındaki kaynağı günceller:** `GIZLILIK-POLITIKASI.md`, `PRIVACY-POLICY.md`, varsa `POLITICA-DE-PRIVACIDAD.md` ve `KULLANIM-KOSULLARI.md`. Değişikliği kendi depolarına commit edip gönderir, sonra CümleKur oturumuna (Kadir aracılığıyla) haber verir.
 3. **`uret.py` ve `yenile.sh` başka oturumda çalıştırılmaz.** İkisi de bütün uygulamaların sayfalarını yeniden yazar; başka oturumda çalıştırılınca başka uygulamaların sayfaları da değişir.
 
 ## Haber verme
 
-Uygulama oturumu Kadir'e şu satırı yazar; Kadir bunu site oturumuna iletir:
+Uygulama oturumu Kadir'e şu satırı yazar; Kadir bunu CümleKur oturumuna iletir:
 
 ```
 Site güncellemesi: <uygulama>, kaynak commit <kimlik>, değişen: <tr / en / es / koşullar>, kısa özet: <bir cümle>
 ```
 
-## Site oturumunun yayın adımları
+## Yayın adımları (CümleKur oturumu)
 
 1. Kaynak deponun `origin/main` ile aynı olduğunu doğrula (bayat SSD kopyası bir kez eski politikayı yayına taşıdı).
 2. Kaynağı bu depoya kopyala: `uygulamalar/<slug>/tr.md`, `en.md`, varsa `es.md` ve `kosullar.md` (Ermenice'de `KULLANIM-KOSULLARI.md` → `kosullar.md`). Ermenice `yenile.sh` listesinde değildir, elle kopyalanır.
