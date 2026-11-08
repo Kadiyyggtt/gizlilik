@@ -32,7 +32,7 @@ Uygulama şunları **istemiyor, toplamıyor ve hiçbir yere göndermiyor:**
   ses **kaydedilmez, saklanmaz, bize gönderilmez** (aşağıda ayrı bölüm)
 - Reklam kimliği (uygulamada reklam yoktur)
 - Kullanım istatistiği, **bize gönderilen** çökme raporu, analiz aracı
-  (aşağıdaki teknik kayıt cihazından hiç çıkmıyor)
+  (aşağıdaki teknik kayıt bize hiç ulaşmaz)
 
 Bizim bir hesap sistemimiz **yoktur.** Uygulamaya giriş yapmıyorsun.
 
@@ -41,8 +41,9 @@ Bizim bir hesap sistemimiz **yoktur.** Uygulamaya giriş yapmıyorsun.
 ## Cihazında kalan teknik kayıt
 
 CümleKur beklenmedik şekilde kapanırsa, ne olduğuna dair kısa bir teknik kayıt
-**yalnızca telefonunda** tutulur. Bu kayıt hiçbir yere gönderilmez ve
-hiçbir sunucuya ulaşmaz.
+**yalnızca telefonunda** tutulur. Uygulama bu kaydı hiçbir yere göndermez;
+ilerleme kaydıyla aynı klasörde durduğu için yalnız telefonunun **kendi
+yedeğine** (aşağıda) girer. Biz onu göremeyiz ve almayız.
 
 - **Ayarlar → Teknik Kayıt** bölümünden kendin okuyabilirsin.
 - Aynı yerden tek dokunuşla silebilirsin.
@@ -64,17 +65,17 @@ Yukarıdaki "toplanmıyor" listesi bu yüzden doğru kalıyor: kayıt
 - Hangi hata türlerinde zorlandığın (koç ekranının konuşabilmesi için;
   **cümlenin kendisi değil**, yalnız hatanın türü saklanır)
 - Tamamladığın kelime setleri ve okuma/dinleme ilerlemen
-- Seçtiğin tema, ses ve seviye tercihlerin
+- Seçtiğin tema ve seviye tercihlerin
 
 Bu bilgiler **yalnız cihazında** saklanır; uygulama onları hiçbir yere
 göndermez. Telefon değiştirince ilerlemen kaybolmasın diye bu ilerleme
-kaydı telefonunun **kendi yedeğine** dahildir: Android'de Google
+kaydı telefonunun **kendi yedeğine** dâhildir: Android'de Google
 hesabındaki Android yedeğine ve yeni telefona aktarıma, iPhone'da iCloud
 yedeğine. Bu yedeği telefonunun sistemi senin hesabında tutar; biz onu
 göremeyiz ve almayız. Yedeklemeyi telefonunun ayarlarından kapatabilirsin.
 Uygulamayı silersen cihazdaki kayıt silinir.
 
-**Kelime veritabanı** (2.818 kelime) uygulamanın içinde gelir ve
+**Kelime veritabanı** (2.834 kelime: NGSL listesinden 2.815 kelime ve 19 gün/ay adı) uygulamanın içinde gelir ve
 tamamen çevrim dışı çalışır.
 
 ---

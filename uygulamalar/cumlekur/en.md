@@ -32,7 +32,7 @@ The app does not request, collect or transmit:
   audio is **not recorded, stored, or sent to us** (separate section below)
 - Advertising identifier (the app contains no ads)
 - Usage analytics, or crash reports **sent to us**
-  (the technical log described below never leaves your device)
+  (the technical log described below never reaches us)
 
 We have **no account system.** You do not sign in to the app.
 
@@ -41,8 +41,9 @@ We have **no account system.** You do not sign in to the app.
 ## The technical log that stays on your device
 
 If CümleKur closes unexpectedly, a short technical log of what happened is kept
-**on your phone only**. It is never sent anywhere and never reaches any
-server.
+**on your phone only**. The app never sends it anywhere; because it sits in
+the same folder as your progress record, it is included only in your phone's
+**own backup** (below). We cannot see or receive it.
 
 - You can read it yourself under **Settings → Technical Log**.
 - You can delete it there with a single tap.
@@ -65,7 +66,7 @@ The following is kept **only on your own device**:
   speak from real data — **only the type of mistake is stored, never the
   sentence you wrote**
 - Word sets completed and your reading/listening progress
-- Your theme, voice and level preferences
+- Your theme and level preferences
 
 This data is stored **only on your device**; the app does not send it
 anywhere. So that you do not lose your progress when you change phones,
@@ -76,7 +77,7 @@ system in your account; we cannot see or receive it. You can turn backup
 off in your phone's settings. Deleting the app deletes the record on the
 device.
 
-The **word database** (2,818 words) ships inside the app and works
+The **word database** (2,834 words: 2,815 words from the NGSL list and 19 day and month names) ships inside the app and works
 entirely offline.
 
 ---
