@@ -8,11 +8,11 @@ Bu koşullar, Ermenice uygulamasının kullanımını ve Ermenice Premium abonel
 Ermenice uygulamasını bireysel geliştirici [Veri sorumlusu adı soyadı] sunar. İletişim: yyggttkadir@gmail.com
 
 ## Hizmet
-Ermenice, Türkçe konuşanlara Doğu Ermenicesini öğreten bir dil öğrenme uygulamasıdır. Alfabe, üniteler, alıştırmalar, okuma parçaları, dinleme alıştırmaları ve Serbest Dinleme bölümleri içerir. Dersler cihazında çalışır ve internet gerektirmez. İnternet yalnızca abonelik satın almak, satın alımları geri yüklemek ve abonelik durumunu kontrol etmek için gerekir. Uygulama hesap açtırmaz ve reklam göstermez.
+Ermenice, Türkçe konuşanlara Doğu Ermenicesini öğreten bir dil öğrenme uygulamasıdır. Alfabe, üniteler, alıştırmalar, okuma parçaları, dinleme alıştırmaları ve serbest dinleme bölümleri içerir. Dersler cihazında çalışır ve internet gerektirmez. İnternet yalnızca abonelik satın almak, satın alımları geri yüklemek ve abonelik durumunu kontrol etmek için gerekir. Uygulama hesap açtırmaz ve reklam göstermez.
 
 ## Ücretsiz ve Premium içerik
 - Ücretsiz: alfabe ve ilk iki ünite. Ücretsiz kullanımda 5 can vardır ve yarım saatte bir can yenilenir.
-- Premium: yayındaki bütün üniteler, sınırsız can, tüm okuma parçaları, dinleme alıştırmaları ve Serbest Dinleme bölümleri. Yeni üniteler düzenli olarak eklenir.
+- Premium: yayındaki bütün üniteler, sınırsız can, tüm okuma parçaları, dinleme alıştırmaları ve serbest dinleme bölümleri. Yeni üniteler düzenli olarak eklenir.
 
 ## Abonelik ve ödeme
 Ermenice Premium, aylık ya da yıllık olarak alınabilen ve seçilen süre bitince otomatik olarak yenilenen bir aboneliktir. Güncel fiyat, satın almadan önce ödeme ekranında ve mağazada gösterilir; ülkeye göre değişebilir. Ödeme, satın almayı onayladığında Google Play ya da Apple App Store hesabından alınır. Ödemeyi bu mağazalar işler; kart bilgilerini geliştirici hiçbir zaman görmez.
