@@ -6,7 +6,7 @@
 
 # CümleKur — Gizlilik Politikası
 
-**Son güncelleme:** 29 Ekim 2026
+**Son güncelleme:** 10 Kasım 2026
 
 CümleKur, Türkçe konuşanlar için yapılmış bir İngilizce öğrenme
 uygulamasıdır. Bu metin, uygulamanın hangi bilgilere dokunduğunu ve
@@ -168,4 +168,6 @@ yeni sürümden önce politika güncellenir.
 
 ## İletişim
 
-Soruların için: **yyggttkadir@gmail.com**
+Veri sorumlusu: **Arzu Yiğit** (uygulamanın geliştiricisi)
+
+Soruların ve başvuruların için: **yyggttkadir@gmail.com**

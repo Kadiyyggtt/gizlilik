@@ -6,7 +6,7 @@
 
 # CümleKur — Privacy Policy
 
-**Last updated:** 29 October 2026
+**Last updated:** 10 November 2026
 
 CümleKur is an English-learning app made for Turkish speakers. This
 document states plainly what the app touches and what it does not.
@@ -175,4 +175,6 @@ policy will be updated before that version is released.
 
 ## Contact
 
-Questions: **yyggttkadir@gmail.com**
+Data controller: **Arzu Yiğit** (the app's developer)
+
+Questions and requests: **yyggttkadir@gmail.com**

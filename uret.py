@@ -272,7 +272,7 @@ for u in UYGULAMALAR:
   </div>
 </header>
 {icerik}
-<footer>Kadir Yiğit · yyggttkadir@gmail.com · {degisim_tarihi(klasor / f'{dil}.md')}</footer>"""
+<footer>{html.escape(u.get('sahip', 'Kadir Yiğit'))} · yyggttkadir@gmail.com · {degisim_tarihi(klasor / f'{dil}.md')}</footer>"""
         hedef = klasor / f'{dil}.html'
         hedef.write_text(sayfa(f"{u['ad']} {BASLIK[dil]}", u['vurgu'], govde, dil))
         uretilen += 1
@@ -281,7 +281,7 @@ for u in UYGULAMALAR:
     if kosullar.exists():
         sekmeler = '<a href="tr.html">Gizlilik Politikası</a>\n    <a class="etkin" href="kosullar.html">Kullanım Koşulları</a>'
         govde = (ust_bilgi(u, GERI['tr'], sekmeler) + '\n' + duz_adresleri_bagla(markdown_html(kosullar.read_text()))
-                 + f"\n<footer>Kadir Yiğit · yyggttkadir@gmail.com · {degisim_tarihi(kosullar)}</footer>")
+                 + f"\n<footer>{html.escape(u.get('sahip', 'Kadir Yiğit'))} · yyggttkadir@gmail.com · {degisim_tarihi(kosullar)}</footer>")
         (klasor / 'kosullar.html').write_text(sayfa(f"{u['ad']} Kullanım Koşulları", u['vurgu'], govde, 'tr'))
         uretilen += 1
 
