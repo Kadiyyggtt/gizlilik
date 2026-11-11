@@ -1,13 +1,13 @@
 # Ermenice — Gizlilik Politikası
 
-Son güncelleme: 29 Ekim 2026
+Son güncelleme: 11 Kasım 2026
 
-**Ermenice hesap açtırmaz ve reklam göstermez. Uygulamada kullanım davranışını izleyen bir analiz aracı yoktur. Öğrenme verilerin cihazında saklanır ve geliştiriciye gönderilmez. Abonelik bilgileri RevenueCat tarafından abonelik yönetimi ve toplu satış istatistikleri için işlenir; ödemeyi mağaza alır.**
+**Ermenice hesap açtırmaz ve reklam göstermez. Uygulamada kullanım davranışını izleyen bir analiz aracı yoktur. Öğrenme verilerin cihazında saklanır ve geliştiriciye gönderilmez. Abonelik bilgileri RevenueCat tarafından abonelik yönetimi ve toplu satış istatistikleri için işlenir; ödemeyi mağaza alır. Uygulama, abone olmasan da her açılışta abonelik durumunu kontrol etmek için RevenueCat'e bağlanır.**
 
 Bu metin, KVKK'nın (6698 sayılı Kişisel Verilerin Korunması Kanunu) 10. maddesi uyarınca aydınlatma metni yerine de geçer.
 
 ## Veri sorumlusu
-[Veri sorumlusu adı soyadı], bireysel geliştirici. E-posta: yyggttkadir@gmail.com
+Arzu Yiğit, bireysel geliştirici. E-posta: yyggttkadir@gmail.com
 
 ## Cihazında saklananlar
 Adın, ilerlemen (XP, seri, biten dersler, rozetler), yanlışların ve ayarların bu cihazda saklanır; geliştiriciye ya da bir sunucuya gönderilmez. Ayarlar ekranından istediğin zaman sıfırlayabilirsin.
@@ -19,20 +19,22 @@ Uygulamayı silersen cihazdaki bilgiler de silinir; daha önce alınmış telefo
 ## Abonelik ve ödeme
 Premium abonelik Google Play ya da Apple App Store üzerinden satın alınır. Ödemeyi bu mağazalar kendi gizlilik politikalarına göre işler; kart bilgilerini geliştirici hiçbir zaman görmez.
 
-Aboneliğin doğrulanması için uygulama, abonelik altyapısı olarak RevenueCat, Inc. (ABD) hizmetini kullanır. Satın alma, geri yükleme ya da abonelik kontrolü sırasında RevenueCat'e şunlar iletilir:
-- Uygulamanın rastgele ürettiği anonim bir kullanıcı kimliği (adın, e-postan ya da telefon numaran değildir),
-- Satın alma ve abonelik durumu, mağazanın verdiği işlem bilgileri (ürün, tarih, işlem numarası, fiyat ve para birimi),
-- Cihaz ve sistem bilgileri (cihaz modeli, işletim sistemi sürümü, uygulama sürümü, dil ve ülke ayarı) ile bağlantı sırasında IP adresi.
+Aboneliğin doğrulanması için uygulama, abonelik altyapısı olarak RevenueCat, Inc. (ABD) hizmetini kullanır. Uygulama her açılışta, abone olsan da olmasan da, abonelik durumunu kontrol etmek için RevenueCat'e bağlanır. Ödeme ekranını açtığında güncel fiyatları almak için, satın alma ve geri yükleme sırasında da bağlanır. Bu bağlantılarda RevenueCat'e şunlar iletilir:
+- uygulamanın rastgele ürettiği anonim bir kullanıcı kimliği (adın, e-postan ya da telefon numaran değildir),
+- abonelik durumu; satın alma yaptıysan mağazanın verdiği işlem bilgileri (ürün, tarih, işlem numarası, fiyat ve para birimi),
+- cihaz ve sistem bilgileri (cihaz modeli, işletim sistemi sürümü, uygulama sürümü, dil ve ülke ayarı) ile bağlantı sırasında IP adresi.
 
 Bu bilgiler senin kimliğinle (adın, e-postan) eşleştirilmez, reklam ya da izleme için kullanılmaz ve satılmaz.
 
 ## Amaç ve hukuki sebep
-Abonelik bilgileri Premium içeriği açmak, aboneliği doğrulamak, satın alımları geri yüklemek ve abonelikle ilgili taleplerini yanıtlamak için işlenir. Bunun hukuki sebebi, KVKK'nın 5. maddesinin 2. fıkrasının (c) bendidir: abonelik sözleşmesinin kurulması ve ifası için gerekli olması.
+Abonelik bilgileri Premium içeriği açmak, aboneliği doğrulamak, satın almaları geri yüklemek ve abonelikle ilgili taleplerini yanıtlamak için işlenir. Bunun hukuki sebebi, KVKK'nın 5. maddesinin 2. fıkrasının (c) bendidir: abonelik sözleşmesinin kurulması ve ifası için gerekli olması.
 
-Abonelik bilgileri ayrıca toplu satış istatistikleri (ör. abone sayısı, yenileme ve iptal oranları) için RevenueCat panelinde işlenir. Bu istatistikler tek tek kişileri değil toplam değerleri gösterir ve uygulamadaki kullanım davranışını içermez. Bunun hukuki sebebi, KVKK'nın 5. maddesinin 2. fıkrasının (f) bendidir: veri sorumlusunun hizmeti sürdürmeye yönelik meşru menfaati için veri işlenmesinin zorunlu olması.
+Abone olmayan kullanıcılar için her açılışta yapılan abonelik kontrolünde anonim kullanıcı kimliği, cihaz ve sistem bilgileri ile IP adresi işlenir. Amaç, Premium içeriğin açık olup olmadığını belirlemek ve ödeme ekranında güncel fiyatları göstermektir. Henüz bir abonelik sözleşmesi olmadığı için bunun hukuki sebebi, KVKK'nın 5. maddesinin 2. fıkrasının (f) bendidir: ilgili kişinin temel hak ve özgürlüklerine zarar vermemek kaydıyla, veri sorumlusunun meşru menfaatleri için veri işlenmesinin zorunlu olması. Buradaki meşru menfaat, ücretsiz içerikle Premium içeriği doğru ayırmak ve aboneliği sunabilmektir.
+
+Abonelik bilgileri ayrıca toplu satış istatistikleri (ör. abone sayısı, yenileme ve iptal oranları) için RevenueCat panelinde işlenir. Bu istatistikler tek tek kişileri değil toplam değerleri gösterir ve uygulamadaki kullanım davranışını içermez. Bunun hukuki sebebi, KVKK'nın 5. maddesinin 2. fıkrasının (f) bendidir: ilgili kişinin temel hak ve özgürlüklerine zarar vermemek kaydıyla, veri sorumlusunun meşru menfaatleri için veri işlenmesinin zorunlu olması. Buradaki meşru menfaat, hizmeti sürdürmektir.
 
 ## Toplama yöntemi
-Abonelik bilgileri, satın alma ya da geri yükleme yaptığında ve uygulama abonelik durumunu kontrol ettiğinde, uygulamadaki RevenueCat yazılımı aracılığıyla elektronik ortamda otomatik olarak toplanır.
+Abonelik bilgileri, uygulama her açılışta abonelik durumunu kontrol ettiğinde, ödeme ekranını açtığında ve satın alma ya da geri yükleme yaptığında, uygulamadaki RevenueCat yazılımı aracılığıyla elektronik ortamda otomatik olarak toplanır.
 
 ## Aktarım ve yurt dışına aktarım
 Abonelik bilgileri, yukarıdaki amaçlarla hizmet sağlayıcı olarak RevenueCat'e aktarılır. RevenueCat'in sunucuları Türkiye dışındadır (ABD); bu nedenle bu aktarım, KVKK'nın 9. maddesi kapsamında yurt dışına aktarımdır. Ödeme bilgilerin ise doğrudan Google ya da Apple tarafından işlenir. Bilgiler başka hiçbir üçüncü kişiyle paylaşılmaz.
@@ -40,8 +42,10 @@ Abonelik bilgileri, yukarıdaki amaçlarla hizmet sağlayıcı olarak RevenueCat
 ## Saklama süresi
 Abonelik bilgileri, abonelik ilişkisi sürdüğü sürece ve yasal yükümlülüklerin gerektirdiği süre boyunca saklanır; süre dolunca silinir ya da anonim hâle getirilir.
 
+Her açılışta oluşturulan ya da güncellenen anonim kayıt (anonim kullanıcı kimliği, cihaz ve sistem bilgileri; satın alma yaptıysan işlem bilgileri), abone olsan da olmasan da RevenueCat tarafından geliştirici adına tutulur. Bu kayıt, yasal saklama yükümlülükleri saklı kalmak kaydıyla, abonelik ilişkisinin bitiminden itibaren (abone olmadıysan uygulamayı son açışından itibaren) en geç 1 yıl içinde silinir; talep hâlinde, kayıt belirlenebildiği ölçüde hemen silinir. Kaydı geliştirici RevenueCat üzerinden siler; RevenueCat'e göre bu silme, kayda bağlı satın alma geçmişini de kapsar. Anonim kimlik adınla ya da e-postanla eşleşmediği için kaydın bulunabilmesi, abone olduysan mağazanın verdiği sipariş ya da işlem numarasına bağlıdır; satın alma yapmadıysan kayıt sana ait olarak belirlenemeyebilir.
+
 ## İnternet bağlantısı
-Dersler internetsiz çalışır. Uygulama internete yalnızca satın alma, geri yükleme ve abonelik kontrolü için bağlanır.
+Dersler internetsiz çalışır. Uygulama internete yalnızca abonelik için bağlanır: her açılışta abonelik durumunu kontrol etmek, ödeme ekranında güncel fiyatları göstermek, satın alma ve geri yükleme için. İnternet yoksa bu kontrol yapılamaz ama dersler çalışmaya devam eder.
 
 ## Bildirimler
 Günlük hatırlatmayı açarsan cihaz, seçtiğin saatte yerel bir bildirim gösterir. Bu bildirim internetten gelmez ve bir sunucuya bağlı değildir. Ayarlar ekranından istediğin zaman kapatabilirsin.
@@ -71,13 +75,13 @@ KVKK'nın 11. maddesi uyarınca veri sorumlusuna başvurarak şu haklarını kul
 - Kanuna aykırı işleme nedeniyle zarara uğrarsan zararın giderilmesini isteme.
 
 ## Nasıl başvurursun
-Taleplerini yyggttkadir@gmail.com adresine e-postayla ya da yazılı olarak iletebilirsin. Başvurunda adını, iletişim bilgini ve talebini açıkça yaz; abonelikle ilgili taleplerde mağazanın verdiği sipariş ya da işlem numarasını eklemen kaydı bulmayı kolaylaştırır. Başvurun en geç 30 gün içinde ve kural olarak ücretsiz yanıtlanır. Yanıtı yeterli bulmazsan Kişisel Verileri Koruma Kuruluna şikâyette bulunabilirsin.
+Taleplerini yyggttkadir@gmail.com adresine e-postayla iletebilirsin. Başvurunda adını, iletişim bilgini ve talebini açıkça yaz; abonelikle ilgili taleplerde mağazanın verdiği sipariş ya da işlem numarasını eklemen kaydı bulmayı kolaylaştırır. Başvurun en geç 30 gün içinde ve kural olarak ücretsiz yanıtlanır. Yanıtı yeterli bulmazsan Kişisel Verileri Koruma Kuruluna şikâyette bulunabilirsin.
 
 ## Çocuklar
 Uygulama ad dışında kişisel bilgi istemez; ad da geliştiriciye gönderilmez; yalnızca cihazında ve yedekleme açıksa telefonunun kendi yedeğinde bulunur. Abonelik satın alma, mağaza hesabı ve mağazanın aile ayarları üzerinden yapılır; 18 yaşından küçükler satın alma için ebeveynlerinden ya da vasilerinden izin almalıdır.
 
 ## Değişiklikler
-Bu politika değişirse uygulamanın yeni sürümünde ve bu sayfada duyurulur.
+Bu politika değişirse değişiklik uygulamanın yeni sürümünde ve bu sayfada duyurulur.
 
 ## İletişim
 Sorular için: yyggttkadir@gmail.com

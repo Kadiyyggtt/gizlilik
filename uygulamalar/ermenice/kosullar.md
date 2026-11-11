@@ -1,18 +1,18 @@
 # Ermenice — Kullanım Koşulları
 
-Son güncelleme: 8 Kasım 2026
+Son güncelleme: 11 Kasım 2026
 
 Bu koşullar, Ermenice uygulamasının kullanımını ve Ermenice Premium aboneliğini düzenler. Uygulamayı kullanarak ya da abonelik satın alarak bu koşulları kabul etmiş olursun.
 
 ## Uygulamayı sunan
-Ermenice uygulamasını bireysel geliştirici [Veri sorumlusu adı soyadı] sunar. İletişim: yyggttkadir@gmail.com
+Ermenice uygulamasını bireysel geliştirici Arzu Yiğit sunar. İletişim: yyggttkadir@gmail.com
 
 ## Hizmet
-Ermenice, Türkçe konuşanlara Doğu Ermenicesini öğreten bir dil öğrenme uygulamasıdır. Alfabe, üniteler, alıştırmalar, okuma parçaları, dinleme alıştırmaları ve serbest dinleme bölümleri içerir. Dersler cihazında çalışır ve internet gerektirmez. İnternet yalnızca abonelik satın almak, satın alımları geri yüklemek ve abonelik durumunu kontrol etmek için gerekir. Uygulama hesap açtırmaz ve reklam göstermez.
+Ermenice, Türkçe konuşanlara Doğu Ermenicesini öğreten bir dil öğrenme uygulamasıdır. Alfabe, üniteler, alıştırmalar, okuma parçaları, dinleme alıştırmaları ve serbest dinleme bölümleri içerir. Dersler cihazında çalışır ve internet gerektirmez. İnternet yalnızca abonelik için kullanılır: Uygulama her açılışta abonelik durumunu kontrol etmek için internete bağlanır; abonelik satın almak ve satın almaları geri yüklemek için de internet gerekir. Uygulama hesap açtırmaz ve reklam göstermez.
 
 ## Ücretsiz ve Premium içerik
 - Ücretsiz: alfabe ve ilk iki ünite. Ücretsiz kullanımda 5 can vardır ve yarım saatte bir can yenilenir.
-- Premium: yayındaki bütün üniteler, sınırsız can, tüm okuma parçaları, dinleme alıştırmaları ve serbest dinleme bölümleri. Yeni üniteler düzenli olarak eklenir.
+- Premium: yayındaki bütün üniteler, sınırsız can, tüm okuma parçaları, dinleme alıştırmaları ve serbest dinleme bölümleri. Yeni üniteler hazırlandıkça eklenir.
 
 ## Abonelik ve ödeme
 Ermenice Premium, aylık ya da yıllık olarak alınabilen ve seçilen süre bitince otomatik olarak yenilenen bir aboneliktir. Güncel fiyat, satın almadan önce ödeme ekranında ve mağazada gösterilir; ülkeye göre değişebilir. Ödeme, satın almayı onayladığında Google Play ya da Apple App Store hesabından alınır. Ödemeyi bu mağazalar işler; kart bilgilerini geliştirici hiçbir zaman görmez.
@@ -24,7 +24,7 @@ Ermenice Premium, aylık ya da yıllık olarak alınabilen ve seçilen süre bit
 - Uygulamayı silmek aboneliği iptal etmez.
 - İptal edersen Premium, ödenmiş dönemin sonuna kadar açık kalır; sonra uygulama ücretsiz kullanıma döner. İlerlemen silinmez.
 
-## Satın alımları geri yükleme
+## Satın almaları geri yükleme
 Aynı mağaza hesabıyla yeni bir cihaza geçersen ödeme ekranındaki geri yükleme düğmesiyle aboneliğini yeniden etkinleştirebilirsin. Ders ilerlemen mağaza hesabına bağlı değildir; ilerlemen telefonunun kendi yedeğinden geri gelebilir ya da onu Ayarlar'daki yedek koduyla taşıyabilirsin.
 
 ## İade ve cayma hakkı
