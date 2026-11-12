@@ -6,13 +6,13 @@
 
 # CümleKur — Privacy Policy
 
-**Last updated:** 11 November 2026
+**Last updated:** 12 November 2026
 
 CümleKur is an English-learning app made for Turkish speakers. This
 document states plainly what the app touches and what it does not.
 
-**Short answer:** There is no account, we never ask who you are, there
-are no ads and no tracking. All of your learning progress stays **on
+**Short answer:** There is no account, we never ask who you are, and
+we do not track you. All of your learning progress stays **on
 your own device**. The app does not send data to the internet on its own.
 The one thing to know about is the optional "Say it out loud" feature
 (shown in Turkish as "Sesli söyle"): if the app cannot confirm that your
@@ -34,7 +34,7 @@ The app does not request, collect or transmit:
 - Camera. The microphone is used only **when you tap the "Say" button**
   (shown in Turkish as "Söyle"); audio is **not recorded, stored, or sent
   to us** (separate section below)
-- Advertising identifier (the app contains no ads)
+- Advertising identifier (the app has no permission to read it)
 - Usage analytics, or crash reports **sent to us**
   (the technical log described below never reaches us)
 
@@ -177,11 +177,13 @@ Settings.
 
 ---
 
-## Purchases and ads
+## Purchases
 
-This version contains **no in-app purchases and no ads**. The app does
-not connect to the store's billing system, never asks for payment or
-card details, and no content is locked.
+The app is free; this version contains **no in-app purchases**. The app
+does not connect to the store's billing system, never asks for payment
+or card details, and no content is locked. If the app ever adds ads or any other
+third-party service, this policy will be updated before that version
+is released.
 
 ---
 

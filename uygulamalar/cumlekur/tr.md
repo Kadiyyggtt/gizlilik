@@ -6,14 +6,14 @@
 
 # CümleKur — Gizlilik Politikası
 
-**Son güncelleme:** 11 Kasım 2026
+**Son güncelleme:** 12 Kasım 2026
 
 CümleKur, Türkçe konuşanlar için yapılmış bir İngilizce öğrenme
 uygulamasıdır. Bu metin, uygulamanın hangi bilgilere dokunduğunu ve
 dokunmadığını açıkça anlatır.
 
-**Kısa cevap:** Hesap açmıyorsun, kimliğini istemiyoruz, reklam yok,
-takip yok. Öğrenme ilerlemenin tamamı **yalnız senin cihazında** duruyor.
+**Kısa cevap:** Hesap açmıyorsun, kimliğini istemiyoruz, seni
+takip etmiyoruz. Öğrenme ilerlemenin tamamı **yalnız senin cihazında** duruyor.
 Uygulama kendi başına internete veri göndermez. Tek dikkat edilecek nokta
 isteğe bağlı “Sesli söyle” özelliği: sesin telefondan çıkmayacağı
 doğrulanamıyorsa uygulama önce sana sorar; **izin verirsen** telefonun
@@ -32,7 +32,7 @@ Uygulama şunları **istemiyor, toplamıyor ve hiçbir yere göndermiyor:**
 - Rehber, takvim, fotoğraf, dosya
 - Kamera. Mikrofon yalnız **sen “Söyle” düğmesine bastığında** kullanılır;
   ses **kaydedilmez, saklanmaz, bize gönderilmez** (aşağıda ayrı bölüm)
-- Reklam kimliği (uygulamada reklam yoktur)
+- Reklam kimliği (uygulamanın bunu okuma izni yoktur)
 - Kullanım istatistiği, **bize gönderilen** çökme raporu, analiz aracı
   (aşağıdaki teknik kayıt bize hiç ulaşmaz)
 
@@ -163,11 +163,13 @@ bildirim için hiçbir kayıt tutulmaz. Ayarlar’dan kapatabilirsin.
 
 ---
 
-## Satın alma ve reklam
+## Satın alma
 
-Bu sürümde uygulama içi satın alma da reklam da **yoktur**. Uygulama
-mağazanın ödeme sistemine bağlanmaz, ödeme ya da kart bilgisi istemez,
-hiçbir içerik kilitli değildir.
+Uygulama ücretsizdir; bu sürümde uygulama içi satın alma **yoktur**.
+Mağazanın ödeme sistemine bağlanmaz, ödeme ya da kart bilgisi istemez,
+hiçbir içerik kilitli değildir. Uygulamaya ileride reklam ya da başka
+bir üçüncü taraf hizmeti eklenirse bu politika o sürüm yayımlanmadan
+önce güncellenir.
 
 ---
 
