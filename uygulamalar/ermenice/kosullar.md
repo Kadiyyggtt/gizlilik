@@ -1,39 +1,14 @@
 # Ermenice — Kullanım Koşulları
 
-Son güncelleme: 11 Kasım 2026
+Son güncelleme: 12 Kasım 2026
 
-Bu koşullar, Ermenice uygulamasının kullanımını ve Ermenice Premium aboneliğini düzenler. Uygulamayı kullanarak ya da abonelik satın alarak bu koşulları kabul etmiş olursun.
+Bu koşullar, Ermenice uygulamasının kullanımını düzenler. Uygulamayı kullanarak bu koşulları kabul etmiş olursun.
 
 ## Uygulamayı sunan
 Ermenice uygulamasını bireysel geliştirici Arzu Yiğit sunar. İletişim: yyggttkadir@gmail.com
 
 ## Hizmet
-Ermenice, Türkçe konuşanlara Doğu Ermenicesini öğreten bir dil öğrenme uygulamasıdır. Alfabe, üniteler, alıştırmalar, okuma parçaları, dinleme alıştırmaları ve serbest dinleme bölümleri içerir. Dersler cihazında çalışır ve internet gerektirmez. İnternet yalnızca abonelik için kullanılır: Uygulama her açılışta abonelik durumunu kontrol etmek için internete bağlanır; abonelik satın almak ve satın almaları geri yüklemek için de internet gerekir. Uygulama hesap açtırmaz ve reklam göstermez.
-
-## Ücretsiz ve Premium içerik
-- Ücretsiz: alfabe ve ilk iki ünite. Ücretsiz kullanımda 5 can vardır ve yarım saatte bir can yenilenir.
-- Premium: yayındaki bütün üniteler, sınırsız can, tüm okuma parçaları, dinleme alıştırmaları ve serbest dinleme bölümleri. Yeni üniteler hazırlandıkça eklenir.
-
-## Abonelik ve ödeme
-Ermenice Premium, aylık ya da yıllık olarak alınabilen ve seçilen süre bitince otomatik olarak yenilenen bir aboneliktir. Güncel fiyat, satın almadan önce ödeme ekranında ve mağazada gösterilir; ülkeye göre değişebilir. Ödeme, satın almayı onayladığında Google Play ya da Apple App Store hesabından alınır. Ödemeyi bu mağazalar işler; kart bilgilerini geliştirici hiçbir zaman görmez.
-
-## Otomatik yenileme ve iptal
-- Google Play'de abonelik, yenileme anına kadar iptal edilmezse seçilen süre sonunda otomatik olarak yenilenir; ücret yenileme gününde aynı mağaza hesabından alınır. Aboneliği yenileme anına kadar istediğin zaman iptal edebilirsin.
-- App Store'da abonelik, dönem bitmeden en az 24 saat önce iptal edilmezse seçilen süre sonunda otomatik olarak yenilenir; yenileme ücreti dönem bitmeden önceki 24 saat içinde aynı mağaza hesabından alınır.
-- Aboneliği mağaza hesabından yönetir ve iptal edersin. Android'de: Play Store > profil simgesi > Ödemeler ve abonelikler > Abonelikler. iPhone'da: Ayarlar > Apple hesabın > Abonelikler.
-- Uygulamayı silmek aboneliği iptal etmez.
-- İptal edersen Premium, ödenmiş dönemin sonuna kadar açık kalır; sonra uygulama ücretsiz kullanıma döner. İlerlemen silinmez.
-
-## Satın almaları geri yükleme
-Aynı mağaza hesabıyla yeni bir cihaza geçersen ödeme ekranındaki geri yükleme düğmesiyle aboneliğini yeniden etkinleştirebilirsin. Ders ilerlemen mağaza hesabına bağlı değildir; ilerlemen telefonunun kendi yedeğinden geri gelebilir ya da onu Ayarlar'daki yedek koduyla taşıyabilirsin.
-
-## İade ve cayma hakkı
-Ödemeyi Google Play ya da Apple aldığı için iade talepleri, bu mağazaların kendi iade politikalarına göre onlara yapılır. Geliştirici, mağaza üzerinden alınan ödemeleri doğrudan iade edemez.
-
-Abonelik, satın almayı onayladığın anda başlar ve Premium içerik hemen erişime açılır. Mesafeli sözleşmelere ilişkin mevzuat (Mesafeli Sözleşmeler Yönetmeliği, madde 15) uyarınca, elektronik ortamda anında ifa edilen hizmetlerde ve tüketiciye anında teslim edilen dijital içeriklerde cayma hakkı kural olarak kullanılamaz. Satın almayı onaylayarak aboneliğin hemen başlamasını kabul etmiş olursun. Bu durum, ayıplı hizmetten doğan yasal haklarını ve mağazaların sunduğu iade imkânlarını ortadan kaldırmaz.
-
-## Fiyat değişiklikleri
-Abonelik fiyatı ileride değişebilir. Fiyat değişirse mağaza seni önceden bilgilendirir; mağaza kurallarına göre yeni fiyatı onaylaman istenebilir. Ödenmiş dönemin fiyatı değişmez; yeni fiyat sonraki yenilemelerde uygulanır. Yeni fiyatı kabul etmezsen ya da aboneliği iptal edersen Premium, ödenmiş dönemin sonunda biter.
+Ermenice, Türkçe konuşanlara Doğu Ermenicesini öğreten bir dil öğrenme uygulamasıdır. Alfabe, üniteler, alıştırmalar, okuma parçaları, dinleme alıştırmaları ve serbest dinleme bölümleri içerir. Yeni üniteler hazırlandıkça eklenir. Uygulama ücretsizdir. Hesap açtırmaz ve internete bağlanmaz; dersler cihazında çalışır.
 
 ## İçeriğin doğruluğu
 Uygulama eğitim amaçlıdır. İçerik özenle hazırlanmıştır ancak hata ya da eksik içerebilir. Okunuşlar Türkçe harflerle yaklaşık olarak gösterilir. Ermenice sesler yapay zekâ ile üretilmiştir ve gerçek bir konuşmacının söyleyişinden farklı olabilir. Uygulama, bir sınavda başarı ya da belirli bir dil seviyesine ulaşma garantisi vermez. Bir hata görürsen yyggttkadir@gmail.com adresine yazabilirsin.
@@ -44,20 +19,20 @@ Uygulama eğitim amaçlıdır. İçerik özenle hazırlanmıştır ancak hata ya
 ## Kullanım kuralları
 Uygulamayı kişisel öğrenme amacıyla kullanabilirsin. Şunlara izin verilmez:
 - İçeriği (kelime listeleri, metinler, sesler, görseller) kopyalayıp dağıtmak, satmak ya da başka bir üründe kullanmak.
-- Abonelik kontrolünü atlatmaya ya da uygulamayı değiştirerek ücretli içeriğe erişmeye çalışmak.
+- Uygulamayı değiştirerek ya da yeniden paketleyerek dağıtmak.
 - Uygulamayı yasalara aykırı bir amaçla kullanmak.
 
 ## Fikrî haklar
-Uygulamanın yazılımı, ders içeriği, sesleri ve görselleri üzerindeki haklar geliştiriciye ya da lisans verenlerine aittir. Abonelik, bu içeriği uygulamanın içinde kullanma hakkı verir; içeriğin sahipliğini devretmez.
+Uygulamanın yazılımı, ders içeriği, sesleri ve görselleri üzerindeki haklar geliştiriciye ya da lisans verenlerine aittir. Uygulamayı kullanman, sana bu içeriği uygulamanın içinde kişisel öğrenme amacıyla kullanma hakkı verir; içeriğin sahipliğini devretmez.
 
 ## Sorumluluğun sınırı
 Uygulama olduğu gibi sunulur. Geliştirici, uygulamanın kesintisiz ya da hatasız çalışacağını garanti etmez. Yürürlükteki mevzuatın izin verdiği ölçüde geliştirici, uygulamanın kullanımından doğan dolaylı zararlardan sorumlu değildir. Bu sınırlama kast ve ağır ihmal hâllerinde uygulanmaz; tüketici mevzuatından doğan haklarını da kısıtlamaz.
 
 ## Gizlilik
-Hangi verilerin nasıl işlendiği, uygulamadaki Gizlilik ekranında ve https://kadiyyggtt.github.io/gizlilik/uygulamalar/ermenice/tr.html adresindeki Gizlilik Politikası sayfasında anlatılır.
+Verilerinin nerede saklandığı, uygulamadaki Gizlilik ekranında ve https://kadiyyggtt.github.io/gizlilik/uygulamalar/ermenice/tr.html adresindeki Gizlilik Politikası sayfasında anlatılır.
 
 ## Koşullardaki değişiklikler
-Bu koşullar değişebilir. Önemli değişiklikler uygulamanın yeni sürümünde ve bu sayfada duyurulur. Değişiklikler, ödenmiş abonelik dönemini geriye dönük olarak etkilemez.
+Bu koşullar değişebilir. Önemli değişiklikler uygulamanın yeni sürümünde ve bu sayfada duyurulur.
 
 ## Uygulanacak hukuk
 Bu koşullara Türkiye Cumhuriyeti hukuku uygulanır. Uyuşmazlıklarda, parasal sınırlara göre tüketici hakem heyetlerine ya da tüketici mahkemelerine başvurabilirsin.
